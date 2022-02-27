@@ -1,0 +1,28 @@
+if(s=v5)then{
+ while(x = y){
+    x := f(x)
+  }
+
+  }else{
+ skip 
+};
+if(s=v3)then{
+  while(x = y){
+  
+    if(w1 = w2)then{
+       x := f(x)
+     }else{
+       x := h(x)
+     };
+   w1 := h(w1)
+  }
+    
+
+  }else{
+ skip 
+};
+
+  assume(w1 != w2);
+  while(w1 != w2){
+     assume(x != y)
+   }

@@ -1,0 +1,11 @@
+(*trex02-2.c incorrect*)
+  while(x = y){
+  
+    if(w1 = w2)then{
+       x := f(x)
+     }else{
+       x := h(x)
+     };
+   w1 := h(w1)
+  }
+    

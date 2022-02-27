@@ -1,0 +1,45 @@
+if(s=v1)then{
+
+  assume(w1 != w2);
+  while(w1 != w2){
+     assume(x != y)
+   }
+
+  }else{
+ skip 
+};
+if(s=v3)then{
+
+  assume(w1 != w2);
+  while(w1 != w2){
+     assume(x != y)
+   }
+
+  }else{
+ skip 
+};
+if(s=v4)then{
+  assume(z = w);
+  while (w1 != w2){
+    if(w3 != w4)then{
+        x := f(x);      
+        y := f(y)
+     }else{
+       w := h(w);
+       z := h(z)
+     };
+    w1 := ran(w1);
+    w3 := ran(w3)
+  }
+
+  }else{
+ skip 
+};
+  while(w1 != w2){
+    if(x != y)then{
+       x := f(x)
+     }else{
+       skip
+     };
+   w1 := ran(w1)
+  }

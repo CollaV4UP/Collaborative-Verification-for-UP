@@ -1,0 +1,32 @@
+; FOR RUNNING IN UTOP:
+
+; Load the project into utop at the command prompt:
+; >> dune utop .
+
+; (library
+; (name main)
+; (libraries core ppx_inline_test sexplib ppx_sexp_conv)
+; (inline_tests)
+; (preprocess (pps ppx_inline_test ppx_sexp_conv))
+; (modules  main state ast typechecker execution myparser mylexer automata coherence refinement OCamlFlat OCamlFlatSupport  automata_utils benchmark_generate verification))
+
+
+
+; FOR RUNNING ON COMMAND LINE:
+
+(executable
+  (name main)
+  (libraries core yojson) ; sexplib ppx_sexp_conv
+  ; (preprocess (pps ppx_sexp_conv))
+  (modules  main ast state typechecker execution myparser mylexer automata coherence refinement OCamlFlat OCamlFlatSupport  automata_utils benchmark_generate verification))
+
+
+
+(env
+  (dev
+    (flags (:standard -w -26-27 -warn-error -A))))
+
+(menhir
+(modules myparser))
+
+(ocamllex mylexer)

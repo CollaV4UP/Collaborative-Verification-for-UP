@@ -1,0 +1,5 @@
+(*multivar_1-1.c*)                 
+ while (x != t){
+        x := f(x);
+        y := f(y)
+    }

@@ -1,0 +1,9 @@
+(*const.c*)
+  while(w1 != w2){
+    if(x != y)then{
+       x := f(x)
+     }else{
+       skip
+     };
+   w1 := ran(w1)
+  }

@@ -1,0 +1,31 @@
+if(s=v4)then{
+
+ x := ran(t);
+ y := ran(t);
+ while(w1 != w2){
+    x := f(x);
+    y := f(y);
+    w1 := ran(w1)
+  }
+
+  }else{
+ skip 
+};
+if(s=v3)then{
+ while(x = y){
+    x := f(x)
+  }
+
+  }else{
+ skip 
+};
+  while(x = y){
+  
+    if(w1 = w2)then{
+       x := f(x)
+     }else{
+       x := h(x)
+     };
+   w1 := h(w1)
+  }
+    

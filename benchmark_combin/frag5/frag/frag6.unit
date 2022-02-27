@@ -1,0 +1,6 @@
+(*while_infinite_loop.c*)
+
+  assume(w1 != w2);
+  while(w1 != w2){
+     assume(x != y)
+   }

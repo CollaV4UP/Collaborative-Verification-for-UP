@@ -1,0 +1,7052 @@
+vars:23
+funs:3
+instrs:58
+--------------------------------------------demo0---------------------------------------------------
+union_time: 0.000000
+refindment nums:370
+verify_time: 5.220260
+demo0 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo1---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:14
+verify_time: 0.103264
+demo1 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo2---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:146
+verify_time: 1.454054
+demo2 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo3---------------------------------------------------
+union_time: 0.000000
+refindment nums:145
+verify_time: 1.138591
+demo3 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo4---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:65
+verify_time: 0.980284
+demo4 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo5---------------------------------------------------
+union_time: 0.000000
+refindment nums:71
+verify_time: 0.469448
+demo5 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo6---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:48
+verify_time: 0.976338
+demo6 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo7---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:81
+verify_time: 0.906434
+demo7 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo8---------------------------------------------------
+union_time: 0.000000
+refindment nums:508
+verify_time: 8.883241
+demo8 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo9---------------------------------------------------
+union_time: 0.000000
+refindment nums:391
+verify_time: 3.124782
+demo9 is ******correct
+states:0
+union_time百分比:0.000000
+----------------------------------------前10个---------------------------------------
+time_cost:23.256870
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000000
+union_time百分比:0.000000
+--------------------------------------------demo10---------------------------------------------------
+union_time: 0.000000
+refindment nums:222
+verify_time: 2.226763
+demo10 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo11---------------------------------------------------
+union_time: 0.000000
+refindment nums:106
+verify_time: 0.616209
+demo11 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo12---------------------------------------------------
+union_time: 0.000000
+refindment nums:113
+verify_time: 0.734457
+demo12 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo13---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1!=w2)
+assume(x!=y)
+x:=f(x)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:175
+verify_time: 1.252683
+demo13 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo14---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:129
+verify_time: 1.607330
+demo14 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo15---------------------------------------------------
+union_time: 0.000000
+refindment nums:254
+verify_time: 3.464757
+demo15 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo16---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.156485
+demo16 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo17---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:124
+verify_time: 0.929161
+demo17 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo18---------------------------------------------------
+union_time: 0.000000
+refindment nums:51
+verify_time: 0.243866
+demo18 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo19---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:6
+verify_time: 0.031462
+demo19 is ******incorrect
+states:0
+union_time百分比:0.000000
+----------------------------------------前20个---------------------------------------
+time_cost:34.520244
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000000
+union_time百分比:0.000000
+--------------------------------------------demo20---------------------------------------------------
+union_time: 0.000000
+refindment nums:125
+verify_time: 0.596305
+demo20 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo21---------------------------------------------------
+union_time: 0.000000
+refindment nums:52
+verify_time: 0.168565
+demo21 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo22---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:152
+verify_time: 1.166934
+demo22 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo23---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:56
+verify_time: 1.321115
+demo23 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo24---------------------------------------------------
+union_time: 0.000000
+refindment nums:137
+verify_time: 0.723714
+demo24 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo25---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+assume(s=v4)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:4
+verify_time: 0.070664
+demo25 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo26---------------------------------------------------
+union_time: 0.000000
+refindment nums:884
+verify_time: 14.553962
+demo26 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo27---------------------------------------------------
+union_time: 0.000000
+refindment nums:285
+verify_time: 4.967456
+demo27 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo28---------------------------------------------------
+union_time: 0.000000
+refindment nums:156
+verify_time: 1.993297
+demo28 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo29---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:3
+verify_time: 0.025521
+demo29 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo30---------------------------------------------------
+union_time: 0.000000
+refindment nums:146
+verify_time: 0.976425
+demo30 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo31---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:3
+verify_time: 0.047338
+demo31 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo32---------------------------------------------------
+union_time: 0.000000
+refindment nums:102
+verify_time: 0.406867
+demo32 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo33---------------------------------------------------
+union_time: 0.000000
+refindment nums:843
+verify_time: 17.422154
+demo33 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo34---------------------------------------------------
+union_time: 0.000000
+refindment nums:522
+verify_time: 7.546444
+demo34 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo35---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:23
+verify_time: 0.173959
+demo35 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo36---------------------------------------------------
+union_time: 0.000000
+refindment nums:237
+verify_time: 2.110309
+demo36 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo37---------------------------------------------------
+union_time: 0.000000
+refindment nums:95
+verify_time: 0.444343
+demo37 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo38---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:27
+verify_time: 0.331493
+demo38 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo39---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v1)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:63
+verify_time: 0.219994
+demo39 is ******incorrect
+states:0
+union_time百分比:0.000000
+----------------------------------------前40个---------------------------------------
+time_cost:89.787500
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000000
+union_time百分比:0.000000
+--------------------------------------------demo40---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+choose:=two
+assume(choose=two)
+assume(s!=v2)
+assume(s=v4)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:71
+verify_time: 0.386167
+demo40 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo41---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:175
+verify_time: 1.685153
+demo41 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo42---------------------------------------------------
+union_time: 0.000000
+refindment nums:132
+verify_time: 2.355672
+demo42 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo43---------------------------------------------------
+union_time: 0.000000
+refindment nums:243
+verify_time: 1.943417
+demo43 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo44---------------------------------------------------
+union_time: 0.000000
+refindment nums:75
+verify_time: 0.240030
+demo44 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo45---------------------------------------------------
+union_time: 0.000000
+refindment nums:579
+verify_time: 7.414078
+demo45 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo46---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:106
+verify_time: 5.098998
+demo46 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo47---------------------------------------------------
+union_time: 0.000000
+refindment nums:592
+verify_time: 7.917553
+demo47 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo48---------------------------------------------------
+union_time: 0.000000
+refindment nums:140
+verify_time: 0.563950
+demo48 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo49---------------------------------------------------
+union_time: 0.000000
+refindment nums:137
+verify_time: 0.975047
+demo49 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo50---------------------------------------------------
+union_time: 0.000000
+refindment nums:812
+verify_time: 10.658114
+demo50 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo51---------------------------------------------------
+union_time: 0.000000
+refindment nums:531
+verify_time: 8.700478
+demo51 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo52---------------------------------------------------
+union_time: 0.000000
+refindment nums:59
+verify_time: 0.345706
+demo52 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo53---------------------------------------------------
+union_time: 0.000000
+refindment nums:109
+verify_time: 1.039638
+demo53 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo54---------------------------------------------------
+union_time: 0.000000
+refindment nums:235
+verify_time: 2.515298
+demo54 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo55---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:26
+verify_time: 0.229368
+demo55 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo56---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.145553
+demo56 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo57---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:5
+verify_time: 0.010744
+demo57 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo58---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.144743
+demo58 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo59---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:50
+verify_time: 0.592805
+demo59 is ******incorrect
+states:0
+union_time百分比:0.000000
+----------------------------------------前60个---------------------------------------
+time_cost:142.750420
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000000
+union_time百分比:0.000000
+--------------------------------------------demo60---------------------------------------------------
+union_time: 0.000000
+refindment nums:111
+verify_time: 0.794912
+demo60 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo61---------------------------------------------------
+union_time: 0.000000
+refindment nums:68
+verify_time: 0.622504
+demo61 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo62---------------------------------------------------
+union_time: 0.000000
+refindment nums:96
+verify_time: 1.008927
+demo62 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo63---------------------------------------------------
+union_time: 0.000000
+refindment nums:320
+verify_time: 3.305359
+demo63 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo64---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:216
+verify_time: 6.658636
+demo64 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo65---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.000827
+demo65 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo66---------------------------------------------------
+union_time: 0.000000
+refindment nums:116
+verify_time: 1.198669
+demo66 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo67---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:3
+verify_time: 0.024524
+demo67 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo68---------------------------------------------------
+union_time: 0.000000
+refindment nums:192
+verify_time: 2.084313
+demo68 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo69---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:5
+verify_time: 0.011346
+demo69 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo70---------------------------------------------------
+union_time: 0.000000
+refindment nums:186
+verify_time: 1.561796
+demo70 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo71---------------------------------------------------
+union_time: 0.000000
+refindment nums:176
+verify_time: 1.028347
+demo71 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo72---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:45
+verify_time: 0.236563
+demo72 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo73---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:5
+verify_time: 0.007004
+demo73 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo74---------------------------------------------------
+union_time: 0.000000
+refindment nums:74
+verify_time: 0.455802
+demo74 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo75---------------------------------------------------
+union_time: 0.000001
+refindment nums:702
+verify_time: 21.740222
+demo75 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo76---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+assume(s!=v4)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000001
+refindment nums:6
+verify_time: 0.032943
+demo76 is ******incorrect
+states:0
+union_time百分比:0.000029
+--------------------------------------------demo77---------------------------------------------------
+union_time: 0.000000
+refindment nums:899
+verify_time: 15.268969
+demo77 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo78---------------------------------------------------
+union_time: 0.000000
+refindment nums:311
+verify_time: 2.345091
+demo78 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo79---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:7
+verify_time: 0.146439
+demo79 is ******incorrect
+states:0
+union_time百分比:0.000000
+----------------------------------------前80个---------------------------------------
+time_cost:201.283995
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000002
+union_time百分比:0.000000
+--------------------------------------------demo80---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:87
+verify_time: 0.596357
+demo80 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo81---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:56
+verify_time: 0.757604
+demo81 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo82---------------------------------------------------
+union_time: 0.000000
+refindment nums:260
+verify_time: 5.251974
+demo82 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo83---------------------------------------------------
+union_time: 0.000000
+refindment nums:104
+verify_time: 0.873863
+demo83 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo84---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:3
+verify_time: 0.012379
+demo84 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo85---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:13
+verify_time: 0.105125
+demo85 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo86---------------------------------------------------
+union_time: 0.000000
+refindment nums:235
+verify_time: 4.087433
+demo86 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo87---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:4
+verify_time: 0.021303
+demo87 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo88---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:104
+verify_time: 0.750455
+demo88 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo89---------------------------------------------------
+union_time: 0.000000
+refindment nums:79
+verify_time: 0.747611
+demo89 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo90---------------------------------------------------
+union_time: 0.000000
+refindment nums:432
+verify_time: 5.325127
+demo90 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo91---------------------------------------------------
+union_time: 0.000000
+refindment nums:43
+verify_time: 0.325344
+demo91 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo92---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:433
+verify_time: 15.790968
+demo92 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo93---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:104
+verify_time: 1.120369
+demo93 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo94---------------------------------------------------
+union_time: 0.000000
+refindment nums:135
+verify_time: 1.105989
+demo94 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo95---------------------------------------------------
+union_time: 0.000000
+refindment nums:191
+verify_time: 1.393004
+demo95 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo96---------------------------------------------------
+union_time: 0.000000
+refindment nums:836
+verify_time: 18.776839
+demo96 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo97---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:323
+verify_time: 2.829429
+demo97 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo98---------------------------------------------------
+union_time: 0.000000
+refindment nums:797
+verify_time: 9.437387
+demo98 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo99---------------------------------------------------
+union_time: 0.000000
+refindment nums:528
+verify_time: 4.620249
+demo99 is ******correct
+states:0
+union_time百分比:0.000000
+----------------------------------------前100个---------------------------------------
+time_cost:275.213206
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000002
+union_time百分比:0.000000
+--------------------------------------------demo100---------------------------------------------------
+union_time: 0.000000
+refindment nums:383
+verify_time: 3.196898
+demo100 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo101---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+assume(s=v4)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+choose:=one
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:8
+verify_time: 0.103807
+demo101 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo102---------------------------------------------------
+union_time: 0.000000
+refindment nums:734
+verify_time: 14.432586
+demo102 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo103---------------------------------------------------
+union_time: 0.000000
+refindment nums:84
+verify_time: 0.700418
+demo103 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo104---------------------------------------------------
+union_time: 0.000000
+refindment nums:393
+verify_time: 5.278773
+demo104 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo105---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:92
+verify_time: 1.472210
+demo105 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo106---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:5
+verify_time: 0.151165
+demo106 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo107---------------------------------------------------
+union_time: 0.000000
+refindment nums:614
+verify_time: 9.230725
+demo107 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo108---------------------------------------------------
+union_time: 0.000000
+refindment nums:75
+verify_time: 0.312172
+demo108 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo109---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:91
+verify_time: 0.565981
+demo109 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo110---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:21
+verify_time: 0.138411
+demo110 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo111---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:63
+verify_time: 0.261961
+demo111 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo112---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:187
+verify_time: 1.251280
+demo112 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo113---------------------------------------------------
+union_time: 0.000000
+refindment nums:416
+verify_time: 4.007856
+demo113 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo114---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:16
+verify_time: 0.125417
+demo114 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo115---------------------------------------------------
+union_time: 0.000000
+refindment nums:179
+verify_time: 0.881644
+demo115 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo116---------------------------------------------------
+union_time: 0.000000
+refindment nums:108
+verify_time: 0.980871
+demo116 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo117---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:160
+verify_time: 2.001658
+demo117 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo118---------------------------------------------------
+union_time: 0.000000
+refindment nums:171
+verify_time: 0.933294
+demo118 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo119---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:5
+verify_time: 0.041883
+demo119 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo120---------------------------------------------------
+union_time: 0.000000
+refindment nums:146
+verify_time: 1.212751
+demo120 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo121---------------------------------------------------
+union_time: 0.000000
+refindment nums:279
+verify_time: 2.405131
+demo121 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo122---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:21
+verify_time: 0.170256
+demo122 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo123---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:28
+verify_time: 0.292882
+demo123 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo124---------------------------------------------------
+union_time: 0.000000
+refindment nums:104
+verify_time: 0.735569
+demo124 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo125---------------------------------------------------
+union_time: 0.000000
+refindment nums:141
+verify_time: 1.064163
+demo125 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo126---------------------------------------------------
+union_time: 0.000000
+refindment nums:223
+verify_time: 1.382063
+demo126 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo127---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:136
+verify_time: 0.871032
+demo127 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo128---------------------------------------------------
+union_time: 0.000000
+refindment nums:242
+verify_time: 1.451534
+demo128 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo129---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:46
+verify_time: 0.504253
+demo129 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo130---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(w1=w2)
+assume(z=w)
+assume(w1=w2)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:7
+verify_time: 0.082955
+demo130 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo131---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.395149
+demo131 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo132---------------------------------------------------
+union_time: 0.000001
+refindment nums:512
+verify_time: 5.837500
+demo132 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo133---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:125
+verify_time: 0.947995
+demo133 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo134---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v2)
+assume(s=v4)
+assume(w1!=w2)
+assume(x!=y)
+x:=f(x)
+w1:=ran(w1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:397
+verify_time: 6.948440
+demo134 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo135---------------------------------------------------
+union_time: 0.000000
+refindment nums:473
+verify_time: 4.885336
+demo135 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo136---------------------------------------------------
+union_time: 0.000000
+refindment nums:232
+verify_time: 2.607405
+demo136 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo137---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v3)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(z=w)
+assume(w1=w2)
+choose:=two
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:66
+verify_time: 1.011226
+demo137 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo138---------------------------------------------------
+union_time: 0.000000
+refindment nums:135
+verify_time: 1.032075
+demo138 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo139---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:4
+verify_time: 0.042512
+demo139 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo140---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:243
+verify_time: 6.317467
+demo140 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo141---------------------------------------------------
+union_time: 0.000000
+refindment nums:129
+verify_time: 1.059111
+demo141 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo142---------------------------------------------------
+union_time: 0.000000
+refindment nums:429
+verify_time: 3.608671
+demo142 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo143---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:41
+verify_time: 0.173698
+demo143 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo144---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:3
+verify_time: 0.017338
+demo144 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo145---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:5
+verify_time: 0.053501
+demo145 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo146---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:4
+verify_time: 0.081860
+demo146 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo147---------------------------------------------------
+union_time: 0.000000
+refindment nums:91
+verify_time: 0.380834
+demo147 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo148---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v3)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:13
+verify_time: 0.330508
+demo148 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo149---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:10
+verify_time: 0.177320
+demo149 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo150---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+assume(s=v4)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:140
+verify_time: 0.785897
+demo150 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo151---------------------------------------------------
+union_time: 0.000000
+refindment nums:111
+verify_time: 0.594071
+demo151 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo152---------------------------------------------------
+union_time: 0.000000
+refindment nums:344
+verify_time: 3.622012
+demo152 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo153---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:25
+verify_time: 0.175506
+demo153 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo154---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.108286
+demo154 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo155---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:35
+verify_time: 0.140447
+demo155 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo156---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:3
+verify_time: 0.013638
+demo156 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo157---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:163
+verify_time: 2.311779
+demo157 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo158---------------------------------------------------
+union_time: 0.000000
+refindment nums:924
+verify_time: 18.047015
+demo158 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo159---------------------------------------------------
+union_time: 0.000000
+refindment nums:64
+verify_time: 0.737547
+demo159 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo160---------------------------------------------------
+union_time: 0.000000
+refindment nums:126
+verify_time: 1.210492
+demo160 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo161---------------------------------------------------
+union_time: 0.000000
+refindment nums:130
+verify_time: 0.683821
+demo161 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo162---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:7
+verify_time: 0.023640
+demo162 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo163---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:7
+verify_time: 0.023945
+demo163 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo164---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s=v1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:87
+verify_time: 0.300365
+demo164 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo165---------------------------------------------------
+union_time: 0.000000
+refindment nums:403
+verify_time: 3.036057
+demo165 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo166---------------------------------------------------
+union_time: 0.000000
+refindment nums:230
+verify_time: 1.935466
+demo166 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo167---------------------------------------------------
+union_time: 0.000000
+refindment nums:136
+verify_time: 1.257499
+demo167 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo168---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:23
+verify_time: 0.385625
+demo168 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo169---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:1
+verify_time: 0.016533
+demo169 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo170---------------------------------------------------
+union_time: 0.000000
+refindment nums:434
+verify_time: 4.577458
+demo170 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo171---------------------------------------------------
+union_time: 0.000000
+refindment nums:647
+verify_time: 17.786170
+demo171 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo172---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:11
+verify_time: 0.103330
+demo172 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo173---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:6
+verify_time: 0.009174
+demo173 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo174---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:12
+verify_time: 0.106534
+demo174 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo175---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:2
+verify_time: 0.004967
+demo175 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo176---------------------------------------------------
+union_time: 0.000000
+refindment nums:56
+verify_time: 0.373271
+demo176 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo177---------------------------------------------------
+union_time: 0.000000
+refindment nums:56
+verify_time: 0.373757
+demo177 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo178---------------------------------------------------
+union_time: 0.000000
+refindment nums:237
+verify_time: 3.327205
+demo178 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo179---------------------------------------------------
+union_time: 0.000000
+refindment nums:239
+verify_time: 2.126328
+demo179 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo180---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v1)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.231603
+demo180 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo181---------------------------------------------------
+union_time: 0.000000
+refindment nums:563
+verify_time: 10.068869
+demo181 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo182---------------------------------------------------
+union_time: 0.000000
+refindment nums:154
+verify_time: 1.470169
+demo182 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo183---------------------------------------------------
+union_time: 0.000000
+refindment nums:207
+verify_time: 2.594659
+demo183 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo184---------------------------------------------------
+union_time: 0.000000
+refindment nums:154
+verify_time: 1.076524
+demo184 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo185---------------------------------------------------
+union_time: 0.000000
+refindment nums:61
+verify_time: 0.359218
+demo185 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo186---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v1)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1!=w2)
+assume(x=y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:13
+verify_time: 0.217279
+demo186 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo187---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v3)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+choose:=one
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:8
+verify_time: 0.084924
+demo187 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo188---------------------------------------------------
+union_time: 0.000000
+refindment nums:110
+verify_time: 0.553074
+demo188 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo189---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:48
+verify_time: 0.306435
+demo189 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo190---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:7
+verify_time: 0.048413
+demo190 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo191---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:15
+verify_time: 0.041073
+demo191 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo192---------------------------------------------------
+union_time: 0.000000
+refindment nums:346
+verify_time: 4.571505
+demo192 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo193---------------------------------------------------
+union_time: 0.000000
+refindment nums:74
+verify_time: 0.419303
+demo193 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo194---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:13
+verify_time: 0.144446
+demo194 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo195---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v1)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:8
+verify_time: 0.133983
+demo195 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo196---------------------------------------------------
+union_time: 0.000000
+refindment nums:407
+verify_time: 3.109694
+demo196 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo197---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v3)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+choose:=one
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:112
+verify_time: 1.863192
+demo197 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo198---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:35
+verify_time: 0.299181
+demo198 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo199---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:17
+verify_time: 0.308958
+demo199 is ******incorrect
+states:0
+union_time百分比:0.000000
+----------------------------------------前200个---------------------------------------
+time_cost:459.464919
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000003
+union_time百分比:0.000000
+--------------------------------------------demo200---------------------------------------------------
+union_time: 0.000000
+refindment nums:132
+verify_time: 0.931717
+demo200 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo201---------------------------------------------------
+union_time: 0.000000
+refindment nums:135
+verify_time: 0.986152
+demo201 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo202---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=two
+assume(choose=two)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:349
+verify_time: 5.873402
+demo202 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo203---------------------------------------------------
+union_time: 0.000000
+refindment nums:151
+verify_time: 2.657541
+demo203 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo204---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:2
+verify_time: 0.010923
+demo204 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo205---------------------------------------------------
+union_time: 0.000000
+refindment nums:190
+verify_time: 1.275277
+demo205 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo206---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:78
+verify_time: 1.450378
+demo206 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo207---------------------------------------------------
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:43
+verify_time: 1.022108
+demo207 is ******incorrect
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo208---------------------------------------------------
+union_time: 0.000000
+refindment nums:126
+verify_time: 0.774268
+demo208 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo209---------------------------------------------------
+union_time: 0.000000
+refindment nums:74
+verify_time: 0.316607
+demo209 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo210---------------------------------------------------
+union_time: 0.000000
+refindment nums:449
+verify_time: 4.712416
+demo210 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo211---------------------------------------------------
+union_time: 0.000000
+refindment nums:108
+verify_time: 0.424551
+demo211 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo212---------------------------------------------------
+union_time: 0.000000
+refindment nums:261
+verify_time: 1.312213
+demo212 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo213---------------------------------------------------
+union_time: 0.000000
+refindment nums:102
+verify_time: 0.980895
+demo213 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo214---------------------------------------------------
+union_time: 0.000000
+refindment nums:86
+verify_time: 0.853588
+demo214 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo215---------------------------------------------------
+union_time: 0.000000
+refindment nums:123
+verify_time: 1.117605
+demo215 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo216---------------------------------------------------
+union_time: 0.000000
+refindment nums:171
+verify_time: 0.994413
+demo216 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo217---------------------------------------------------
+union_time: 0.000001
+refindment nums:322
+verify_time: 4.151249
+demo217 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo218---------------------------------------------------
+union_time: 0.000000
+refindment nums:101
+verify_time: 0.503005
+demo218 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo219---------------------------------------------------
+union_time: 0.000000
+refindment nums:667
+verify_time: 8.190713
+demo219 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo220---------------------------------------------------
+union_time: 0.000000
+refindment nums:168
+verify_time: 1.238517
+demo220 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo221---------------------------------------------------
+union_time: 0.000000
+refindment nums:170
+verify_time: 1.452918
+demo221 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo222---------------------------------------------------
+union_time: 0.000000
+refindment nums:226
+verify_time: 2.144800
+demo222 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo223---------------------------------------------------
+union_time: 0.000000
+refindment nums:737
+verify_time: 10.636606
+demo223 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo224---------------------------------------------------
+union_time: 0.000000
+refindment nums:260
+verify_time: 2.355514
+demo224 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo225---------------------------------------------------
+union_time: 0.000000
+refindment nums:205
+verify_time: 1.976151
+demo225 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo226---------------------------------------------------
+union_time: 0.000000
+refindment nums:252
+verify_time: 2.379887
+demo226 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo227---------------------------------------------------
+union_time: 0.000000
+refindment nums:95
+verify_time: 0.416889
+demo227 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo228---------------------------------------------------
+union_time: 0.000000
+refindment nums:90
+verify_time: 0.942803
+demo228 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo229---------------------------------------------------
+union_time: 0.000000
+refindment nums:751
+verify_time: 17.044051
+demo229 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo230---------------------------------------------------
+union_time: 0.000000
+refindment nums:103
+verify_time: 0.743834
+demo230 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo231---------------------------------------------------
+union_time: 0.000000
+refindment nums:411
+verify_time: 8.570925
+demo231 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo232---------------------------------------------------
+union_time: 0.000000
+refindment nums:278
+verify_time: 3.832636
+demo232 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo233---------------------------------------------------
+union_time: 0.000000
+refindment nums:291
+verify_time: 3.345849
+demo233 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo234---------------------------------------------------
+union_time: 0.000000
+refindment nums:156
+verify_time: 1.346294
+demo234 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo235---------------------------------------------------
+union_time: 0.000000
+refindment nums:109
+verify_time: 0.708096
+demo235 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo236---------------------------------------------------
+union_time: 0.000000
+refindment nums:262
+verify_time: 2.927713
+demo236 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo237---------------------------------------------------
+union_time: 0.000000
+refindment nums:153
+verify_time: 1.187551
+demo237 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo238---------------------------------------------------
+union_time: 0.000000
+refindment nums:209
+verify_time: 2.099751
+demo238 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo239---------------------------------------------------
+union_time: 0.000000
+refindment nums:75
+verify_time: 0.298096
+demo239 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo240---------------------------------------------------
+union_time: 0.000000
+refindment nums:73
+verify_time: 0.920655
+demo240 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo241---------------------------------------------------
+union_time: 0.000000
+refindment nums:733
+verify_time: 6.708184
+demo241 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo242---------------------------------------------------
+union_time: 0.000000
+refindment nums:248
+verify_time: 1.939643
+demo242 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo243---------------------------------------------------
+union_time: 0.000000
+refindment nums:423
+verify_time: 3.762494
+demo243 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo244---------------------------------------------------
+union_time: 0.000000
+refindment nums:74
+verify_time: 0.309355
+demo244 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo245---------------------------------------------------
+union_time: 0.000000
+refindment nums:647
+verify_time: 9.722947
+demo245 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo246---------------------------------------------------
+union_time: 0.000000
+refindment nums:212
+verify_time: 3.044437
+demo246 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo247---------------------------------------------------
+union_time: 0.000000
+refindment nums:549
+verify_time: 8.531363
+demo247 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo248---------------------------------------------------
+union_time: 0.000000
+refindment nums:282
+verify_time: 2.230919
+demo248 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo249---------------------------------------------------
+union_time: 0.000001
+refindment nums:129
+verify_time: 0.893868
+demo249 is ******correct
+states:0
+union_time百分比:0.000001
+--------------------------------------------demo250---------------------------------------------------
+union_time: 0.000000
+refindment nums:43
+verify_time: 0.262734
+demo250 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo251---------------------------------------------------
+union_time: 0.000000
+refindment nums:235
+verify_time: 1.714974
+demo251 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo252---------------------------------------------------
+union_time: 0.000000
+refindment nums:382
+verify_time: 4.964553
+demo252 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo253---------------------------------------------------
+union_time: 0.000000
+refindment nums:200
+verify_time: 1.425781
+demo253 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo254---------------------------------------------------
+union_time: 0.000000
+refindment nums:226
+verify_time: 1.881948
+demo254 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo255---------------------------------------------------
+union_time: 0.000000
+refindment nums:294
+verify_time: 2.889179
+demo255 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo256---------------------------------------------------
+union_time: 0.000000
+refindment nums:279
+verify_time: 1.459123
+demo256 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo257---------------------------------------------------
+union_time: 0.000000
+refindment nums:536
+verify_time: 6.209417
+demo257 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo258---------------------------------------------------
+union_time: 0.000000
+refindment nums:122
+verify_time: 0.491523
+demo258 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo259---------------------------------------------------
+union_time: 0.000000
+refindment nums:405
+verify_time: 4.354361
+demo259 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo260---------------------------------------------------
+union_time: 0.000000
+refindment nums:427
+verify_time: 5.205160
+demo260 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo261---------------------------------------------------
+union_time: 0.000000
+refindment nums:104
+verify_time: 0.957782
+demo261 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo262---------------------------------------------------
+union_time: 0.000000
+refindment nums:108
+verify_time: 1.117579
+demo262 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo263---------------------------------------------------
+union_time: 0.000000
+refindment nums:612
+verify_time: 7.202955
+demo263 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo264---------------------------------------------------
+union_time: 0.000000
+refindment nums:190
+verify_time: 1.539352
+demo264 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo265---------------------------------------------------
+union_time: 0.000000
+refindment nums:107
+verify_time: 0.485062
+demo265 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo266---------------------------------------------------
+union_time: 0.000000
+refindment nums:153
+verify_time: 1.112550
+demo266 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo267---------------------------------------------------
+union_time: 0.000000
+refindment nums:133
+verify_time: 1.048500
+demo267 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo268---------------------------------------------------
+union_time: 0.000000
+refindment nums:124
+verify_time: 0.618791
+demo268 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo269---------------------------------------------------
+union_time: 0.000000
+refindment nums:113
+verify_time: 0.599083
+demo269 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo270---------------------------------------------------
+union_time: 0.000000
+refindment nums:140
+verify_time: 0.789464
+demo270 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo271---------------------------------------------------
+union_time: 0.000000
+refindment nums:177
+verify_time: 1.370583
+demo271 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo272---------------------------------------------------
+union_time: 0.000000
+refindment nums:100
+verify_time: 0.626224
+demo272 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo273---------------------------------------------------
+union_time: 0.000000
+refindment nums:391
+verify_time: 3.275741
+demo273 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo274---------------------------------------------------
+union_time: 0.000000
+refindment nums:80
+verify_time: 0.514996
+demo274 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo275---------------------------------------------------
+union_time: 0.000000
+refindment nums:43
+verify_time: 0.335297
+demo275 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo276---------------------------------------------------
+union_time: 0.000000
+refindment nums:198
+verify_time: 2.879067
+demo276 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo277---------------------------------------------------
+union_time: 0.000000
+refindment nums:222
+verify_time: 2.212571
+demo277 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo278---------------------------------------------------
+union_time: 0.000000
+refindment nums:209
+verify_time: 2.857017
+demo278 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo279---------------------------------------------------
+union_time: 0.000000
+refindment nums:108
+verify_time: 0.860040
+demo279 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo280---------------------------------------------------
+union_time: 0.000001
+refindment nums:124
+verify_time: 1.162375
+demo280 is ******correct
+states:0
+union_time百分比:0.000001
+--------------------------------------------demo281---------------------------------------------------
+union_time: 0.000000
+refindment nums:406
+verify_time: 2.708820
+demo281 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo282---------------------------------------------------
+union_time: 0.000000
+refindment nums:310
+verify_time: 2.982991
+demo282 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo283---------------------------------------------------
+union_time: 0.000000
+refindment nums:832
+verify_time: 21.419968
+demo283 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo284---------------------------------------------------
+union_time: 0.000000
+refindment nums:417
+verify_time: 6.834616
+demo284 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo285---------------------------------------------------
+union_time: 0.000000
+refindment nums:189
+verify_time: 1.279175
+demo285 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo286---------------------------------------------------
+union_time: 0.000000
+refindment nums:233
+verify_time: 3.183003
+demo286 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo287---------------------------------------------------
+union_time: 0.000000
+refindment nums:552
+verify_time: 10.563262
+demo287 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo288---------------------------------------------------
+union_time: 0.000001
+refindment nums:175
+verify_time: 1.543643
+demo288 is ******correct
+states:0
+union_time百分比:0.000001
+--------------------------------------------demo289---------------------------------------------------
+union_time: 0.000000
+refindment nums:235
+verify_time: 2.330266
+demo289 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo290---------------------------------------------------
+union_time: 0.000000
+refindment nums:495
+verify_time: 5.825240
+demo290 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo291---------------------------------------------------
+union_time: 0.000000
+refindment nums:141
+verify_time: 0.912480
+demo291 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo292---------------------------------------------------
+union_time: 0.000000
+refindment nums:74
+verify_time: 0.324449
+demo292 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo293---------------------------------------------------
+union_time: 0.000000
+refindment nums:105
+verify_time: 0.978401
+demo293 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo294---------------------------------------------------
+union_time: 0.000000
+refindment nums:207
+verify_time: 3.471818
+demo294 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo295---------------------------------------------------
+union_time: 0.000000
+refindment nums:209
+verify_time: 1.214320
+demo295 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo296---------------------------------------------------
+union_time: 0.000000
+refindment nums:167
+verify_time: 1.314104
+demo296 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo297---------------------------------------------------
+union_time: 0.000000
+refindment nums:99
+verify_time: 0.518514
+demo297 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo298---------------------------------------------------
+union_time: 0.000000
+refindment nums:198
+verify_time: 2.262807
+demo298 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo299---------------------------------------------------
+union_time: 0.000000
+refindment nums:54
+verify_time: 0.382950
+demo299 is ******correct
+states:0
+union_time百分比:0.000000
+----------------------------------------前300个---------------------------------------
+time_cost:734.193141
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000007
+union_time百分比:0.000000
+--------------------------------------------demo300---------------------------------------------------
+union_time: 0.000000
+refindment nums:108
+verify_time: 0.622728
+demo300 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo301---------------------------------------------------
+union_time: 0.000000
+refindment nums:147
+verify_time: 1.269498
+demo301 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo302---------------------------------------------------
+union_time: 0.000000
+refindment nums:214
+verify_time: 1.301763
+demo302 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo303---------------------------------------------------
+union_time: 0.000000
+refindment nums:235
+verify_time: 2.470984
+demo303 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo304---------------------------------------------------
+union_time: 0.000000
+refindment nums:131
+verify_time: 1.037126
+demo304 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo305---------------------------------------------------
+union_time: 0.000000
+refindment nums:355
+verify_time: 2.841271
+demo305 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo306---------------------------------------------------
+union_time: 0.000000
+refindment nums:633
+verify_time: 7.783204
+demo306 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo307---------------------------------------------------
+union_time: 0.000000
+refindment nums:402
+verify_time: 5.043683
+demo307 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo308---------------------------------------------------
+union_time: 0.000000
+refindment nums:251
+verify_time: 1.261607
+demo308 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo309---------------------------------------------------
+union_time: 0.000000
+refindment nums:257
+verify_time: 2.636241
+demo309 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo310---------------------------------------------------
+union_time: 0.000000
+refindment nums:150
+verify_time: 1.287331
+demo310 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo311---------------------------------------------------
+union_time: 0.000000
+refindment nums:245
+verify_time: 2.290248
+demo311 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo312---------------------------------------------------
+union_time: 0.000000
+refindment nums:483
+verify_time: 9.535645
+demo312 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo313---------------------------------------------------
+union_time: 0.000000
+refindment nums:297
+verify_time: 2.462460
+demo313 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo314---------------------------------------------------
+union_time: 0.000000
+refindment nums:126
+verify_time: 0.988902
+demo314 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo315---------------------------------------------------
+union_time: 0.000000
+refindment nums:99
+verify_time: 0.323589
+demo315 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo316---------------------------------------------------
+union_time: 0.000000
+refindment nums:333
+verify_time: 4.178574
+demo316 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo317---------------------------------------------------
+union_time: 0.000000
+refindment nums:271
+verify_time: 2.307205
+demo317 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo318---------------------------------------------------
+union_time: 0.000000
+refindment nums:206
+verify_time: 2.076546
+demo318 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo319---------------------------------------------------
+union_time: 0.000000
+refindment nums:567
+verify_time: 9.600086
+demo319 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo320---------------------------------------------------
+union_time: 0.000000
+refindment nums:134
+verify_time: 0.871553
+demo320 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo321---------------------------------------------------
+union_time: 0.000000
+refindment nums:199
+verify_time: 1.708443
+demo321 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo322---------------------------------------------------
+union_time: 0.000000
+refindment nums:92
+verify_time: 0.441320
+demo322 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo323---------------------------------------------------
+union_time: 0.000000
+refindment nums:80
+verify_time: 0.741708
+demo323 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo324---------------------------------------------------
+union_time: 0.000000
+refindment nums:103
+verify_time: 0.620886
+demo324 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo325---------------------------------------------------
+union_time: 0.000000
+refindment nums:69
+verify_time: 0.682392
+demo325 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo326---------------------------------------------------
+union_time: 0.000000
+refindment nums:100
+verify_time: 0.472703
+demo326 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo327---------------------------------------------------
+union_time: 0.000000
+refindment nums:206
+verify_time: 2.858520
+demo327 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo328---------------------------------------------------
+union_time: 0.000000
+refindment nums:259
+verify_time: 3.328295
+demo328 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo329---------------------------------------------------
+union_time: 0.000000
+refindment nums:258
+verify_time: 2.596019
+demo329 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo330---------------------------------------------------
+union_time: 0.000000
+refindment nums:663
+verify_time: 17.780961
+demo330 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo331---------------------------------------------------
+union_time: 0.000000
+refindment nums:149
+verify_time: 1.473714
+demo331 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo332---------------------------------------------------
+union_time: 0.000000
+refindment nums:453
+verify_time: 7.976095
+demo332 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo333---------------------------------------------------
+union_time: 0.000000
+refindment nums:110
+verify_time: 0.661993
+demo333 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo334---------------------------------------------------
+union_time: 0.000000
+refindment nums:187
+verify_time: 1.417163
+demo334 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo335---------------------------------------------------
+union_time: 0.000000
+refindment nums:83
+verify_time: 0.545989
+demo335 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo336---------------------------------------------------
+union_time: 0.000000
+refindment nums:147
+verify_time: 0.920998
+demo336 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo337---------------------------------------------------
+union_time: 0.000000
+refindment nums:80
+verify_time: 0.361104
+demo337 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo338---------------------------------------------------
+union_time: 0.000000
+refindment nums:123
+verify_time: 0.668446
+demo338 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo339---------------------------------------------------
+union_time: 0.000000
+refindment nums:433
+verify_time: 4.896475
+demo339 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo340---------------------------------------------------
+union_time: 0.000000
+refindment nums:177
+verify_time: 1.628002
+demo340 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo341---------------------------------------------------
+union_time: 0.000000
+refindment nums:119
+verify_time: 0.837543
+demo341 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo342---------------------------------------------------
+union_time: 0.000001
+refindment nums:1021
+verify_time: 18.419109
+demo342 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo343---------------------------------------------------
+union_time: 0.000000
+refindment nums:103
+verify_time: 0.621297
+demo343 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo344---------------------------------------------------
+union_time: 0.000000
+refindment nums:147
+verify_time: 1.025715
+demo344 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo345---------------------------------------------------
+union_time: 0.000000
+refindment nums:359
+verify_time: 4.405686
+demo345 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo346---------------------------------------------------
+union_time: 0.000000
+refindment nums:867
+verify_time: 20.368573
+demo346 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo347---------------------------------------------------
+union_time: 0.000000
+refindment nums:216
+verify_time: 2.069871
+demo347 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo348---------------------------------------------------
+union_time: 0.000000
+refindment nums:134
+verify_time: 0.911080
+demo348 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo349---------------------------------------------------
+union_time: 0.000001
+refindment nums:147
+verify_time: 0.606081
+demo349 is ******correct
+states:0
+union_time百分比:0.000002
+--------------------------------------------demo350---------------------------------------------------
+union_time: 0.000000
+refindment nums:75
+verify_time: 0.436881
+demo350 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo351---------------------------------------------------
+union_time: 0.000000
+refindment nums:789
+verify_time: 17.447045
+demo351 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo352---------------------------------------------------
+union_time: 0.000000
+refindment nums:250
+verify_time: 2.596473
+demo352 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo353---------------------------------------------------
+union_time: 0.000000
+refindment nums:99
+verify_time: 0.627122
+demo353 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo354---------------------------------------------------
+union_time: 0.000000
+refindment nums:112
+verify_time: 0.728374
+demo354 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo355---------------------------------------------------
+union_time: 0.000000
+refindment nums:639
+verify_time: 7.030469
+demo355 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo356---------------------------------------------------
+union_time: 0.000000
+refindment nums:278
+verify_time: 2.665119
+demo356 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo357---------------------------------------------------
+union_time: 0.000000
+refindment nums:113
+verify_time: 0.706428
+demo357 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo358---------------------------------------------------
+union_time: 0.000000
+refindment nums:406
+verify_time: 4.259206
+demo358 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo359---------------------------------------------------
+union_time: 0.000000
+refindment nums:158
+verify_time: 1.094281
+demo359 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo360---------------------------------------------------
+union_time: 0.000000
+refindment nums:131
+verify_time: 1.001433
+demo360 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo361---------------------------------------------------
+union_time: 0.000000
+refindment nums:159
+verify_time: 0.672592
+demo361 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo362---------------------------------------------------
+union_time: 0.000000
+refindment nums:43
+verify_time: 0.338618
+demo362 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo363---------------------------------------------------
+union_time: 0.000000
+refindment nums:84
+verify_time: 0.561758
+demo363 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo364---------------------------------------------------
+union_time: 0.000000
+refindment nums:178
+verify_time: 1.330958
+demo364 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo365---------------------------------------------------
+union_time: 0.000000
+refindment nums:201
+verify_time: 1.436537
+demo365 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo366---------------------------------------------------
+union_time: 0.000000
+refindment nums:187
+verify_time: 1.320209
+demo366 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo367---------------------------------------------------
+union_time: 0.000000
+refindment nums:575
+verify_time: 17.783447
+demo367 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo368---------------------------------------------------
+union_time: 0.000000
+refindment nums:117
+verify_time: 0.990366
+demo368 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo369---------------------------------------------------
+union_time: 0.000000
+refindment nums:120
+verify_time: 0.608010
+demo369 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo370---------------------------------------------------
+union_time: 0.000000
+refindment nums:151
+verify_time: 0.974393
+demo370 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo371---------------------------------------------------
+union_time: 0.000001
+refindment nums:148
+verify_time: 1.263087
+demo371 is ******correct
+states:0
+union_time百分比:0.000001
+--------------------------------------------demo372---------------------------------------------------
+union_time: 0.000000
+refindment nums:164
+verify_time: 1.076665
+demo372 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo373---------------------------------------------------
+union_time: 0.000000
+refindment nums:409
+verify_time: 4.626835
+demo373 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo374---------------------------------------------------
+union_time: 0.000000
+refindment nums:121
+verify_time: 0.972719
+demo374 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo375---------------------------------------------------
+union_time: 0.000000
+refindment nums:97
+verify_time: 0.781999
+demo375 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo376---------------------------------------------------
+union_time: 0.000000
+refindment nums:322
+verify_time: 3.165100
+demo376 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo377---------------------------------------------------
+union_time: 0.000000
+refindment nums:369
+verify_time: 4.149244
+demo377 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo378---------------------------------------------------
+union_time: 0.000000
+refindment nums:138
+verify_time: 0.881915
+demo378 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo379---------------------------------------------------
+union_time: 0.000000
+refindment nums:104
+verify_time: 0.400284
+demo379 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo380---------------------------------------------------
+union_time: 0.000000
+refindment nums:75
+verify_time: 0.352791
+demo380 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo381---------------------------------------------------
+union_time: 0.000000
+refindment nums:260
+verify_time: 2.053561
+demo381 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo382---------------------------------------------------
+union_time: 0.000000
+refindment nums:276
+verify_time: 2.437908
+demo382 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo383---------------------------------------------------
+union_time: 0.000000
+refindment nums:160
+verify_time: 0.972027
+demo383 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo384---------------------------------------------------
+union_time: 0.000001
+refindment nums:345
+verify_time: 4.141865
+demo384 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo385---------------------------------------------------
+union_time: 0.000000
+refindment nums:208
+verify_time: 2.382420
+demo385 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo386---------------------------------------------------
+union_time: 0.000000
+refindment nums:187
+verify_time: 1.397563
+demo386 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo387---------------------------------------------------
+union_time: 0.000000
+refindment nums:226
+verify_time: 3.457336
+demo387 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo388---------------------------------------------------
+union_time: 0.000000
+refindment nums:99
+verify_time: 0.734671
+demo388 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo389---------------------------------------------------
+union_time: 0.000000
+refindment nums:244
+verify_time: 3.002987
+demo389 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo390---------------------------------------------------
+union_time: 0.000000
+refindment nums:118
+verify_time: 0.498435
+demo390 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo391---------------------------------------------------
+union_time: 0.000000
+refindment nums:163
+verify_time: 1.094957
+demo391 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo392---------------------------------------------------
+union_time: 0.000000
+refindment nums:76
+verify_time: 0.567503
+demo392 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo393---------------------------------------------------
+union_time: 0.000000
+refindment nums:164
+verify_time: 1.447524
+demo393 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo394---------------------------------------------------
+union_time: 0.000000
+refindment nums:106
+verify_time: 0.692234
+demo394 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo395---------------------------------------------------
+union_time: 0.000000
+refindment nums:589
+verify_time: 16.554357
+demo395 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo396---------------------------------------------------
+union_time: 0.000000
+refindment nums:76
+verify_time: 0.446809
+demo396 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo397---------------------------------------------------
+union_time: 0.000000
+refindment nums:255
+verify_time: 4.101789
+demo397 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo398---------------------------------------------------
+union_time: 0.000000
+refindment nums:437
+verify_time: 5.299717
+demo398 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo399---------------------------------------------------
+union_time: 0.000001
+refindment nums:240
+verify_time: 2.293194
+demo399 is ******correct
+states:0
+union_time百分比:0.000000
+----------------------------------------前400个---------------------------------------
+time_cost:1033.288609
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000012
+union_time百分比:0.000000
+--------------------------------------------demo400---------------------------------------------------
+union_time: 0.000000
+refindment nums:157
+verify_time: 1.199298
+demo400 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo401---------------------------------------------------
+union_time: 0.000000
+refindment nums:476
+verify_time: 6.126382
+demo401 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo402---------------------------------------------------
+union_time: 0.000000
+refindment nums:258
+verify_time: 2.682499
+demo402 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo403---------------------------------------------------
+union_time: 0.000000
+refindment nums:74
+verify_time: 0.316358
+demo403 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo404---------------------------------------------------
+union_time: 0.000000
+refindment nums:214
+verify_time: 2.231795
+demo404 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo405---------------------------------------------------
+union_time: 0.000000
+refindment nums:81
+verify_time: 0.441312
+demo405 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo406---------------------------------------------------
+union_time: 0.000000
+refindment nums:226
+verify_time: 2.948741
+demo406 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo407---------------------------------------------------
+union_time: 0.000000
+refindment nums:234
+verify_time: 1.756840
+demo407 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo408---------------------------------------------------
+union_time: 0.000000
+refindment nums:143
+verify_time: 1.096024
+demo408 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo409---------------------------------------------------
+union_time: 0.000000
+refindment nums:124
+verify_time: 0.488371
+demo409 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo410---------------------------------------------------
+union_time: 0.000000
+refindment nums:302
+verify_time: 2.485820
+demo410 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo411---------------------------------------------------
+union_time: 0.000000
+refindment nums:132
+verify_time: 1.625697
+demo411 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo412---------------------------------------------------
+union_time: 0.000000
+refindment nums:58
+verify_time: 0.257495
+demo412 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo413---------------------------------------------------
+union_time: 0.000000
+refindment nums:395
+verify_time: 8.160906
+demo413 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo414---------------------------------------------------
+union_time: 0.000000
+refindment nums:360
+verify_time: 4.789198
+demo414 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo415---------------------------------------------------
+union_time: 0.000000
+refindment nums:131
+verify_time: 0.594023
+demo415 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo416---------------------------------------------------
+union_time: 0.000000
+refindment nums:326
+verify_time: 3.275095
+demo416 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo417---------------------------------------------------
+union_time: 0.000000
+refindment nums:243
+verify_time: 2.726892
+demo417 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo418---------------------------------------------------
+union_time: 0.000000
+refindment nums:81
+verify_time: 0.587021
+demo418 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo419---------------------------------------------------
+union_time: 0.000000
+refindment nums:257
+verify_time: 3.360877
+demo419 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo420---------------------------------------------------
+union_time: 0.000001
+refindment nums:204
+verify_time: 1.296163
+demo420 is ******correct
+states:0
+union_time百分比:0.000001
+--------------------------------------------demo421---------------------------------------------------
+union_time: 0.000000
+refindment nums:181
+verify_time: 1.114474
+demo421 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo422---------------------------------------------------
+union_time: 0.000000
+refindment nums:146
+verify_time: 1.337547
+demo422 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo423---------------------------------------------------
+union_time: 0.000000
+refindment nums:442
+verify_time: 4.565060
+demo423 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo424---------------------------------------------------
+union_time: 0.000000
+refindment nums:218
+verify_time: 1.618806
+demo424 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo425---------------------------------------------------
+union_time: 0.000000
+refindment nums:141
+verify_time: 1.144142
+demo425 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo426---------------------------------------------------
+union_time: 0.000001
+refindment nums:154
+verify_time: 1.140295
+demo426 is ******correct
+states:0
+union_time百分比:0.000001
+--------------------------------------------demo427---------------------------------------------------
+union_time: 0.000000
+refindment nums:77
+verify_time: 0.439231
+demo427 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo428---------------------------------------------------
+union_time: 0.000000
+refindment nums:297
+verify_time: 4.201394
+demo428 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo429---------------------------------------------------
+union_time: 0.000001
+refindment nums:545
+verify_time: 7.717698
+demo429 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo430---------------------------------------------------
+union_time: 0.000000
+refindment nums:251
+verify_time: 1.725023
+demo430 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo431---------------------------------------------------
+union_time: 0.000000
+refindment nums:163
+verify_time: 1.494040
+demo431 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo432---------------------------------------------------
+union_time: 0.000000
+refindment nums:131
+verify_time: 0.892752
+demo432 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo433---------------------------------------------------
+union_time: 0.000000
+refindment nums:147
+verify_time: 0.993517
+demo433 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo434---------------------------------------------------
+union_time: 0.000000
+refindment nums:141
+verify_time: 1.382068
+demo434 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo435---------------------------------------------------
+union_time: 0.000000
+refindment nums:123
+verify_time: 1.642750
+demo435 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo436---------------------------------------------------
+union_time: 0.000000
+refindment nums:344
+verify_time: 4.909393
+demo436 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo437---------------------------------------------------
+union_time: 0.000000
+refindment nums:125
+verify_time: 0.857915
+demo437 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo438---------------------------------------------------
+union_time: 0.000000
+refindment nums:98
+verify_time: 0.467653
+demo438 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo439---------------------------------------------------
+union_time: 0.000000
+refindment nums:630
+verify_time: 8.884243
+demo439 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo440---------------------------------------------------
+union_time: 0.000000
+refindment nums:97
+verify_time: 0.936822
+demo440 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo441---------------------------------------------------
+union_time: 0.000000
+refindment nums:446
+verify_time: 3.351675
+demo441 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo442---------------------------------------------------
+union_time: 0.000000
+refindment nums:636
+verify_time: 17.528525
+demo442 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo443---------------------------------------------------
+union_time: 0.000000
+refindment nums:165
+verify_time: 1.510427
+demo443 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo444---------------------------------------------------
+union_time: 0.000000
+refindment nums:76
+verify_time: 0.415602
+demo444 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo445---------------------------------------------------
+union_time: 0.000000
+refindment nums:140
+verify_time: 1.286163
+demo445 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo446---------------------------------------------------
+union_time: 0.000000
+refindment nums:59
+verify_time: 0.327202
+demo446 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo447---------------------------------------------------
+union_time: 0.000000
+refindment nums:165
+verify_time: 2.228040
+demo447 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo448---------------------------------------------------
+union_time: 0.000000
+refindment nums:366
+verify_time: 3.392071
+demo448 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo449---------------------------------------------------
+union_time: 0.000000
+refindment nums:299
+verify_time: 2.817568
+demo449 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo450---------------------------------------------------
+union_time: 0.000000
+refindment nums:86
+verify_time: 0.363859
+demo450 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo451---------------------------------------------------
+union_time: 0.000000
+refindment nums:177
+verify_time: 2.582935
+demo451 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo452---------------------------------------------------
+union_time: 0.000000
+refindment nums:204
+verify_time: 1.530860
+demo452 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo453---------------------------------------------------
+union_time: 0.000000
+refindment nums:333
+verify_time: 4.010990
+demo453 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo454---------------------------------------------------
+union_time: 0.000000
+refindment nums:100
+verify_time: 0.597638
+demo454 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo455---------------------------------------------------
+union_time: 0.000000
+refindment nums:282
+verify_time: 3.695288
+demo455 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo456---------------------------------------------------
+union_time: 0.000000
+refindment nums:246
+verify_time: 2.693297
+demo456 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo457---------------------------------------------------
+union_time: 0.000000
+refindment nums:361
+verify_time: 3.035598
+demo457 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo458---------------------------------------------------
+union_time: 0.000000
+refindment nums:624
+verify_time: 18.363019
+demo458 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo459---------------------------------------------------
+union_time: 0.000000
+refindment nums:207
+verify_time: 1.691363
+demo459 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo460---------------------------------------------------
+union_time: 0.000000
+refindment nums:320
+verify_time: 2.818019
+demo460 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo461---------------------------------------------------
+union_time: 0.000000
+refindment nums:403
+verify_time: 3.183624
+demo461 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo462---------------------------------------------------
+union_time: 0.000000
+refindment nums:135
+verify_time: 0.842833
+demo462 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo463---------------------------------------------------
+union_time: 0.000000
+refindment nums:136
+verify_time: 0.541929
+demo463 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo464---------------------------------------------------
+union_time: 0.000000
+refindment nums:680
+verify_time: 14.404628
+demo464 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo465---------------------------------------------------
+union_time: 0.000000
+refindment nums:157
+verify_time: 0.930238
+demo465 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo466---------------------------------------------------
+union_time: 0.000000
+refindment nums:107
+verify_time: 0.678880
+demo466 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo467---------------------------------------------------
+union_time: 0.000000
+refindment nums:870
+verify_time: 23.080225
+demo467 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo468---------------------------------------------------
+union_time: 0.000000
+refindment nums:116
+verify_time: 0.950099
+demo468 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo469---------------------------------------------------
+union_time: 0.000000
+refindment nums:132
+verify_time: 0.808103
+demo469 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo470---------------------------------------------------
+union_time: 0.000000
+refindment nums:195
+verify_time: 1.378786
+demo470 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo471---------------------------------------------------
+union_time: 0.000001
+refindment nums:448
+verify_time: 5.391315
+demo471 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo472---------------------------------------------------
+union_time: 0.000000
+refindment nums:198
+verify_time: 1.609790
+demo472 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo473---------------------------------------------------
+union_time: 0.000000
+refindment nums:142
+verify_time: 1.013151
+demo473 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo474---------------------------------------------------
+union_time: 0.000000
+refindment nums:357
+verify_time: 4.478973
+demo474 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo475---------------------------------------------------
+union_time: 0.000000
+refindment nums:134
+verify_time: 0.554065
+demo475 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo476---------------------------------------------------
+union_time: 0.000000
+refindment nums:169
+verify_time: 1.405213
+demo476 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo477---------------------------------------------------
+union_time: 0.000000
+refindment nums:160
+verify_time: 0.985989
+demo477 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo478---------------------------------------------------
+union_time: 0.000000
+refindment nums:204
+verify_time: 1.289991
+demo478 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo479---------------------------------------------------
+union_time: 0.000000
+refindment nums:186
+verify_time: 1.253033
+demo479 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo480---------------------------------------------------
+union_time: 0.000000
+refindment nums:483
+verify_time: 11.333335
+demo480 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo481---------------------------------------------------
+union_time: 0.000000
+refindment nums:307
+verify_time: 3.081525
+demo481 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo482---------------------------------------------------
+union_time: 0.000000
+refindment nums:134
+verify_time: 1.013624
+demo482 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo483---------------------------------------------------
+union_time: 0.000000
+refindment nums:393
+verify_time: 4.610755
+demo483 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo484---------------------------------------------------
+union_time: 0.000000
+refindment nums:350
+verify_time: 5.289292
+demo484 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo485---------------------------------------------------
+union_time: 0.000000
+refindment nums:112
+verify_time: 1.397819
+demo485 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo486---------------------------------------------------
+union_time: 0.000000
+refindment nums:131
+verify_time: 0.629743
+demo486 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo487---------------------------------------------------
+union_time: 0.000000
+refindment nums:177
+verify_time: 1.705071
+demo487 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo488---------------------------------------------------
+union_time: 0.000000
+refindment nums:583
+verify_time: 26.088820
+demo488 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo489---------------------------------------------------
+union_time: 0.000000
+refindment nums:75
+verify_time: 0.473555
+demo489 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo490---------------------------------------------------
+union_time: 0.000000
+refindment nums:131
+verify_time: 0.708680
+demo490 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo491---------------------------------------------------
+union_time: 0.000000
+refindment nums:493
+verify_time: 9.575841
+demo491 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo492---------------------------------------------------
+union_time: 0.000000
+refindment nums:171
+verify_time: 1.171929
+demo492 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo493---------------------------------------------------
+union_time: 0.000000
+refindment nums:155
+verify_time: 0.933144
+demo493 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo494---------------------------------------------------
+union_time: 0.000000
+refindment nums:135
+verify_time: 1.775374
+demo494 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo495---------------------------------------------------
+union_time: 0.000000
+refindment nums:191
+verify_time: 2.502039
+demo495 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo496---------------------------------------------------
+union_time: 0.000000
+refindment nums:218
+verify_time: 2.084435
+demo496 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo497---------------------------------------------------
+union_time: 0.000000
+refindment nums:214
+verify_time: 1.474748
+demo497 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo498---------------------------------------------------
+union_time: 0.000000
+refindment nums:422
+verify_time: 7.216586
+demo498 is ******correct
+states:0
+union_time百分比:0.000000
+--------------------------------------------demo499---------------------------------------------------
+union_time: 0.000000
+refindment nums:96
+verify_time: 0.546771
+demo499 is ******correct
+states:0
+union_time百分比:0.000000
+----------------------------------------前500个---------------------------------------
+time_cost:1351.836173
+product_time:0.000000
+product_time百分比:0.000000
+union_time:0.000016
+union_time百分比:0.000000
+###########################################################################################states:0
+refin_nums_total:106131
+runtime:1351.836197
+product_time:0.000000
+union_time:0.000016
+product_time百分比:0.000000
+union_time百分比:0.000000

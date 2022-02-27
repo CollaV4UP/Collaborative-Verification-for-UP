@@ -1,0 +1,13 @@
+(*eq1.c*) 
+  assume(z = w);
+  while (w1 != w2){
+    if(w3 != w4)then{
+        x := f(x);      
+        y := f(y)
+     }else{
+       w := h(w);
+       z := h(z)
+     };
+    w1 := ran(w1);
+    w3 := ran(w3)
+  }

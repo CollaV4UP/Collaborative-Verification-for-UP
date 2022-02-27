@@ -1,0 +1,1625 @@
+
+
+
+benchmark0************************************************************************
+Sat Feb 26 16:54:24 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v6); assume(s != r0); assume(s != u1); x := f(x); assume(s != v4); g0 := x; x := f(x); y := f(y); assume(x != y); 
+-- generalization time :  0.0043222904205322266
+-- check empty time:  0.06622314453125
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.072s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.782s.
+
+
+
+benchmark1************************************************************************
+Sat Feb 26 16:54:25 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.5128316879272461
+-- check empty time:  0.06980371475219727
+congratulation! it takes 18 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  1.755s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 2.517s.
+
+
+
+benchmark2************************************************************************
+Sat Feb 26 16:54:27 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  6.2172324657440186
+-- check empty time:  8.882004737854004
+congratulation! it takes 108 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  219.982s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 220.710s.
+
+
+
+benchmark3************************************************************************
+Sat Feb 26 16:58:08 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  4.848469257354736
+-- check empty time:  5.5296266078948975
+congratulation! it takes 90 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  168.601s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 169.328s.
+
+
+
+benchmark4************************************************************************
+Sat Feb 26 17:00:57 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u5); assume(s != v2); assume(s != u1); x := f(x); assume(s != r0); x := f(x); assume(x != y); 
+-- generalization time :  0.0016736984252929688
+-- check empty time:  0.08001351356506348
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.086s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.798s.
+
+
+
+benchmark5************************************************************************
+Sat Feb 26 17:00:58 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  1.6696956157684326
+-- check empty time:  0.34687185287475586
+congratulation! it takes 36 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  10.796s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 11.525s.
+
+
+
+benchmark6************************************************************************
+Sat Feb 26 17:01:10 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.5911757946014404
+-- check empty time:  0.16758227348327637
+congratulation! it takes 24 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  2.633s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 3.357s.
+
+
+
+benchmark7************************************************************************
+Sat Feb 26 17:01:13 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  6.56597638130188
+-- check empty time:  6.553043603897095
+congratulation! it takes 90 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  160.501s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 161.209s.
+
+
+
+benchmark8************************************************************************
+Sat Feb 26 17:03:54 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v2); assume(s != v4); assume(s != u1); x := f(x); y := f(y); assume(s != u5); x := f(x); assume(x != y); 
+-- generalization time :  0.0018510818481445312
+-- check empty time:  0.05242776870727539
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.056s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.778s.
+
+
+
+benchmark9************************************************************************
+Sat Feb 26 17:03:55 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v4); x := f(x); assume(s != u5); x := f(x); assume(s != v6); x := f(x); assume(x != y); 
+-- generalization time :  0.0016858577728271484
+-- check empty time:  0.05488157272338867
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.061s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.766s.
+
+
+
+benchmark10************************************************************************
+Sat Feb 26 17:03:56 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); assume(s != r0); assume(s != v2); x := f(x); assume(s != u5); assume(s != u3); assume(x != y); 
+-- generalization time :  0.0018274784088134766
+-- check empty time:  0.057142019271850586
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.060s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.797s.
+
+
+
+benchmark11************************************************************************
+Sat Feb 26 17:03:57 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  6.499548435211182
+-- check empty time:  11.389176607131958
+congratulation! it takes 108 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  318.508s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 319.247s.
+
+
+
+benchmark12************************************************************************
+Sat Feb 26 17:09:16 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); x := f(x); assume(s != v6); x := f(x); assume(s != v4); x := f(x); assume(x != y); 
+-- generalization time :  0.001401662826538086
+-- check empty time:  0.026086091995239258
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.029s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.738s.
+
+
+
+benchmark13************************************************************************
+Sat Feb 26 17:09:17 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u5); x := f(x); y := f(y); assume(s != v2); x := f(x); y := f(y); assume(s != u3); x := f(x); assume(x != y); 
+-- generalization time :  0.0017843246459960938
+-- check empty time:  0.0464630126953125
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.053s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.765s.
+
+
+
+benchmark14************************************************************************
+Sat Feb 26 17:09:17 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  5.872724771499634
+-- check empty time:  58.80393433570862
+it is timeout after 146 refinements.
+./program.ats is checked to be unknown due to the time limit
+
+++ trace refinement time:  1809.859s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 1810.572s.
+
+
+
+benchmark15************************************************************************
+Sat Feb 26 17:39:28 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); assume(s != v4); assume(s != r0); x := f(x); y := f(y); assume(s != v6); x := f(x); assume(x != y); 
+-- generalization time :  0.0018291473388671875
+-- check empty time:  0.050252676010131836
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.054s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.766s.
+
+
+
+benchmark16************************************************************************
+Sat Feb 26 17:39:29 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.3454115390777588
+-- check empty time:  0.11975693702697754
+congratulation! it takes 20 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  2.801s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 3.516s.
+
+
+
+benchmark17************************************************************************
+Sat Feb 26 17:39:32 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v4); assume(s != u1); assume(s != u5); x := f(x); assume(s != v6); g0 := x; x := f(x); y := f(y); assume(x != y); 
+-- generalization time :  0.004378080368041992
+-- check empty time:  0.06310224533081055
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.069s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.785s.
+
+
+
+benchmark18************************************************************************
+Sat Feb 26 17:39:33 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u7); x := f(x); assume(s != v6); g0 := x; x := f(x); assume(s != r0); x := f(x); y := f(y); assume(x != y); 
+-- generalization time :  0.0036025047302246094
+-- check empty time:  0.10392594337463379
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.109s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.827s.
+
+
+
+benchmark19************************************************************************
+Sat Feb 26 17:39:34 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  6.267636060714722
+-- check empty time:  63.5337655544281
+it is timeout after 168 refinements.
+./program.ats is checked to be unknown due to the time limit
+
+++ trace refinement time:  1810.726s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 1811.462s.
+
+
+
+benchmark20************************************************************************
+Sat Feb 26 18:09:45 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); x := f(x); assume(s != u5); g0 := x; x := f(x); y := f(y); assume(s != r0); g1 := x; x := f(x); y := f(y); assume(x != y); 
+-- generalization time :  0.00587916374206543
+-- check empty time:  0.03947114944458008
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.047s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.753s.
+
+
+
+benchmark21************************************************************************
+Sat Feb 26 18:09:46 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v4); x := f(x); y := f(y); assume(s != u5); x := f(x); assume(s != u1); g0 := x; x := f(x); y := f(y); assume(x != y); 
+-- generalization time :  0.0042629241943359375
+-- check empty time:  0.04154777526855469
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.047s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.749s.
+
+
+
+benchmark22************************************************************************
+Sat Feb 26 18:09:47 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); x := f(x); assume(s != v6); x := f(x); assume(s != u7); x := f(x); assume(x != y); 
+-- generalization time :  0.0013871192932128906
+-- check empty time:  0.05634164810180664
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.059s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.785s.
+
+
+
+benchmark23************************************************************************
+Sat Feb 26 18:09:48 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  5.036045551300049
+-- check empty time:  5.536609888076782
+congratulation! it takes 81 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  163.169s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 163.918s.
+
+
+
+benchmark24************************************************************************
+Sat Feb 26 18:12:31 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v6); x := f(x); y := f(y); assume(s != v2); assume(s != r0); assume(s != v4); x := f(x); assume(x != y); 
+-- generalization time :  0.0018308162689208984
+-- check empty time:  0.05337953567504883
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.057s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.771s.
+
+
+
+benchmark25************************************************************************
+Sat Feb 26 18:12:32 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u5); x := f(x); assume(s != r0); g0 := x; x := f(x); y := f(y); assume(s != u3); assume(s != v6); assume(x != y); 
+-- generalization time :  0.0038628578186035156
+-- check empty time:  0.04343771934509277
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.049s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.751s.
+
+
+
+benchmark26************************************************************************
+Sat Feb 26 18:12:33 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  2.0059871673583984
+-- check empty time:  0.5091876983642578
+congratulation! it takes 36 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  14.838s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 15.562s.
+
+
+
+benchmark27************************************************************************
+Sat Feb 26 18:12:49 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u3); assume(s != u1); assume(s != v4); assume(s != v2); assume(s != v6); x := f(x); assume(x != y); 
+-- generalization time :  0.0018603801727294922
+-- check empty time:  0.09286952018737793
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.099s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.836s.
+
+
+
+benchmark28************************************************************************
+Sat Feb 26 18:12:49 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != r0); x := f(x); y := f(y); assume(s != v6); x := f(x); assume(s != v2); assume(s != u5); assume(x != y); 
+-- generalization time :  0.0018115043640136719
+-- check empty time:  0.05648684501647949
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.060s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.759s.
+
+
+
+benchmark29************************************************************************
+Sat Feb 26 18:12:50 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  3.9090757369995117
+-- check empty time:  1.467350721359253
+congratulation! it takes 60 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  59.793s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 60.489s.
+
+
+
+benchmark30************************************************************************
+Sat Feb 26 18:13:51 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  8.31615686416626
+-- check empty time:  114.69453239440918
+it is timeout after 168 refinements.
+./program.ats is checked to be unknown due to the time limit
+
+++ trace refinement time:  1833.600s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 1834.332s.
+
+
+
+benchmark31************************************************************************
+Sat Feb 26 18:44:25 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != v2); x := f(x); assume(s != u5); g0 := x; x := f(x); y := f(y); assume(s != u1); x := f(x); assume(x != y); 
+-- generalization time :  0.0032961368560791016
+-- check empty time:  0.04001927375793457
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.045s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.748s.
+
+
+
+benchmark32************************************************************************
+Sat Feb 26 18:44:26 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u5); x := f(x); assume(s != u1); g0 := x; x := f(x); y := f(y); assume(s != r0); assume(s != v4); assume(x != y); 
+-- generalization time :  0.003871440887451172
+-- check empty time:  0.04945826530456543
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.059s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.778s.
+
+
+
+benchmark33************************************************************************
+Sat Feb 26 18:44:27 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); assume(s != u5); assume(s != v4); x := f(x); assume(s != v6); x := f(x); assume(x != y); 
+-- generalization time :  0.0016205310821533203
+-- check empty time:  0.05900120735168457
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.062s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.764s.
+
+
+
+benchmark34************************************************************************
+Sat Feb 26 18:44:27 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  7.465021848678589
+-- check empty time:  11.502910375595093
+congratulation! it takes 108 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  288.924s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 289.646s.
+
+
+
+benchmark35************************************************************************
+Sat Feb 26 18:49:17 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u3); x := f(x); assume(s != v6); g0 := x; x := f(x); y := f(y); assume(s != u7); assume(s != r0); assume(x != y); 
+-- generalization time :  0.003796815872192383
+-- check empty time:  0.07280850410461426
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.078s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.812s.
+
+
+
+benchmark36************************************************************************
+Sat Feb 26 18:49:18 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u3); assume(s != v4); assume(s != u1); x := f(x); y := f(y); assume(s != v6); x := f(x); assume(x != y); 
+-- generalization time :  0.0018351078033447266
+-- check empty time:  0.05314946174621582
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.057s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.774s.
+
+
+
+benchmark37************************************************************************
+Sat Feb 26 18:49:19 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u1); x := f(x); assume(s != u3); assume(s != u5); assume(s != r0); g0 := x; x := f(x); y := f(y); assume(x != y); 
+-- generalization time :  0.0042917728424072266
+-- check empty time:  0.08395171165466309
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.094s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.813s.
+
+
+
+benchmark38************************************************************************
+Sat Feb 26 18:49:19 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  2.1662962436676025
+-- check empty time:  0.5346066951751709
+congratulation! it takes 36 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  15.281s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 16.017s.
+
+
+
+benchmark39************************************************************************
+Sat Feb 26 18:49:35 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  1.8955979347229004
+-- check empty time:  0.4263627529144287
+congratulation! it takes 36 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  12.137s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 12.857s.
+
+
+
+benchmark40************************************************************************
+Sat Feb 26 18:49:48 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.9750881195068359
+-- check empty time:  0.20072221755981445
+congratulation! it takes 24 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  4.392s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 5.104s.
+
+
+
+benchmark41************************************************************************
+Sat Feb 26 18:49:53 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s != u5); assume(s != r0); assume(s != u1); x := f(x); y := f(y); assume(s != u3); x := f(x); assume(x != y); 
+-- generalization time :  0.0018994808197021484
+-- check empty time:  0.05967092514038086
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.063s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.779s.
+
+
+
+benchmark42************************************************************************
+Sat Feb 26 18:49:54 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.008655309677124023
+-- check empty time:  0.0033254623413085938
+congratulation! it takes 3 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  0.029s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 0.729s.
+
+
+
+benchmark43************************************************************************
+Sat Feb 26 18:49:55 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+feasible error trace: x := y; assume(s == u7); assume(w1 == w2); assume(s != u3); x := f(x); y := f(y); assume(s != u1); x := f(x); assume(x != y); 
+-- generalization time :  0.0023326873779296875
+-- check empty time:  0.07614922523498535
+-- refineNum: 0 refinements.
+./program.ats is checked to find a counter-example
+
+++ trace refinement time:  0.080s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 0.803s.
+
+
+
+benchmark44************************************************************************
+Sat Feb 26 18:49:56 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.7915263175964355
+-- check empty time:  0.1240999698638916
+congratulation! it takes 20 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  2.975s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 3.681s.
+
+
+
+benchmark45************************************************************************
+Sat Feb 26 18:49:59 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  6.7829132080078125
+-- check empty time:  6.7087297439575195
+congratulation! it takes 90 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  189.182s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 189.897s.
+
+
+
+benchmark46************************************************************************
+Sat Feb 26 18:53:09 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.07029104232788086
+-- check empty time:  0.010102033615112305
+congratulation! it takes 9 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  0.362s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 1.044s.
+
+
+
+benchmark47************************************************************************
+Sat Feb 26 18:53:10 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  0.5273771286010742
+-- check empty time:  0.35976505279541016
+congratulation! it takes 36 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  10.795s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 11.528s.
+
+
+
+benchmark48************************************************************************
+Sat Feb 26 18:53:22 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  6.6363232135772705
+-- check empty time:  133.22420597076416
+it is timeout after 157 refinements.
+./program.ats is checked to be unknown due to the time limit
+
+++ trace refinement time:  1809.184s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is checked to be incorrect.
+the whole process takes 1809.902s.
+
+
+
+benchmark49************************************************************************
+Sat Feb 26 19:23:32 CST 2022 - [main] Product-specified preferences called before plugin is started
+step: separating program into coh/non-coh...
+Mode: pure_trace_refinement
+coherent:  []
+non-coherent:  ['./program.ats']
+++ seperation time: 0.000s.
+finished.
+
+
+step: Verification & Trace Refinement...
+----------------------------------------
+		Verification: 
+----------------------------------------
+		Trace Refinement: 
+-- generalization time:  3.0873515605926514
+-- check empty time:  1.1475152969360352
+congratulation! it takes 50 refinements.
+./program.ats is checked to be correct
+
+++ trace refinement time:  40.734s.
+----------------------------------------
+finished.
+
+
+----------------------------------------
+----------------------------------------
+The program is verified/checked to be correct
+the whole process takes 41.430s.

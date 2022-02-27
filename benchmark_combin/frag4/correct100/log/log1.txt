@@ -1,0 +1,3569 @@
+vars:23
+funs:3
+instrs:58
+--------------------------------------------demo0---------------------------------------------------
+union_time: 0.011422
+refindment nums:59
+verify_time: 0.155877
+demo0 is ******correct
+states:217
+--------------------------------------------demo1---------------------------------------------------
+product_time: 0.002113
+union_time: 0.041167
+refindment nums:142
+verify_time: 1.317725
+demo1 is ******correct
+states:643
+--------------------------------------------demo2---------------------------------------------------
+product_time: 0.003281
+union_time: 0.068999
+refindment nums:208
+verify_time: 2.218275
+demo2 is ******correct
+states:1416
+--------------------------------------------demo3---------------------------------------------------
+product_time: 0.394287
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.394296
+demo3 is ******correct
+states:1416
+--------------------------------------------demo4---------------------------------------------------
+product_time: 0.016040
+union_time: 0.024927
+refindment nums:126
+verify_time: 0.654570
+demo4 is ******correct
+states:1791
+--------------------------------------------demo5---------------------------------------------------
+product_time: 0.085304
+union_time: 0.029076
+refindment nums:125
+verify_time: 0.660274
+demo5 is ******correct
+states:2137
+--------------------------------------------demo6---------------------------------------------------
+product_time: 0.092830
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.092838
+demo6 is ******correct
+states:2137
+--------------------------------------------demo7---------------------------------------------------
+product_time: 0.082110
+union_time: 0.009436
+refindment nums:38
+verify_time: 0.189965
+demo7 is ******correct
+states:2291
+--------------------------------------------demo8---------------------------------------------------
+product_time: 0.413040
+union_time: 0.022775
+refindment nums:67
+verify_time: 0.631416
+demo8 is ******correct
+states:2550
+--------------------------------------------demo9---------------------------------------------------
+product_time: 0.013675
+union_time: 0.047918
+refindment nums:158
+verify_time: 0.847140
+demo9 is ******correct
+states:3113
+----------------------------------------前10个---------------------------------------
+time_cost:7.162667
+product_time:1.102680
+product_time百分比:0.153948
+union_time:0.255721
+union_time百分比:0.035702
+--------------------------------------------demo10---------------------------------------------------
+product_time: 0.041246
+union_time: 0.068921
+refindment nums:290
+verify_time: 2.881298
+demo10 is ******correct
+states:3930
+--------------------------------------------demo11---------------------------------------------------
+product_time: 0.355859
+union_time: 0.105955
+refindment nums:201
+verify_time: 5.971484
+demo11 is ******correct
+states:4753
+--------------------------------------------demo12---------------------------------------------------
+product_time: 0.001695
+union_time: 0.128222
+refindment nums:338
+verify_time: 5.890144
+demo12 is ******correct
+states:6102
+--------------------------------------------demo13---------------------------------------------------
+product_time: 0.500186
+union_time: 0.031576
+refindment nums:112
+verify_time: 1.358476
+demo13 is ******correct
+states:6500
+--------------------------------------------demo14---------------------------------------------------
+product_time: 0.139739
+union_time: 0.091804
+refindment nums:210
+verify_time: 1.649902
+demo14 is ******correct
+states:7473
+--------------------------------------------demo15---------------------------------------------------
+product_time: 0.207250
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.207258
+demo15 is ******correct
+states:7473
+--------------------------------------------demo16---------------------------------------------------
+product_time: 0.367968
+union_time: 0.037752
+refindment nums:163
+verify_time: 1.060312
+demo16 is ******correct
+states:7942
+--------------------------------------------demo17---------------------------------------------------
+product_time: 0.064018
+union_time: 0.053478
+refindment nums:258
+verify_time: 2.280916
+demo17 is ******correct
+states:8636
+--------------------------------------------demo18---------------------------------------------------
+product_time: 0.244252
+union_time: 0.031975
+refindment nums:97
+verify_time: 2.324974
+demo18 is ******correct
+states:9034
+--------------------------------------------demo19---------------------------------------------------
+product_time: 0.298879
+union_time: 0.446132
+refindment nums:975
+verify_time: 22.463446
+demo19 is ******correct
+states:12730
+----------------------------------------前20个---------------------------------------
+time_cost:53.251651
+product_time:3.323771
+product_time百分比:0.062416
+union_time:1.251536
+union_time百分比:0.023502
+--------------------------------------------demo20---------------------------------------------------
+product_time: 0.340665
+union_time: 0.038351
+refindment nums:149
+verify_time: 3.468521
+demo20 is ******correct
+states:13263
+--------------------------------------------demo21---------------------------------------------------
+product_time: 0.334852
+union_time: 0.111031
+refindment nums:367
+verify_time: 7.874721
+demo21 is ******correct
+states:14528
+--------------------------------------------demo22---------------------------------------------------
+product_time: 0.368295
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.368303
+demo22 is ******correct
+states:14528
+--------------------------------------------demo23---------------------------------------------------
+product_time: 0.289456
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.289464
+demo23 is ******correct
+states:14528
+--------------------------------------------demo24---------------------------------------------------
+product_time: 0.097019
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.097027
+demo24 is ******correct
+states:14528
+--------------------------------------------demo25---------------------------------------------------
+product_time: 0.212795
+union_time: 0.028724
+refindment nums:97
+verify_time: 1.324948
+demo25 is ******correct
+states:14875
+--------------------------------------------demo26---------------------------------------------------
+product_time: 0.146106
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.146113
+demo26 is ******correct
+states:14875
+--------------------------------------------demo27---------------------------------------------------
+product_time: 0.235759
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.235765
+demo27 is ******correct
+states:14875
+--------------------------------------------demo28---------------------------------------------------
+product_time: 0.176735
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.176742
+demo28 is ******correct
+states:14875
+--------------------------------------------demo29---------------------------------------------------
+product_time: 0.042079
+union_time: 0.015411
+refindment nums:48
+verify_time: 0.153301
+demo29 is ******correct
+states:15049
+--------------------------------------------demo30---------------------------------------------------
+product_time: 0.103375
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.103384
+demo30 is ******correct
+states:15049
+--------------------------------------------demo31---------------------------------------------------
+product_time: 0.217806
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.217813
+demo31 is ******correct
+states:15049
+--------------------------------------------demo32---------------------------------------------------
+product_time: 0.229959
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.229966
+demo32 is ******correct
+states:15049
+--------------------------------------------demo33---------------------------------------------------
+product_time: 0.056038
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.056044
+demo33 is ******correct
+states:15049
+--------------------------------------------demo34---------------------------------------------------
+product_time: 0.228323
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.228330
+demo34 is ******correct
+states:15049
+--------------------------------------------demo35---------------------------------------------------
+product_time: 0.286793
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.286800
+demo35 is ******correct
+states:15049
+--------------------------------------------demo36---------------------------------------------------
+product_time: 0.195081
+union_time: 0.044499
+refindment nums:202
+verify_time: 2.239175
+demo36 is ******correct
+states:15760
+--------------------------------------------demo37---------------------------------------------------
+product_time: 0.157332
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.157338
+demo37 is ******correct
+states:15760
+--------------------------------------------demo38---------------------------------------------------
+product_time: 0.459992
+union_time: 0.048400
+refindment nums:147
+verify_time: 2.381523
+demo38 is ******correct
+states:16274
+--------------------------------------------demo39---------------------------------------------------
+product_time: 0.196574
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.196582
+demo39 is ******correct
+states:16274
+----------------------------------------前40个---------------------------------------
+time_cost:73.486519
+product_time:7.698806
+product_time百分比:0.104765
+union_time:1.537960
+union_time百分比:0.020928
+--------------------------------------------demo40---------------------------------------------------
+product_time: 0.297704
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.297712
+demo40 is ******correct
+states:16274
+--------------------------------------------demo41---------------------------------------------------
+product_time: 0.101545
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.101552
+demo41 is ******correct
+states:16274
+--------------------------------------------demo42---------------------------------------------------
+product_time: 0.770870
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.770879
+demo42 is ******correct
+states:16274
+--------------------------------------------demo43---------------------------------------------------
+product_time: 0.341998
+union_time: 0.110704
+refindment nums:226
+verify_time: 9.690068
+demo43 is ******correct
+states:17349
+--------------------------------------------demo44---------------------------------------------------
+product_time: 0.351404
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.351412
+demo44 is ******correct
+states:17349
+--------------------------------------------demo45---------------------------------------------------
+product_time: 0.048079
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.048086
+demo45 is ******correct
+states:17349
+--------------------------------------------demo46---------------------------------------------------
+product_time: 0.063354
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.063361
+demo46 is ******correct
+states:17349
+--------------------------------------------demo47---------------------------------------------------
+product_time: 0.048948
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.048954
+demo47 is ******correct
+states:17349
+--------------------------------------------demo48---------------------------------------------------
+product_time: 0.208501
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.208507
+demo48 is ******correct
+states:17349
+--------------------------------------------demo49---------------------------------------------------
+product_time: 0.218579
+union_time: 0.063322
+refindment nums:203
+verify_time: 3.725604
+demo49 is ******correct
+states:18193
+--------------------------------------------demo50---------------------------------------------------
+product_time: 0.384161
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.384168
+demo50 is ******correct
+states:18193
+--------------------------------------------demo51---------------------------------------------------
+product_time: 0.071501
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.071508
+demo51 is ******correct
+states:18193
+--------------------------------------------demo52---------------------------------------------------
+product_time: 0.536524
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.536532
+demo52 is ******correct
+states:18193
+--------------------------------------------demo53---------------------------------------------------
+product_time: 0.215837
+union_time: 0.026773
+refindment nums:110
+verify_time: 1.156273
+demo53 is ******correct
+states:18537
+--------------------------------------------demo54---------------------------------------------------
+product_time: 0.704437
+union_time: 0.098054
+refindment nums:301
+verify_time: 21.638814
+demo54 is ******correct
+states:19658
+--------------------------------------------demo55---------------------------------------------------
+product_time: 0.122188
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.122197
+demo55 is ******correct
+states:19658
+--------------------------------------------demo56---------------------------------------------------
+product_time: 0.137375
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.137384
+demo56 is ******correct
+states:19658
+--------------------------------------------demo57---------------------------------------------------
+product_time: 0.488871
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.488876
+demo57 is ******correct
+states:19658
+--------------------------------------------demo58---------------------------------------------------
+product_time: 0.405773
+union_time: 0.191059
+refindment nums:392
+verify_time: 19.210946
+demo58 is ******correct
+states:21237
+--------------------------------------------demo59---------------------------------------------------
+product_time: 0.406572
+union_time: 0.039443
+refindment nums:132
+verify_time: 1.254156
+demo59 is ******correct
+states:21712
+----------------------------------------前60个---------------------------------------
+time_cost:133.797076
+product_time:13.623027
+product_time百分比:0.101819
+union_time:2.067321
+union_time百分比:0.015451
+--------------------------------------------demo60---------------------------------------------------
+product_time: 0.269562
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.269568
+demo60 is ******correct
+states:21712
+--------------------------------------------demo61---------------------------------------------------
+product_time: 0.088264
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.088272
+demo61 is ******correct
+states:21712
+--------------------------------------------demo62---------------------------------------------------
+product_time: 0.151213
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.151220
+demo62 is ******correct
+states:21712
+--------------------------------------------demo63---------------------------------------------------
+product_time: 0.392902
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.392908
+demo63 is ******correct
+states:21712
+--------------------------------------------demo64---------------------------------------------------
+product_time: 0.065552
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.065557
+demo64 is ******correct
+states:21712
+--------------------------------------------demo65---------------------------------------------------
+product_time: 0.362068
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.362076
+demo65 is ******correct
+states:21712
+--------------------------------------------demo66---------------------------------------------------
+product_time: 0.285760
+union_time: 0.021885
+refindment nums:48
+verify_time: 0.584614
+demo66 is ******correct
+states:21941
+--------------------------------------------demo67---------------------------------------------------
+product_time: 0.286912
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.286920
+demo67 is ******correct
+states:21941
+--------------------------------------------demo68---------------------------------------------------
+product_time: 0.180355
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.180362
+demo68 is ******correct
+states:21941
+--------------------------------------------demo69---------------------------------------------------
+product_time: 0.078211
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.078218
+demo69 is ******correct
+states:21941
+--------------------------------------------demo70---------------------------------------------------
+product_time: 0.016667
+union_time: 0.229275
+refindment nums:617
+verify_time: 7.054296
+demo70 is ******correct
+states:23939
+--------------------------------------------demo71---------------------------------------------------
+product_time: 0.575397
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.575404
+demo71 is ******correct
+states:23939
+--------------------------------------------demo72---------------------------------------------------
+product_time: 0.109525
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.109533
+demo72 is ******correct
+states:23939
+--------------------------------------------demo73---------------------------------------------------
+product_time: 0.176573
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.176580
+demo73 is ******correct
+states:23939
+--------------------------------------------demo74---------------------------------------------------
+product_time: 0.202646
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.202654
+demo74 is ******correct
+states:23939
+--------------------------------------------demo75---------------------------------------------------
+product_time: 0.050300
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.050307
+demo75 is ******correct
+states:23939
+--------------------------------------------demo76---------------------------------------------------
+product_time: 0.152830
+union_time: 0.060013
+refindment nums:195
+verify_time: 2.096432
+demo76 is ******correct
+states:24518
+--------------------------------------------demo77---------------------------------------------------
+product_time: 0.205636
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.205643
+demo77 is ******correct
+states:24518
+--------------------------------------------demo78---------------------------------------------------
+product_time: 0.202291
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.202296
+demo78 is ******correct
+states:24518
+--------------------------------------------demo79---------------------------------------------------
+product_time: 0.545755
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.545762
+demo79 is ******correct
+states:24518
+----------------------------------------前80个---------------------------------------
+time_cost:147.479878
+product_time:18.021445
+product_time百分比:0.122196
+union_time:2.378502
+union_time百分比:0.016128
+--------------------------------------------demo80---------------------------------------------------
+product_time: 0.047224
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.047231
+demo80 is ******correct
+states:24518
+--------------------------------------------demo81---------------------------------------------------
+product_time: 0.212328
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.212335
+demo81 is ******correct
+states:24518
+--------------------------------------------demo82---------------------------------------------------
+product_time: 0.208097
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.208103
+demo82 is ******correct
+states:24518
+--------------------------------------------demo83---------------------------------------------------
+product_time: 0.140677
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.140685
+demo83 is ******correct
+states:24518
+--------------------------------------------demo84---------------------------------------------------
+product_time: 0.215962
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.215968
+demo84 is ******correct
+states:24518
+--------------------------------------------demo85---------------------------------------------------
+product_time: 0.680762
+union_time: 0.190970
+refindment nums:485
+verify_time: 12.686880
+demo85 is ******correct
+states:26233
+--------------------------------------------demo86---------------------------------------------------
+product_time: 0.180652
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.180659
+demo86 is ******correct
+states:26233
+--------------------------------------------demo87---------------------------------------------------
+product_time: 0.250215
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.250223
+demo87 is ******correct
+states:26233
+--------------------------------------------demo88---------------------------------------------------
+product_time: 0.116164
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.116172
+demo88 is ******correct
+states:26233
+--------------------------------------------demo89---------------------------------------------------
+product_time: 0.443292
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.443298
+demo89 is ******correct
+states:26233
+--------------------------------------------demo90---------------------------------------------------
+product_time: 0.174590
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.174597
+demo90 is ******correct
+states:26233
+--------------------------------------------demo91---------------------------------------------------
+product_time: 0.284727
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.284734
+demo91 is ******correct
+states:26233
+--------------------------------------------demo92---------------------------------------------------
+product_time: 0.413406
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.413413
+demo92 is ******correct
+states:26233
+--------------------------------------------demo93---------------------------------------------------
+product_time: 0.509928
+union_time: 0.035760
+refindment nums:103
+verify_time: 1.344317
+demo93 is ******correct
+states:26629
+--------------------------------------------demo94---------------------------------------------------
+product_time: 0.133606
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.133614
+demo94 is ******correct
+states:26629
+--------------------------------------------demo95---------------------------------------------------
+product_time: 0.189608
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.189615
+demo95 is ******correct
+states:26629
+--------------------------------------------demo96---------------------------------------------------
+product_time: 0.624065
+union_time: 0.258654
+refindment nums:459
+verify_time: 29.730699
+demo96 is ******correct
+states:28708
+--------------------------------------------demo97---------------------------------------------------
+product_time: 0.134314
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.134321
+demo97 is ******correct
+states:28708
+--------------------------------------------demo98---------------------------------------------------
+product_time: 0.305606
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.305614
+demo98 is ******correct
+states:28708
+--------------------------------------------demo99---------------------------------------------------
+product_time: 0.430375
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.430383
+demo99 is ******correct
+states:28708
+----------------------------------------前100个---------------------------------------
+time_cost:195.127546
+product_time:23.717043
+product_time百分比:0.121546
+union_time:2.863897
+union_time百分比:0.014677
+--------------------------------------------demo100---------------------------------------------------
+product_time: 0.126985
+union_time: 0.170120
+refindment nums:264
+verify_time: 4.670490
+demo100 is ******correct
+states:29841
+--------------------------------------------demo101---------------------------------------------------
+product_time: 0.713638
+union_time: 0.090687
+refindment nums:208
+verify_time: 5.708826
+demo101 is ******correct
+states:30772
+--------------------------------------------demo102---------------------------------------------------
+product_time: 0.299619
+union_time: 0.021748
+refindment nums:55
+verify_time: 0.904281
+demo102 is ******correct
+states:30996
+--------------------------------------------demo103---------------------------------------------------
+product_time: 0.212917
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.212924
+demo103 is ******correct
+states:30996
+--------------------------------------------demo104---------------------------------------------------
+product_time: 0.496576
+union_time: 0.026760
+refindment nums:94
+verify_time: 1.209535
+demo104 is ******correct
+states:31313
+--------------------------------------------demo105---------------------------------------------------
+product_time: 0.507749
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.507757
+demo105 is ******correct
+states:31313
+--------------------------------------------demo106---------------------------------------------------
+product_time: 0.513104
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.513110
+demo106 is ******correct
+states:31313
+--------------------------------------------demo107---------------------------------------------------
+product_time: 0.091173
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.091181
+demo107 is ******correct
+states:31313
+--------------------------------------------demo108---------------------------------------------------
+product_time: 0.664877
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.664884
+demo108 is ******correct
+states:31313
+--------------------------------------------demo109---------------------------------------------------
+product_time: 0.439631
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.439638
+demo109 is ******correct
+states:31313
+--------------------------------------------demo110---------------------------------------------------
+product_time: 0.558440
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.558448
+demo110 is ******correct
+states:31313
+--------------------------------------------demo111---------------------------------------------------
+product_time: 0.291352
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.291358
+demo111 is ******correct
+states:31313
+--------------------------------------------demo112---------------------------------------------------
+product_time: 0.285779
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.285786
+demo112 is ******correct
+states:31313
+--------------------------------------------demo113---------------------------------------------------
+product_time: 0.326397
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.326404
+demo113 is ******correct
+states:31313
+--------------------------------------------demo114---------------------------------------------------
+product_time: 0.749371
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.749379
+demo114 is ******correct
+states:31313
+--------------------------------------------demo115---------------------------------------------------
+product_time: 0.531786
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.531795
+demo115 is ******correct
+states:31313
+--------------------------------------------demo116---------------------------------------------------
+product_time: 0.034892
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.034899
+demo116 is ******correct
+states:31313
+--------------------------------------------demo117---------------------------------------------------
+product_time: 0.232121
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.232129
+demo117 is ******correct
+states:31313
+--------------------------------------------demo118---------------------------------------------------
+product_time: 0.232757
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.232765
+demo118 is ******correct
+states:31313
+--------------------------------------------demo119---------------------------------------------------
+product_time: 0.091206
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.091214
+demo119 is ******correct
+states:31313
+--------------------------------------------demo120---------------------------------------------------
+product_time: 0.091737
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.091744
+demo120 is ******correct
+states:31313
+--------------------------------------------demo121---------------------------------------------------
+product_time: 0.201629
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.201636
+demo121 is ******correct
+states:31313
+--------------------------------------------demo122---------------------------------------------------
+product_time: 0.147955
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.147962
+demo122 is ******correct
+states:31313
+--------------------------------------------demo123---------------------------------------------------
+product_time: 0.634083
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.634090
+demo123 is ******correct
+states:31313
+--------------------------------------------demo124---------------------------------------------------
+product_time: 0.154739
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.154747
+demo124 is ******correct
+states:31313
+--------------------------------------------demo125---------------------------------------------------
+product_time: 0.047864
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.047871
+demo125 is ******correct
+states:31313
+--------------------------------------------demo126---------------------------------------------------
+product_time: 0.576500
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.576507
+demo126 is ******correct
+states:31313
+--------------------------------------------demo127---------------------------------------------------
+product_time: 0.119749
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.119755
+demo127 is ******correct
+states:31313
+--------------------------------------------demo128---------------------------------------------------
+product_time: 0.466199
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.466207
+demo128 is ******correct
+states:31313
+--------------------------------------------demo129---------------------------------------------------
+product_time: 0.472894
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.472903
+demo129 is ******correct
+states:31313
+--------------------------------------------demo130---------------------------------------------------
+product_time: 0.231127
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.231134
+demo130 is ******correct
+states:31313
+--------------------------------------------demo131---------------------------------------------------
+product_time: 0.248002
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.248010
+demo131 is ******correct
+states:31313
+--------------------------------------------demo132---------------------------------------------------
+product_time: 0.132366
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.132372
+demo132 is ******correct
+states:31313
+--------------------------------------------demo133---------------------------------------------------
+product_time: 0.431767
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.431775
+demo133 is ******correct
+states:31313
+--------------------------------------------demo134---------------------------------------------------
+product_time: 0.256784
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.256792
+demo134 is ******correct
+states:31313
+--------------------------------------------demo135---------------------------------------------------
+product_time: 0.196429
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.196435
+demo135 is ******correct
+states:31313
+--------------------------------------------demo136---------------------------------------------------
+product_time: 0.301798
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.301806
+demo136 is ******correct
+states:31313
+--------------------------------------------demo137---------------------------------------------------
+product_time: 0.068028
+union_time: 0.063927
+refindment nums:168
+verify_time: 0.988635
+demo137 is ******correct
+states:31920
+--------------------------------------------demo138---------------------------------------------------
+product_time: 0.205870
+union_time: 0.072389
+refindment nums:164
+verify_time: 1.292424
+demo138 is ******correct
+states:32558
+--------------------------------------------demo139---------------------------------------------------
+product_time: 1.082528
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.082536
+demo139 is ******correct
+states:32558
+--------------------------------------------demo140---------------------------------------------------
+product_time: 0.401232
+union_time: 0.090238
+refindment nums:274
+verify_time: 5.084857
+demo140 is ******correct
+states:33573
+--------------------------------------------demo141---------------------------------------------------
+product_time: 0.317742
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.317750
+demo141 is ******correct
+states:33573
+--------------------------------------------demo142---------------------------------------------------
+product_time: 0.162187
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.162195
+demo142 is ******correct
+states:33573
+--------------------------------------------demo143---------------------------------------------------
+product_time: 0.628565
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.628573
+demo143 is ******correct
+states:33573
+--------------------------------------------demo144---------------------------------------------------
+product_time: 0.493689
+union_time: 0.111086
+refindment nums:233
+verify_time: 22.680490
+demo144 is ******correct
+states:34746
+--------------------------------------------demo145---------------------------------------------------
+product_time: 0.190811
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.190818
+demo145 is ******correct
+states:34746
+--------------------------------------------demo146---------------------------------------------------
+product_time: 0.421248
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.421255
+demo146 is ******correct
+states:34746
+--------------------------------------------demo147---------------------------------------------------
+product_time: 0.154597
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.154604
+demo147 is ******correct
+states:34746
+--------------------------------------------demo148---------------------------------------------------
+product_time: 0.283807
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.283812
+demo148 is ******correct
+states:34746
+--------------------------------------------demo149---------------------------------------------------
+product_time: 0.073199
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.073206
+demo149 is ******correct
+states:34746
+--------------------------------------------demo150---------------------------------------------------
+product_time: 0.174770
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.174777
+demo150 is ******correct
+states:34746
+--------------------------------------------demo151---------------------------------------------------
+product_time: 0.194584
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.194591
+demo151 is ******correct
+states:34746
+--------------------------------------------demo152---------------------------------------------------
+product_time: 0.434445
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.434452
+demo152 is ******correct
+states:34746
+--------------------------------------------demo153---------------------------------------------------
+product_time: 0.275114
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.275121
+demo153 is ******correct
+states:34746
+--------------------------------------------demo154---------------------------------------------------
+product_time: 0.069405
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.069414
+demo154 is ******correct
+states:34746
+--------------------------------------------demo155---------------------------------------------------
+product_time: 0.259028
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.259036
+demo155 is ******correct
+states:34746
+--------------------------------------------demo156---------------------------------------------------
+product_time: 0.521102
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.521111
+demo156 is ******correct
+states:34746
+--------------------------------------------demo157---------------------------------------------------
+product_time: 0.423329
+union_time: 0.051497
+refindment nums:159
+verify_time: 2.523514
+demo157 is ******correct
+states:35350
+--------------------------------------------demo158---------------------------------------------------
+product_time: 0.201274
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.201280
+demo158 is ******correct
+states:35350
+--------------------------------------------demo159---------------------------------------------------
+product_time: 0.177209
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.177216
+demo159 is ******correct
+states:35350
+--------------------------------------------demo160---------------------------------------------------
+product_time: 1.025158
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.025165
+demo160 is ******correct
+states:35350
+--------------------------------------------demo161---------------------------------------------------
+product_time: 0.105948
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.105956
+demo161 is ******correct
+states:35350
+--------------------------------------------demo162---------------------------------------------------
+product_time: 0.392654
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.392662
+demo162 is ******correct
+states:35350
+--------------------------------------------demo163---------------------------------------------------
+product_time: 0.269344
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.269353
+demo163 is ******correct
+states:35350
+--------------------------------------------demo164---------------------------------------------------
+product_time: 0.114396
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.114403
+demo164 is ******correct
+states:35350
+--------------------------------------------demo165---------------------------------------------------
+product_time: 0.199603
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.199609
+demo165 is ******correct
+states:35350
+--------------------------------------------demo166---------------------------------------------------
+product_time: 0.126193
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.126199
+demo166 is ******correct
+states:35350
+--------------------------------------------demo167---------------------------------------------------
+product_time: 0.434253
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.434260
+demo167 is ******correct
+states:35350
+--------------------------------------------demo168---------------------------------------------------
+product_time: 0.436898
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.436905
+demo168 is ******correct
+states:35350
+--------------------------------------------demo169---------------------------------------------------
+product_time: 0.441801
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.441808
+demo169 is ******correct
+states:35350
+--------------------------------------------demo170---------------------------------------------------
+product_time: 0.316606
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.316613
+demo170 is ******correct
+states:35350
+--------------------------------------------demo171---------------------------------------------------
+product_time: 0.532149
+union_time: 0.136248
+refindment nums:441
+verify_time: 10.899900
+demo171 is ******correct
+states:36794
+--------------------------------------------demo172---------------------------------------------------
+product_time: 0.144318
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.144327
+demo172 is ******correct
+states:36794
+--------------------------------------------demo173---------------------------------------------------
+product_time: 0.097802
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.097808
+demo173 is ******correct
+states:36794
+--------------------------------------------demo174---------------------------------------------------
+product_time: 0.597446
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.597453
+demo174 is ******correct
+states:36794
+--------------------------------------------demo175---------------------------------------------------
+product_time: 0.239666
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.239674
+demo175 is ******correct
+states:36794
+--------------------------------------------demo176---------------------------------------------------
+product_time: 0.228615
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.228622
+demo176 is ******correct
+states:36794
+--------------------------------------------demo177---------------------------------------------------
+product_time: 0.113436
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.113444
+demo177 is ******correct
+states:36794
+--------------------------------------------demo178---------------------------------------------------
+product_time: 0.118367
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.118374
+demo178 is ******correct
+states:36794
+--------------------------------------------demo179---------------------------------------------------
+product_time: 0.082255
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.082264
+demo179 is ******correct
+states:36794
+--------------------------------------------demo180---------------------------------------------------
+product_time: 0.261084
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.261091
+demo180 is ******correct
+states:36794
+--------------------------------------------demo181---------------------------------------------------
+product_time: 0.664877
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.664885
+demo181 is ******correct
+states:36794
+--------------------------------------------demo182---------------------------------------------------
+product_time: 0.079743
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.079749
+demo182 is ******correct
+states:36794
+--------------------------------------------demo183---------------------------------------------------
+product_time: 0.335506
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.335514
+demo183 is ******correct
+states:36794
+--------------------------------------------demo184---------------------------------------------------
+product_time: 0.275857
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.275865
+demo184 is ******correct
+states:36794
+--------------------------------------------demo185---------------------------------------------------
+product_time: 0.470990
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.470998
+demo185 is ******correct
+states:36794
+--------------------------------------------demo186---------------------------------------------------
+product_time: 0.665878
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.665888
+demo186 is ******correct
+states:36794
+--------------------------------------------demo187---------------------------------------------------
+product_time: 0.255347
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.255354
+demo187 is ******correct
+states:36794
+--------------------------------------------demo188---------------------------------------------------
+product_time: 0.829693
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.829702
+demo188 is ******correct
+states:36794
+--------------------------------------------demo189---------------------------------------------------
+product_time: 0.233482
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.233489
+demo189 is ******correct
+states:36794
+--------------------------------------------demo190---------------------------------------------------
+product_time: 0.552141
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.552149
+demo190 is ******correct
+states:36794
+--------------------------------------------demo191---------------------------------------------------
+product_time: 0.154081
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.154089
+demo191 is ******correct
+states:36794
+--------------------------------------------demo192---------------------------------------------------
+product_time: 0.585764
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.585772
+demo192 is ******correct
+states:36794
+--------------------------------------------demo193---------------------------------------------------
+product_time: 0.229258
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.229264
+demo193 is ******correct
+states:36794
+--------------------------------------------demo194---------------------------------------------------
+product_time: 0.086184
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.086190
+demo194 is ******correct
+states:36794
+--------------------------------------------demo195---------------------------------------------------
+product_time: 0.702635
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.702643
+demo195 is ******correct
+states:36794
+--------------------------------------------demo196---------------------------------------------------
+product_time: 0.377498
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.377505
+demo196 is ******correct
+states:36794
+--------------------------------------------demo197---------------------------------------------------
+product_time: 0.218718
+union_time: 0.000002
+refindment nums:0
+verify_time: 0.218728
+demo197 is ******correct
+states:36794
+--------------------------------------------demo198---------------------------------------------------
+product_time: 0.642670
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.642678
+demo198 is ******correct
+states:36794
+--------------------------------------------demo199---------------------------------------------------
+product_time: 0.283925
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.283932
+demo199 is ******correct
+states:36794
+----------------------------------------前200个---------------------------------------
+time_cost:280.608451
+product_time:56.965036
+product_time百分比:0.203005
+union_time:3.698640
+union_time百分比:0.013181
+--------------------------------------------demo200---------------------------------------------------
+product_time: 1.142131
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.142138
+demo200 is ******correct
+states:36794
+--------------------------------------------demo201---------------------------------------------------
+product_time: 0.071484
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.071490
+demo201 is ******correct
+states:36794
+--------------------------------------------demo202---------------------------------------------------
+product_time: 0.262905
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.262912
+demo202 is ******correct
+states:36794
+--------------------------------------------demo203---------------------------------------------------
+product_time: 0.795289
+union_time: 0.105673
+refindment nums:322
+verify_time: 4.107676
+demo203 is ******correct
+states:37810
+--------------------------------------------demo204---------------------------------------------------
+product_time: 0.275666
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.275674
+demo204 is ******correct
+states:37810
+--------------------------------------------demo205---------------------------------------------------
+product_time: 0.134494
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.134501
+demo205 is ******correct
+states:37810
+--------------------------------------------demo206---------------------------------------------------
+product_time: 0.367399
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.367406
+demo206 is ******correct
+states:37810
+--------------------------------------------demo207---------------------------------------------------
+product_time: 0.264650
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.264658
+demo207 is ******correct
+states:37810
+--------------------------------------------demo208---------------------------------------------------
+product_time: 0.992144
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.992151
+demo208 is ******correct
+states:37810
+--------------------------------------------demo209---------------------------------------------------
+product_time: 0.048502
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.048509
+demo209 is ******correct
+states:37810
+--------------------------------------------demo210---------------------------------------------------
+product_time: 0.236008
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.236016
+demo210 is ******correct
+states:37810
+--------------------------------------------demo211---------------------------------------------------
+product_time: 0.379761
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.379769
+demo211 is ******correct
+states:37810
+--------------------------------------------demo212---------------------------------------------------
+product_time: 0.166491
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.166498
+demo212 is ******correct
+states:37810
+--------------------------------------------demo213---------------------------------------------------
+product_time: 0.147571
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.147578
+demo213 is ******correct
+states:37810
+--------------------------------------------demo214---------------------------------------------------
+product_time: 0.152148
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.152155
+demo214 is ******correct
+states:37810
+--------------------------------------------demo215---------------------------------------------------
+product_time: 0.047233
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.047239
+demo215 is ******correct
+states:37810
+--------------------------------------------demo216---------------------------------------------------
+product_time: 0.161561
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.161568
+demo216 is ******correct
+states:37810
+--------------------------------------------demo217---------------------------------------------------
+product_time: 0.101251
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.101257
+demo217 is ******correct
+states:37810
+--------------------------------------------demo218---------------------------------------------------
+product_time: 0.230939
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.230947
+demo218 is ******correct
+states:37810
+--------------------------------------------demo219---------------------------------------------------
+product_time: 0.320540
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.320546
+demo219 is ******correct
+states:37810
+--------------------------------------------demo220---------------------------------------------------
+product_time: 0.374001
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.374009
+demo220 is ******correct
+states:37810
+--------------------------------------------demo221---------------------------------------------------
+product_time: 0.232496
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.232503
+demo221 is ******correct
+states:37810
+--------------------------------------------demo222---------------------------------------------------
+product_time: 0.203397
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.203403
+demo222 is ******correct
+states:37810
+--------------------------------------------demo223---------------------------------------------------
+product_time: 0.090974
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.090982
+demo223 is ******correct
+states:37810
+--------------------------------------------demo224---------------------------------------------------
+product_time: 1.118128
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.118135
+demo224 is ******correct
+states:37810
+--------------------------------------------demo225---------------------------------------------------
+product_time: 0.349426
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.349433
+demo225 is ******correct
+states:37810
+--------------------------------------------demo226---------------------------------------------------
+product_time: 0.142589
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.142596
+demo226 is ******correct
+states:37810
+--------------------------------------------demo227---------------------------------------------------
+product_time: 0.568758
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.568766
+demo227 is ******correct
+states:37810
+--------------------------------------------demo228---------------------------------------------------
+product_time: 0.562697
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.562705
+demo228 is ******correct
+states:37810
+--------------------------------------------demo229---------------------------------------------------
+product_time: 1.100462
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.100470
+demo229 is ******correct
+states:37810
+--------------------------------------------demo230---------------------------------------------------
+product_time: 0.437335
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.437341
+demo230 is ******correct
+states:37810
+--------------------------------------------demo231---------------------------------------------------
+product_time: 0.383235
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.383243
+demo231 is ******correct
+states:37810
+--------------------------------------------demo232---------------------------------------------------
+product_time: 0.418633
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.418641
+demo232 is ******correct
+states:37810
+--------------------------------------------demo233---------------------------------------------------
+product_time: 0.102877
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.102884
+demo233 is ******correct
+states:37810
+--------------------------------------------demo234---------------------------------------------------
+product_time: 0.171057
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.171063
+demo234 is ******correct
+states:37810
+--------------------------------------------demo235---------------------------------------------------
+product_time: 0.380937
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.380943
+demo235 is ******correct
+states:37810
+--------------------------------------------demo236---------------------------------------------------
+product_time: 0.491217
+union_time: 0.080568
+refindment nums:215
+verify_time: 3.602458
+demo236 is ******correct
+states:38740
+--------------------------------------------demo237---------------------------------------------------
+product_time: 0.075110
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.075118
+demo237 is ******correct
+states:38740
+--------------------------------------------demo238---------------------------------------------------
+product_time: 0.315405
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.315411
+demo238 is ******correct
+states:38740
+--------------------------------------------demo239---------------------------------------------------
+product_time: 0.107244
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.107251
+demo239 is ******correct
+states:38740
+--------------------------------------------demo240---------------------------------------------------
+product_time: 0.167046
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.167053
+demo240 is ******correct
+states:38740
+--------------------------------------------demo241---------------------------------------------------
+product_time: 0.058192
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.058198
+demo241 is ******correct
+states:38740
+--------------------------------------------demo242---------------------------------------------------
+product_time: 0.206893
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.206901
+demo242 is ******correct
+states:38740
+--------------------------------------------demo243---------------------------------------------------
+product_time: 0.424045
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.424051
+demo243 is ******correct
+states:38740
+--------------------------------------------demo244---------------------------------------------------
+product_time: 0.203811
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.203818
+demo244 is ******correct
+states:38740
+--------------------------------------------demo245---------------------------------------------------
+product_time: 0.164762
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.164769
+demo245 is ******correct
+states:38740
+--------------------------------------------demo246---------------------------------------------------
+product_time: 0.201017
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.201025
+demo246 is ******correct
+states:38740
+--------------------------------------------demo247---------------------------------------------------
+product_time: 0.188828
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.188837
+demo247 is ******correct
+states:38740
+--------------------------------------------demo248---------------------------------------------------
+product_time: 0.257531
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.257538
+demo248 is ******correct
+states:38740
+--------------------------------------------demo249---------------------------------------------------
+product_time: 0.566562
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.566568
+demo249 is ******correct
+states:38740
+--------------------------------------------demo250---------------------------------------------------
+product_time: 1.344721
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.344729
+demo250 is ******correct
+states:38740
+--------------------------------------------demo251---------------------------------------------------
+product_time: 0.038621
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.038628
+demo251 is ******correct
+states:38740
+--------------------------------------------demo252---------------------------------------------------
+product_time: 0.764180
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.764187
+demo252 is ******correct
+states:38740
+--------------------------------------------demo253---------------------------------------------------
+product_time: 0.294286
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.294291
+demo253 is ******correct
+states:38740
+--------------------------------------------demo254---------------------------------------------------
+product_time: 0.409049
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.409056
+demo254 is ******correct
+states:38740
+--------------------------------------------demo255---------------------------------------------------
+product_time: 0.113282
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.113288
+demo255 is ******correct
+states:38740
+--------------------------------------------demo256---------------------------------------------------
+product_time: 0.417588
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.417594
+demo256 is ******correct
+states:38740
+--------------------------------------------demo257---------------------------------------------------
+product_time: 0.183898
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.183904
+demo257 is ******correct
+states:38740
+--------------------------------------------demo258---------------------------------------------------
+product_time: 0.236898
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.236904
+demo258 is ******correct
+states:38740
+--------------------------------------------demo259---------------------------------------------------
+product_time: 0.607118
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.607125
+demo259 is ******correct
+states:38740
+--------------------------------------------demo260---------------------------------------------------
+product_time: 0.138924
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.138930
+demo260 is ******correct
+states:38740
+--------------------------------------------demo261---------------------------------------------------
+product_time: 0.447255
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.447262
+demo261 is ******correct
+states:38740
+--------------------------------------------demo262---------------------------------------------------
+product_time: 0.085731
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.085737
+demo262 is ******correct
+states:38740
+--------------------------------------------demo263---------------------------------------------------
+product_time: 0.325754
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.325760
+demo263 is ******correct
+states:38740
+--------------------------------------------demo264---------------------------------------------------
+product_time: 0.273216
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.273223
+demo264 is ******correct
+states:38740
+--------------------------------------------demo265---------------------------------------------------
+product_time: 0.371191
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.371199
+demo265 is ******correct
+states:38740
+--------------------------------------------demo266---------------------------------------------------
+product_time: 3.539134
+union_time: 0.000000
+refindment nums:0
+verify_time: 3.539143
+demo266 is ******correct
+states:38740
+--------------------------------------------demo267---------------------------------------------------
+product_time: 0.652149
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.652158
+demo267 is ******correct
+states:38740
+--------------------------------------------demo268---------------------------------------------------
+product_time: 0.239638
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.239645
+demo268 is ******correct
+states:38740
+--------------------------------------------demo269---------------------------------------------------
+product_time: 0.582745
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.582753
+demo269 is ******correct
+states:38740
+--------------------------------------------demo270---------------------------------------------------
+product_time: 0.326281
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.326290
+demo270 is ******correct
+states:38740
+--------------------------------------------demo271---------------------------------------------------
+product_time: 0.335304
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.335311
+demo271 is ******correct
+states:38740
+--------------------------------------------demo272---------------------------------------------------
+product_time: 0.234769
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.234776
+demo272 is ******correct
+states:38740
+--------------------------------------------demo273---------------------------------------------------
+product_time: 0.274475
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.274482
+demo273 is ******correct
+states:38740
+--------------------------------------------demo274---------------------------------------------------
+product_time: 0.203833
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.203840
+demo274 is ******correct
+states:38740
+--------------------------------------------demo275---------------------------------------------------
+product_time: 0.849140
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.849149
+demo275 is ******correct
+states:38740
+--------------------------------------------demo276---------------------------------------------------
+product_time: 0.264985
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.264991
+demo276 is ******correct
+states:38740
+--------------------------------------------demo277---------------------------------------------------
+product_time: 0.830147
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.830157
+demo277 is ******correct
+states:38740
+--------------------------------------------demo278---------------------------------------------------
+product_time: 0.167272
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.167279
+demo278 is ******correct
+states:38740
+--------------------------------------------demo279---------------------------------------------------
+product_time: 0.054472
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.054478
+demo279 is ******correct
+states:38740
+--------------------------------------------demo280---------------------------------------------------
+product_time: 0.132021
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.132027
+demo280 is ******correct
+states:38740
+--------------------------------------------demo281---------------------------------------------------
+product_time: 0.309424
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.309432
+demo281 is ******correct
+states:38740
+--------------------------------------------demo282---------------------------------------------------
+product_time: 0.567917
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.567925
+demo282 is ******correct
+states:38740
+--------------------------------------------demo283---------------------------------------------------
+product_time: 0.268024
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.268033
+demo283 is ******correct
+states:38740
+--------------------------------------------demo284---------------------------------------------------
+product_time: 0.242074
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.242080
+demo284 is ******correct
+states:38740
+--------------------------------------------demo285---------------------------------------------------
+product_time: 0.635155
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.635163
+demo285 is ******correct
+states:38740
+--------------------------------------------demo286---------------------------------------------------
+product_time: 0.087821
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.087828
+demo286 is ******correct
+states:38740
+--------------------------------------------demo287---------------------------------------------------
+product_time: 0.424522
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.424530
+demo287 is ******correct
+states:38740
+--------------------------------------------demo288---------------------------------------------------
+product_time: 0.293700
+union_time: 0.054164
+refindment nums:133
+verify_time: 1.154455
+demo288 is ******correct
+states:39137
+--------------------------------------------demo289---------------------------------------------------
+product_time: 0.578957
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.578965
+demo289 is ******correct
+states:39137
+--------------------------------------------demo290---------------------------------------------------
+product_time: 0.273928
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.273934
+demo290 is ******correct
+states:39137
+--------------------------------------------demo291---------------------------------------------------
+product_time: 0.232312
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.232318
+demo291 is ******correct
+states:39137
+--------------------------------------------demo292---------------------------------------------------
+product_time: 0.626533
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.626540
+demo292 is ******correct
+states:39137
+--------------------------------------------demo293---------------------------------------------------
+product_time: 0.287131
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.287139
+demo293 is ******correct
+states:39137
+--------------------------------------------demo294---------------------------------------------------
+product_time: 0.034938
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.034945
+demo294 is ******correct
+states:39137
+--------------------------------------------demo295---------------------------------------------------
+product_time: 0.174000
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.174008
+demo295 is ******correct
+states:39137
+--------------------------------------------demo296---------------------------------------------------
+product_time: 0.126655
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.126662
+demo296 is ******correct
+states:39137
+--------------------------------------------demo297---------------------------------------------------
+product_time: 0.258222
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.258228
+demo297 is ******correct
+states:39137
+--------------------------------------------demo298---------------------------------------------------
+product_time: 0.368035
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.368042
+demo298 is ******correct
+states:39137
+--------------------------------------------demo299---------------------------------------------------
+product_time: 0.377959
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.377968
+demo299 is ******correct
+states:39137
+----------------------------------------前300个---------------------------------------
+time_cost:325.195171
+product_time:94.233251
+product_time百分比:0.289774
+union_time:3.939091
+union_time百分比:0.012113
+--------------------------------------------demo300---------------------------------------------------
+product_time: 0.150782
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.150790
+demo300 is ******correct
+states:39137
+--------------------------------------------demo301---------------------------------------------------
+product_time: 0.425068
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.425075
+demo301 is ******correct
+states:39137
+--------------------------------------------demo302---------------------------------------------------
+product_time: 0.428037
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.428047
+demo302 is ******correct
+states:39137
+--------------------------------------------demo303---------------------------------------------------
+product_time: 0.491505
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.491513
+demo303 is ******correct
+states:39137
+--------------------------------------------demo304---------------------------------------------------
+product_time: 0.165850
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.165860
+demo304 is ******correct
+states:39137
+--------------------------------------------demo305---------------------------------------------------
+product_time: 0.707185
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.707196
+demo305 is ******correct
+states:39137
+--------------------------------------------demo306---------------------------------------------------
+product_time: 0.265062
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.265069
+demo306 is ******correct
+states:39137
+--------------------------------------------demo307---------------------------------------------------
+product_time: 0.100112
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.100119
+demo307 is ******correct
+states:39137
+--------------------------------------------demo308---------------------------------------------------
+product_time: 0.115309
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.115316
+demo308 is ******correct
+states:39137
+--------------------------------------------demo309---------------------------------------------------
+product_time: 0.843174
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.843182
+demo309 is ******correct
+states:39137
+--------------------------------------------demo310---------------------------------------------------
+product_time: 0.506311
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.506318
+demo310 is ******correct
+states:39137
+--------------------------------------------demo311---------------------------------------------------
+product_time: 0.171737
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.171743
+demo311 is ******correct
+states:39137
+--------------------------------------------demo312---------------------------------------------------
+product_time: 0.437270
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.437276
+demo312 is ******correct
+states:39137
+--------------------------------------------demo313---------------------------------------------------
+product_time: 0.134665
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.134672
+demo313 is ******correct
+states:39137
+--------------------------------------------demo314---------------------------------------------------
+product_time: 0.129173
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.129181
+demo314 is ******correct
+states:39137
+--------------------------------------------demo315---------------------------------------------------
+product_time: 0.290981
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.290988
+demo315 is ******correct
+states:39137
+--------------------------------------------demo316---------------------------------------------------
+product_time: 0.329958
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.329965
+demo316 is ******correct
+states:39137
+--------------------------------------------demo317---------------------------------------------------
+product_time: 0.108768
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.108775
+demo317 is ******correct
+states:39137
+--------------------------------------------demo318---------------------------------------------------
+product_time: 0.086741
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.086749
+demo318 is ******correct
+states:39137
+--------------------------------------------demo319---------------------------------------------------
+product_time: 0.236585
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.236591
+demo319 is ******correct
+states:39137
+--------------------------------------------demo320---------------------------------------------------
+product_time: 1.076893
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.076899
+demo320 is ******correct
+states:39137
+--------------------------------------------demo321---------------------------------------------------
+product_time: 0.852963
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.852971
+demo321 is ******correct
+states:39137
+--------------------------------------------demo322---------------------------------------------------
+product_time: 0.150774
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.150780
+demo322 is ******correct
+states:39137
+--------------------------------------------demo323---------------------------------------------------
+product_time: 0.256112
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.256119
+demo323 is ******correct
+states:39137
+--------------------------------------------demo324---------------------------------------------------
+product_time: 0.270284
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.270291
+demo324 is ******correct
+states:39137
+--------------------------------------------demo325---------------------------------------------------
+product_time: 0.054784
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.054791
+demo325 is ******correct
+states:39137
+--------------------------------------------demo326---------------------------------------------------
+product_time: 0.063709
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.063716
+demo326 is ******correct
+states:39137
+--------------------------------------------demo327---------------------------------------------------
+product_time: 0.382150
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.382159
+demo327 is ******correct
+states:39137
+--------------------------------------------demo328---------------------------------------------------
+product_time: 0.115832
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.115839
+demo328 is ******correct
+states:39137
+--------------------------------------------demo329---------------------------------------------------
+product_time: 0.340084
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.340093
+demo329 is ******correct
+states:39137
+--------------------------------------------demo330---------------------------------------------------
+product_time: 0.088511
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.088519
+demo330 is ******correct
+states:39137
+--------------------------------------------demo331---------------------------------------------------
+product_time: 0.241293
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.241301
+demo331 is ******correct
+states:39137
+--------------------------------------------demo332---------------------------------------------------
+product_time: 0.376814
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.376821
+demo332 is ******correct
+states:39137
+--------------------------------------------demo333---------------------------------------------------
+product_time: 0.288516
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.288524
+demo333 is ******correct
+states:39137
+--------------------------------------------demo334---------------------------------------------------
+product_time: 0.299628
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.299635
+demo334 is ******correct
+states:39137
+--------------------------------------------demo335---------------------------------------------------
+product_time: 0.608485
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.608493
+demo335 is ******correct
+states:39137
+--------------------------------------------demo336---------------------------------------------------
+product_time: 0.453170
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.453178
+demo336 is ******correct
+states:39137
+--------------------------------------------demo337---------------------------------------------------
+product_time: 0.469248
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.469255
+demo337 is ******correct
+states:39137
+--------------------------------------------demo338---------------------------------------------------
+product_time: 0.845717
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.845725
+demo338 is ******correct
+states:39137
+--------------------------------------------demo339---------------------------------------------------
+product_time: 0.084958
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.084965
+demo339 is ******correct
+states:39137
+--------------------------------------------demo340---------------------------------------------------
+product_time: 0.612465
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.612473
+demo340 is ******correct
+states:39137
+--------------------------------------------demo341---------------------------------------------------
+product_time: 0.393169
+union_time: 0.070454
+refindment nums:202
+verify_time: 3.414670
+demo341 is ******correct
+states:39792
+--------------------------------------------demo342---------------------------------------------------
+product_time: 0.980715
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.980722
+demo342 is ******correct
+states:39792
+--------------------------------------------demo343---------------------------------------------------
+product_time: 0.542563
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.542571
+demo343 is ******correct
+states:39792
+--------------------------------------------demo344---------------------------------------------------
+product_time: 0.227877
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.227884
+demo344 is ******correct
+states:39792
+--------------------------------------------demo345---------------------------------------------------
+product_time: 0.098238
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.098245
+demo345 is ******correct
+states:39792
+--------------------------------------------demo346---------------------------------------------------
+product_time: 0.438942
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.438950
+demo346 is ******correct
+states:39792
+--------------------------------------------demo347---------------------------------------------------
+product_time: 0.363055
+union_time: 0.132401
+refindment nums:356
+verify_time: 5.168699
+demo347 is ******correct
+states:41174
+--------------------------------------------demo348---------------------------------------------------
+product_time: 0.115101
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.115109
+demo348 is ******correct
+states:41174
+--------------------------------------------demo349---------------------------------------------------
+product_time: 0.262448
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.262454
+demo349 is ******correct
+states:41174
+--------------------------------------------demo350---------------------------------------------------
+product_time: 0.498899
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.498907
+demo350 is ******correct
+states:41174
+--------------------------------------------demo351---------------------------------------------------
+product_time: 0.048454
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.048460
+demo351 is ******correct
+states:41174
+--------------------------------------------demo352---------------------------------------------------
+product_time: 0.088160
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.088168
+demo352 is ******correct
+states:41174
+--------------------------------------------demo353---------------------------------------------------
+product_time: 0.261687
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.261694
+demo353 is ******correct
+states:41174
+--------------------------------------------demo354---------------------------------------------------
+product_time: 0.215650
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.215656
+demo354 is ******correct
+states:41174
+--------------------------------------------demo355---------------------------------------------------
+product_time: 0.573180
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.573188
+demo355 is ******correct
+states:41174
+--------------------------------------------demo356---------------------------------------------------
+product_time: 0.456633
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.456640
+demo356 is ******correct
+states:41174
+--------------------------------------------demo357---------------------------------------------------
+product_time: 0.280596
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.280603
+demo357 is ******correct
+states:41174
+--------------------------------------------demo358---------------------------------------------------
+product_time: 0.760199
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.760208
+demo358 is ******correct
+states:41174
+--------------------------------------------demo359---------------------------------------------------
+product_time: 0.486825
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.486834
+demo359 is ******correct
+states:41174
+--------------------------------------------demo360---------------------------------------------------
+product_time: 0.266672
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.266678
+demo360 is ******correct
+states:41174
+--------------------------------------------demo361---------------------------------------------------
+product_time: 0.165849
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.165855
+demo361 is ******correct
+states:41174
+--------------------------------------------demo362---------------------------------------------------
+product_time: 0.294974
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.294980
+demo362 is ******correct
+states:41174
+--------------------------------------------demo363---------------------------------------------------
+product_time: 0.202813
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.202823
+demo363 is ******correct
+states:41174
+--------------------------------------------demo364---------------------------------------------------
+product_time: 0.214111
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.214119
+demo364 is ******correct
+states:41174
+--------------------------------------------demo365---------------------------------------------------
+product_time: 0.217179
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.217185
+demo365 is ******correct
+states:41174
+--------------------------------------------demo366---------------------------------------------------
+product_time: 0.278643
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.278651
+demo366 is ******correct
+states:41174
+--------------------------------------------demo367---------------------------------------------------
+product_time: 0.240266
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.240273
+demo367 is ******correct
+states:41174
+--------------------------------------------demo368---------------------------------------------------
+product_time: 0.305255
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.305263
+demo368 is ******correct
+states:41174
+--------------------------------------------demo369---------------------------------------------------
+product_time: 0.459510
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.459519
+demo369 is ******correct
+states:41174
+--------------------------------------------demo370---------------------------------------------------
+product_time: 0.265232
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.265239
+demo370 is ******correct
+states:41174
+--------------------------------------------demo371---------------------------------------------------
+product_time: 1.133486
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.133495
+demo371 is ******correct
+states:41174
+--------------------------------------------demo372---------------------------------------------------
+product_time: 0.115533
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.115540
+demo372 is ******correct
+states:41174
+--------------------------------------------demo373---------------------------------------------------
+product_time: 0.876130
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.876137
+demo373 is ******correct
+states:41174
+--------------------------------------------demo374---------------------------------------------------
+product_time: 0.263598
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.263604
+demo374 is ******correct
+states:41174
+--------------------------------------------demo375---------------------------------------------------
+product_time: 0.174973
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.174981
+demo375 is ******correct
+states:41174
+--------------------------------------------demo376---------------------------------------------------
+product_time: 0.157185
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.157192
+demo376 is ******correct
+states:41174
+--------------------------------------------demo377---------------------------------------------------
+product_time: 0.428421
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.428429
+demo377 is ******correct
+states:41174
+--------------------------------------------demo378---------------------------------------------------
+product_time: 0.388872
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.388878
+demo378 is ******correct
+states:41174
+--------------------------------------------demo379---------------------------------------------------
+product_time: 0.364005
+union_time: 0.699581
+refindment nums:791
+verify_time: 98.388340
+demo379 is ******correct
+states:46611
+--------------------------------------------demo380---------------------------------------------------
+product_time: 0.351007
+union_time: 0.195572
+refindment nums:393
+verify_time: 29.035967
+demo380 is ******correct
+states:48355
+--------------------------------------------demo381---------------------------------------------------
+product_time: 0.136940
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.136949
+demo381 is ******correct
+states:48355
+--------------------------------------------demo382---------------------------------------------------
+product_time: 0.203836
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.203843
+demo382 is ******correct
+states:48355
+--------------------------------------------demo383---------------------------------------------------
+product_time: 0.051419
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.051426
+demo383 is ******correct
+states:48355
+--------------------------------------------demo384---------------------------------------------------
+product_time: 0.654880
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.654886
+demo384 is ******correct
+states:48355
+--------------------------------------------demo385---------------------------------------------------
+product_time: 0.118485
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.118492
+demo385 is ******correct
+states:48355
+--------------------------------------------demo386---------------------------------------------------
+product_time: 0.361000
+union_time: 0.204950
+refindment nums:318
+verify_time: 6.764566
+demo386 is ******correct
+states:49637
+--------------------------------------------demo387---------------------------------------------------
+product_time: 0.384649
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.384657
+demo387 is ******correct
+states:49637
+--------------------------------------------demo388---------------------------------------------------
+product_time: 0.152151
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.152158
+demo388 is ******correct
+states:49637
+--------------------------------------------demo389---------------------------------------------------
+product_time: 0.334551
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.334558
+demo389 is ******correct
+states:49637
+--------------------------------------------demo390---------------------------------------------------
+product_time: 0.367131
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.367139
+demo390 is ******correct
+states:49637
+--------------------------------------------demo391---------------------------------------------------
+product_time: 0.130133
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.130141
+demo391 is ******correct
+states:49637
+--------------------------------------------demo392---------------------------------------------------
+product_time: 0.703044
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.703051
+demo392 is ******correct
+states:49637
+--------------------------------------------demo393---------------------------------------------------
+product_time: 0.186229
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.186236
+demo393 is ******correct
+states:49637
+--------------------------------------------demo394---------------------------------------------------
+product_time: 0.471002
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.471009
+demo394 is ******correct
+states:49637
+--------------------------------------------demo395---------------------------------------------------
+product_time: 0.280968
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.280976
+demo395 is ******correct
+states:49637
+--------------------------------------------demo396---------------------------------------------------
+product_time: 0.102326
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.102332
+demo396 is ******correct
+states:49637
+--------------------------------------------demo397---------------------------------------------------
+product_time: 0.084474
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.084481
+demo397 is ******correct
+states:49637
+--------------------------------------------demo398---------------------------------------------------
+product_time: 0.087429
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.087437
+demo398 is ******correct
+states:49637
+--------------------------------------------demo399---------------------------------------------------
+product_time: 0.625285
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.625293
+demo399 is ******correct
+states:49637
+----------------------------------------前400个---------------------------------------
+time_cost:499.920627
+product_time:127.981951
+product_time百分比:0.256005
+union_time:5.242095
+union_time百分比:0.010486
+--------------------------------------------demo400---------------------------------------------------
+product_time: 0.251796
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.251803
+demo400 is ******correct
+states:49637
+--------------------------------------------demo401---------------------------------------------------
+product_time: 0.110822
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.110834
+demo401 is ******correct
+states:49637
+--------------------------------------------demo402---------------------------------------------------
+product_time: 0.128659
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.128667
+demo402 is ******correct
+states:49637
+--------------------------------------------demo403---------------------------------------------------
+product_time: 1.382123
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.382131
+demo403 is ******correct
+states:49637
+--------------------------------------------demo404---------------------------------------------------
+product_time: 0.053055
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.053062
+demo404 is ******correct
+states:49637
+--------------------------------------------demo405---------------------------------------------------
+product_time: 0.247752
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.247759
+demo405 is ******correct
+states:49637
+--------------------------------------------demo406---------------------------------------------------
+product_time: 0.175588
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.175597
+demo406 is ******correct
+states:49637
+--------------------------------------------demo407---------------------------------------------------
+product_time: 0.211873
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.211880
+demo407 is ******correct
+states:49637
+--------------------------------------------demo408---------------------------------------------------
+product_time: 0.091150
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.091157
+demo408 is ******correct
+states:49637
+--------------------------------------------demo409---------------------------------------------------
+product_time: 0.648226
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.648233
+demo409 is ******correct
+states:49637
+--------------------------------------------demo410---------------------------------------------------
+product_time: 1.310477
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.310485
+demo410 is ******correct
+states:49637
+--------------------------------------------demo411---------------------------------------------------
+product_time: 0.439513
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.439522
+demo411 is ******correct
+states:49637
+--------------------------------------------demo412---------------------------------------------------
+product_time: 0.441111
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.441117
+demo412 is ******correct
+states:49637
+--------------------------------------------demo413---------------------------------------------------
+product_time: 0.734811
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.734819
+demo413 is ******correct
+states:49637
+--------------------------------------------demo414---------------------------------------------------
+product_time: 0.816107
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.816114
+demo414 is ******correct
+states:49637
+--------------------------------------------demo415---------------------------------------------------
+product_time: 0.124975
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.124982
+demo415 is ******correct
+states:49637
+--------------------------------------------demo416---------------------------------------------------
+product_time: 0.092303
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.092309
+demo416 is ******correct
+states:49637
+--------------------------------------------demo417---------------------------------------------------
+product_time: 0.144654
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.144662
+demo417 is ******correct
+states:49637
+--------------------------------------------demo418---------------------------------------------------
+product_time: 0.280761
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.280768
+demo418 is ******correct
+states:49637
+--------------------------------------------demo419---------------------------------------------------
+product_time: 0.303775
+union_time: 0.351634
+refindment nums:303
+verify_time: 5.440459
+demo419 is ******correct
+states:51322
+--------------------------------------------demo420---------------------------------------------------
+product_time: 0.395008
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.395015
+demo420 is ******correct
+states:51322
+--------------------------------------------demo421---------------------------------------------------
+product_time: 1.077626
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.077632
+demo421 is ******correct
+states:51322
+--------------------------------------------demo422---------------------------------------------------
+product_time: 0.305008
+union_time: 0.055458
+refindment nums:133
+verify_time: 1.774921
+demo422 is ******correct
+states:51845
+--------------------------------------------demo423---------------------------------------------------
+product_time: 0.797812
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.797820
+demo423 is ******correct
+states:51845
+--------------------------------------------demo424---------------------------------------------------
+product_time: 0.752903
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.752910
+demo424 is ******correct
+states:51845
+--------------------------------------------demo425---------------------------------------------------
+product_time: 0.116390
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.116397
+demo425 is ******correct
+states:51845
+--------------------------------------------demo426---------------------------------------------------
+product_time: 0.239500
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.239506
+demo426 is ******correct
+states:51845
+--------------------------------------------demo427---------------------------------------------------
+product_time: 0.107902
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.107911
+demo427 is ******correct
+states:51845
+--------------------------------------------demo428---------------------------------------------------
+product_time: 0.153117
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.153123
+demo428 is ******correct
+states:51845
+--------------------------------------------demo429---------------------------------------------------
+product_time: 0.191994
+union_time: 0.030869
+refindment nums:88
+verify_time: 1.123942
+demo429 is ******correct
+states:52244
+--------------------------------------------demo430---------------------------------------------------
+product_time: 0.875675
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.875682
+demo430 is ******correct
+states:52244
+--------------------------------------------demo431---------------------------------------------------
+product_time: 0.243241
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.243248
+demo431 is ******correct
+states:52244
+--------------------------------------------demo432---------------------------------------------------
+product_time: 0.083989
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.083995
+demo432 is ******correct
+states:52244
+--------------------------------------------demo433---------------------------------------------------
+product_time: 0.613146
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.613153
+demo433 is ******correct
+states:52244
+--------------------------------------------demo434---------------------------------------------------
+product_time: 0.418591
+union_time: 0.040149
+refindment nums:98
+verify_time: 1.320245
+demo434 is ******correct
+states:52613
+--------------------------------------------demo435---------------------------------------------------
+product_time: 0.221395
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.221402
+demo435 is ******correct
+states:52613
+--------------------------------------------demo436---------------------------------------------------
+product_time: 0.482776
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.482783
+demo436 is ******correct
+states:52613
+--------------------------------------------demo437---------------------------------------------------
+product_time: 0.672470
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.672477
+demo437 is ******correct
+states:52613
+--------------------------------------------demo438---------------------------------------------------
+product_time: 0.142978
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.142986
+demo438 is ******correct
+states:52613
+--------------------------------------------demo439---------------------------------------------------
+product_time: 0.579704
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.579711
+demo439 is ******correct
+states:52613
+--------------------------------------------demo440---------------------------------------------------
+product_time: 0.109511
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.109518
+demo440 is ******correct
+states:52613
+--------------------------------------------demo441---------------------------------------------------
+product_time: 0.143094
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.143101
+demo441 is ******correct
+states:52613
+--------------------------------------------demo442---------------------------------------------------
+product_time: 0.170130
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.170138
+demo442 is ******correct
+states:52613
+--------------------------------------------demo443---------------------------------------------------
+product_time: 0.115052
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.115059
+demo443 is ******correct
+states:52613
+--------------------------------------------demo444---------------------------------------------------
+product_time: 0.222151
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.222159
+demo444 is ******correct
+states:52613
+--------------------------------------------demo445---------------------------------------------------
+product_time: 0.216754
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.216762
+demo445 is ******correct
+states:52613
+--------------------------------------------demo446---------------------------------------------------
+product_time: 0.309748
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.309757
+demo446 is ******correct
+states:52613
+--------------------------------------------demo447---------------------------------------------------
+product_time: 0.460771
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.460779
+demo447 is ******correct
+states:52613
+--------------------------------------------demo448---------------------------------------------------
+product_time: 0.480616
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.480624
+demo448 is ******correct
+states:52613
+--------------------------------------------demo449---------------------------------------------------
+product_time: 0.288657
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.288667
+demo449 is ******correct
+states:52613
+--------------------------------------------demo450---------------------------------------------------
+product_time: 0.093566
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.093573
+demo450 is ******correct
+states:52613
+--------------------------------------------demo451---------------------------------------------------
+product_time: 0.137682
+union_time: 0.031777
+refindment nums:71
+verify_time: 0.672792
+demo451 is ******correct
+states:52924
+--------------------------------------------demo452---------------------------------------------------
+product_time: 0.128327
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.128332
+demo452 is ******correct
+states:52924
+--------------------------------------------demo453---------------------------------------------------
+product_time: 0.099565
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.099574
+demo453 is ******correct
+states:52924
+--------------------------------------------demo454---------------------------------------------------
+product_time: 0.086048
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.086055
+demo454 is ******correct
+states:52924
+--------------------------------------------demo455---------------------------------------------------
+product_time: 0.462570
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.462578
+demo455 is ******correct
+states:52924
+--------------------------------------------demo456---------------------------------------------------
+product_time: 0.675611
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.675617
+demo456 is ******correct
+states:52924
+--------------------------------------------demo457---------------------------------------------------
+product_time: 0.426758
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.426766
+demo457 is ******correct
+states:52924
+--------------------------------------------demo458---------------------------------------------------
+product_time: 0.368609
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.368617
+demo458 is ******correct
+states:52924
+--------------------------------------------demo459---------------------------------------------------
+product_time: 0.078405
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.078412
+demo459 is ******correct
+states:52924
+--------------------------------------------demo460---------------------------------------------------
+product_time: 0.031887
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.031892
+demo460 is ******correct
+states:52924
+--------------------------------------------demo461---------------------------------------------------
+product_time: 0.080976
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.080983
+demo461 is ******correct
+states:52924
+--------------------------------------------demo462---------------------------------------------------
+product_time: 0.222087
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.222093
+demo462 is ******correct
+states:52924
+--------------------------------------------demo463---------------------------------------------------
+product_time: 0.108721
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.108728
+demo463 is ******correct
+states:52924
+--------------------------------------------demo464---------------------------------------------------
+product_time: 0.824129
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.824137
+demo464 is ******correct
+states:52924
+--------------------------------------------demo465---------------------------------------------------
+product_time: 0.374079
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.374085
+demo465 is ******correct
+states:52924
+--------------------------------------------demo466---------------------------------------------------
+product_time: 1.103737
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.103745
+demo466 is ******correct
+states:52924
+--------------------------------------------demo467---------------------------------------------------
+product_time: 0.111954
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.111960
+demo467 is ******correct
+states:52924
+--------------------------------------------demo468---------------------------------------------------
+product_time: 0.155615
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.155622
+demo468 is ******correct
+states:52924
+--------------------------------------------demo469---------------------------------------------------
+product_time: 0.248462
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.248472
+demo469 is ******correct
+states:52924
+--------------------------------------------demo470---------------------------------------------------
+product_time: 0.074419
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.074427
+demo470 is ******correct
+states:52924
+--------------------------------------------demo471---------------------------------------------------
+product_time: 0.356620
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.356629
+demo471 is ******correct
+states:52924
+--------------------------------------------demo472---------------------------------------------------
+product_time: 0.329438
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.329445
+demo472 is ******correct
+states:52924
+--------------------------------------------demo473---------------------------------------------------
+product_time: 0.574653
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.574661
+demo473 is ******correct
+states:52924
+--------------------------------------------demo474---------------------------------------------------
+product_time: 1.378243
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.378252
+demo474 is ******correct
+states:52924
+--------------------------------------------demo475---------------------------------------------------
+product_time: 0.784447
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.784455
+demo475 is ******correct
+states:52924
+--------------------------------------------demo476---------------------------------------------------
+product_time: 0.388796
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.388803
+demo476 is ******correct
+states:52924
+--------------------------------------------demo477---------------------------------------------------
+product_time: 0.247878
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.247885
+demo477 is ******correct
+states:52924
+--------------------------------------------demo478---------------------------------------------------
+product_time: 0.389318
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.389324
+demo478 is ******correct
+states:52924
+--------------------------------------------demo479---------------------------------------------------
+product_time: 0.245194
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.245202
+demo479 is ******correct
+states:52924
+--------------------------------------------demo480---------------------------------------------------
+product_time: 0.822481
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.822489
+demo480 is ******correct
+states:52924
+--------------------------------------------demo481---------------------------------------------------
+product_time: 1.194868
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.194875
+demo481 is ******correct
+states:52924
+--------------------------------------------demo482---------------------------------------------------
+product_time: 0.436523
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.436530
+demo482 is ******correct
+states:52924
+--------------------------------------------demo483---------------------------------------------------
+product_time: 0.164834
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.164841
+demo483 is ******correct
+states:52924
+--------------------------------------------demo484---------------------------------------------------
+product_time: 0.176912
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.176919
+demo484 is ******correct
+states:52924
+--------------------------------------------demo485---------------------------------------------------
+product_time: 0.065352
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.065357
+demo485 is ******correct
+states:52924
+--------------------------------------------demo486---------------------------------------------------
+product_time: 0.101761
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.101767
+demo486 is ******correct
+states:52924
+--------------------------------------------demo487---------------------------------------------------
+product_time: 0.635909
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.635916
+demo487 is ******correct
+states:52924
+--------------------------------------------demo488---------------------------------------------------
+product_time: 0.150055
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.150063
+demo488 is ******correct
+states:52924
+--------------------------------------------demo489---------------------------------------------------
+product_time: 0.086870
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.086877
+demo489 is ******correct
+states:52924
+--------------------------------------------demo490---------------------------------------------------
+product_time: 0.465582
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.465589
+demo490 is ******correct
+states:52924
+--------------------------------------------demo491---------------------------------------------------
+product_time: 0.288395
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.288403
+demo491 is ******correct
+states:52924
+--------------------------------------------demo492---------------------------------------------------
+product_time: 1.079126
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.079134
+demo492 is ******correct
+states:52924
+--------------------------------------------demo493---------------------------------------------------
+product_time: 0.114083
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.114091
+demo493 is ******correct
+states:52924
+--------------------------------------------demo494---------------------------------------------------
+product_time: 0.169921
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.169927
+demo494 is ******correct
+states:52924
+--------------------------------------------demo495---------------------------------------------------
+product_time: 0.386468
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.386477
+demo495 is ******correct
+states:52924
+--------------------------------------------demo496---------------------------------------------------
+product_time: 0.981239
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.981247
+demo496 is ******correct
+states:52924
+--------------------------------------------demo497---------------------------------------------------
+product_time: 0.099403
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.099411
+demo497 is ******correct
+states:52924
+--------------------------------------------demo498---------------------------------------------------
+product_time: 0.117708
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.117715
+demo498 is ******correct
+states:52924
+--------------------------------------------demo499---------------------------------------------------
+product_time: 1.164525
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.164533
+demo499 is ******correct
+states:52924
+----------------------------------------前500个---------------------------------------
+time_cost:547.206947
+product_time:166.248999
+product_time百分比:0.303814
+union_time:5.752035
+union_time百分比:0.010512
+###########################################################################################states:52924
+refin_nums_total:13331
+runtime:547.207394
+product_time:166.248999
+union_time:5.752035
+product_time百分比:0.303814
+union_time百分比:0.010512

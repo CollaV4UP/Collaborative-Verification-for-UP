@@ -1,0 +1,35 @@
+if(s=v5)then{
+ while (x != t){
+        x := f(x);
+        y := f(y)
+    }
+
+  }else{
+ skip 
+};
+ while (x != t){
+        x := f(x);
+        y := f(y)
+    }
+;
+if(s=v2)then{
+
+ x := ran(t);
+ y := ran(t);
+ while(w1 != w2){
+    x := f(x);
+    y := f(y);
+    w1 := ran(w1)
+  }
+
+  }else{
+ skip 
+};
+
+ x := ran(t);
+ y := ran(t);
+ while(w1 != w2){
+    x := f(x);
+    y := f(y);
+    w1 := ran(w1)
+  }

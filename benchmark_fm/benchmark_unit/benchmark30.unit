@@ -1,0 +1,63 @@
+Reach([k,r0,s,t,u1,u3,u5,u7,v2,v4,v6,w1,w2,w3,w4,x,y,z],[f,h],[x])
+init{
+}
+
+
+	x := y;
+
+	if (s = u1) then  {
+		x := f(t);
+		y := f(k);
+		assume(t = k);
+		x := h(x);
+		y := h(y)
+	} else {
+			if (s = v4) then  {
+				x := f(x);
+				x := h(x);
+				y := f(y);
+				y := h(y)
+			}else{
+                            skip
+                        }
+	};
+
+	if (s = v6) then  {
+		x := t;
+		y := k;
+		assume(t = k);
+		while (y != z){
+			x := f(x);
+			y := f(y);
+			z := f(z)
+		}
+	} else {
+			if (s = u7) then  {
+				while (w1 != w2) {
+					if (w3 = w4) then  {
+						x := f(x);
+						y := f(y);
+						w3 := l(w3);
+						assume(w3 != w4)
+					} else {
+						x := h(x);
+						y := h(y);
+						w4 := l(w4);
+						assume(w3 = w4)
+					};
+					w1 := f(w1)
+				}
+			}else{
+                             skip
+                         }
+	};
+
+	if (s = r0) then  {
+		x := f(x);
+		y := f(y)
+	} else {
+		x := f(x);
+		y := f(y)
+	};
+
+	assert(x = y)

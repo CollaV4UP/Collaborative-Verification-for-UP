@@ -1,0 +1,4 @@
+(*benchmark26_linear.c*)
+ while(x = y){
+    x := f(x)
+  }

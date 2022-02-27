@@ -1,0 +1,9 @@
+(*benchmark30_conjunctive.c*)
+
+ x := ran(t);
+ y := ran(t);
+ while(w1 != w2){
+    x := f(x);
+    y := f(y);
+    w1 := ran(w1)
+  }

@@ -1,0 +1,108 @@
+if(s=v5)then{
+
+  assume(w1 != w2);
+  while(w1 != w2){
+     assume(x != y)
+   }
+
+  }else{
+ skip 
+};
+
+p1 := f(p1);
+p2 := f(p2);
+
+assume(w1 = zero);
+assume(w2 = zero);
+
+assume(zero != one);
+assume(t != y);
+
+if(p1 != zero)then{
+     w1 := one
+  }else{
+    skip
+   };
+
+if(p2 != zero)then{
+     w2 := one
+  }else{
+    skip
+   };
+
+
+if(p1 != zero)then{
+    if(w1 != one)then{
+        x := t;
+        w1 := zero
+     }else{
+        skip
+     }
+ }else{
+    skip
+  };
+
+if(p2 != zero)then{
+    if(w2 != one)then{
+        x := t;
+        w2 := zero
+     }else{
+        skip
+     }
+ }else{
+    skip
+  }
+;
+if(s=v5)then{
+ while (x != t){
+        x := f(x);
+        y := f(y)
+    }
+
+  }else{
+ skip 
+};
+
+p1 := f(p1);
+p2 := f(p2);
+
+assume(w1 = zero);
+assume(w2 = zero);
+
+assume(zero != one);
+assume(t != y);
+
+if(p1 != zero)then{
+     w1 := one
+  }else{
+    skip
+   };
+
+if(p2 != zero)then{
+     w2 := one
+  }else{
+    skip
+   };
+
+
+if(p1 != zero)then{
+    if(w1 != one)then{
+        x := t;
+        w1 := zero
+     }else{
+        skip
+     }
+ }else{
+    skip
+  };
+
+if(p2 != zero)then{
+    if(w2 != one)then{
+        x := t;
+        w2 := zero
+     }else{
+        skip
+     }
+ }else{
+    skip
+  }

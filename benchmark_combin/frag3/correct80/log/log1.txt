@@ -1,0 +1,7125 @@
+vars:23
+funs:3
+instrs:58
+--------------------------------------------demo0---------------------------------------------------
+union_time: 0.129295
+refindment nums:386
+verify_time: 9.818821
+demo0 is ******correct
+states:1226
+--------------------------------------------demo1---------------------------------------------------
+product_time: 0.043188
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.011892
+refindment nums:47
+verify_time: 0.701668
+demo1 is ******incorrect
+states:1401
+--------------------------------------------demo2---------------------------------------------------
+product_time: 0.006453
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.025884
+refindment nums:113
+verify_time: 3.999915
+demo2 is ******incorrect
+states:1793
+--------------------------------------------demo3---------------------------------------------------
+product_time: 0.250650
+union_time: 0.015554
+refindment nums:51
+verify_time: 0.485481
+demo3 is ******correct
+states:1980
+--------------------------------------------demo4---------------------------------------------------
+product_time: 0.249591
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000941
+refindment nums:3
+verify_time: 0.277926
+demo4 is ******incorrect
+states:2003
+--------------------------------------------demo5---------------------------------------------------
+product_time: 0.045413
+union_time: 0.003666
+refindment nums:20
+verify_time: 0.169512
+demo5 is ******correct
+states:2056
+--------------------------------------------demo6---------------------------------------------------
+product_time: 0.005431
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.033152
+refindment nums:120
+verify_time: 2.249558
+demo6 is ******incorrect
+states:2442
+--------------------------------------------demo7---------------------------------------------------
+product_time: 0.221689
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.003453
+refindment nums:16
+verify_time: 0.964195
+demo7 is ******incorrect
+states:2504
+--------------------------------------------demo8---------------------------------------------------
+product_time: 0.042398
+union_time: 0.184867
+refindment nums:557
+verify_time: 11.722636
+demo8 is ******correct
+states:3901
+--------------------------------------------demo9---------------------------------------------------
+product_time: 0.002541
+union_time: 0.125052
+refindment nums:462
+verify_time: 3.726669
+demo9 is ******correct
+states:5129
+----------------------------------------前10个---------------------------------------
+time_cost:34.116884
+product_time:0.867354
+product_time百分比:0.025423
+union_time:0.533756
+union_time百分比:0.015645
+--------------------------------------------demo10---------------------------------------------------
+product_time: 0.408828
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.408837
+demo10 is ******correct
+states:5129
+--------------------------------------------demo11---------------------------------------------------
+product_time: 0.056937
+union_time: 0.012702
+refindment nums:57
+verify_time: 0.513886
+demo11 is ******correct
+states:5276
+--------------------------------------------demo12---------------------------------------------------
+product_time: 0.251469
+union_time: 0.008587
+refindment nums:34
+verify_time: 0.355531
+demo12 is ******correct
+states:5386
+--------------------------------------------demo13---------------------------------------------------
+product_time: 0.181935
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.028435
+refindment nums:115
+verify_time: 2.505940
+demo13 is ******incorrect
+states:5724
+--------------------------------------------demo14---------------------------------------------------
+product_time: 0.335625
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.002750
+refindment nums:7
+verify_time: 0.415146
+demo14 is ******incorrect
+states:5764
+--------------------------------------------demo15---------------------------------------------------
+product_time: 0.291966
+union_time: 0.058098
+refindment nums:222
+verify_time: 4.081660
+demo15 is ******correct
+states:6420
+--------------------------------------------demo16---------------------------------------------------
+product_time: 0.009987
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.002145
+refindment nums:4
+verify_time: 0.026987
+demo16 is ******incorrect
+states:6439
+--------------------------------------------demo17---------------------------------------------------
+product_time: 0.232271
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.002234
+refindment nums:2
+verify_time: 0.262095
+demo17 is ******incorrect
+states:6458
+--------------------------------------------demo18---------------------------------------------------
+product_time: 0.088276
+union_time: 0.003646
+refindment nums:12
+verify_time: 0.113368
+demo18 is ******correct
+states:6516
+--------------------------------------------demo19---------------------------------------------------
+product_time: 0.318548
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.001801
+refindment nums:1
+verify_time: 0.350739
+demo19 is ******incorrect
+states:6539
+----------------------------------------前20个---------------------------------------
+time_cost:43.152086
+product_time:3.043195
+product_time百分比:0.070523
+union_time:0.654155
+union_time百分比:0.015159
+--------------------------------------------demo20---------------------------------------------------
+product_time: 0.134528
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.134534
+demo20 is ******correct
+states:6539
+--------------------------------------------demo21---------------------------------------------------
+product_time: 0.094962
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.094971
+demo21 is ******correct
+states:6539
+--------------------------------------------demo22---------------------------------------------------
+product_time: 0.294528
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.002488
+refindment nums:5
+verify_time: 0.346702
+demo22 is ******incorrect
+states:6569
+--------------------------------------------demo23---------------------------------------------------
+product_time: 0.242398
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.011501
+refindment nums:50
+verify_time: 2.053580
+demo23 is ******incorrect
+states:6758
+--------------------------------------------demo24---------------------------------------------------
+product_time: 0.117590
+union_time: 0.011267
+refindment nums:52
+verify_time: 0.277292
+demo24 is ******correct
+states:6897
+--------------------------------------------demo25---------------------------------------------------
+product_time: 0.187757
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.002320
+refindment nums:3
+verify_time: 0.228695
+demo25 is ******incorrect
+states:6916
+--------------------------------------------demo26---------------------------------------------------
+product_time: 0.084393
+union_time: 0.494052
+refindment nums:948
+verify_time: 21.856912
+demo26 is ******correct
+states:10907
+--------------------------------------------demo27---------------------------------------------------
+product_time: 0.466188
+union_time: 0.022863
+refindment nums:88
+verify_time: 1.503649
+demo27 is ******correct
+states:11224
+--------------------------------------------demo28---------------------------------------------------
+product_time: 0.207801
+union_time: 0.011297
+refindment nums:45
+verify_time: 0.883503
+demo28 is ******correct
+states:11376
+--------------------------------------------demo29---------------------------------------------------
+product_time: 0.194884
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.004100
+refindment nums:3
+verify_time: 0.308234
+demo29 is ******incorrect
+states:11404
+--------------------------------------------demo30---------------------------------------------------
+product_time: 0.255164
+union_time: 0.007871
+refindment nums:20
+verify_time: 0.339888
+demo30 is ******correct
+states:11487
+--------------------------------------------demo31---------------------------------------------------
+product_time: 0.775344
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.004567
+refindment nums:9
+verify_time: 1.079726
+demo31 is ******incorrect
+states:11528
+--------------------------------------------demo32---------------------------------------------------
+product_time: 0.075094
+union_time: 0.018077
+refindment nums:56
+verify_time: 0.365623
+demo32 is ******correct
+states:11705
+--------------------------------------------demo33---------------------------------------------------
+product_time: 0.183247
+union_time: 0.289241
+refindment nums:576
+verify_time: 13.802028
+demo33 is ******correct
+states:14188
+--------------------------------------------demo34---------------------------------------------------
+product_time: 0.346703
+union_time: 0.105597
+refindment nums:356
+verify_time: 5.745868
+demo34 is ******correct
+states:15226
+--------------------------------------------demo35---------------------------------------------------
+product_time: 0.483059
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(w1=w2)
+assume(z=w)
+assume(w1=w2)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.007105
+refindment nums:14
+verify_time: 0.920775
+demo35 is ******incorrect
+states:15292
+--------------------------------------------demo36---------------------------------------------------
+product_time: 0.510434
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.510440
+demo36 is ******correct
+states:15292
+--------------------------------------------demo37---------------------------------------------------
+product_time: 0.086816
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.086822
+demo37 is ******correct
+states:15292
+--------------------------------------------demo38---------------------------------------------------
+product_time: 0.365371
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s=v1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.009167
+refindment nums:23
+verify_time: 0.906889
+demo38 is ******incorrect
+states:15389
+--------------------------------------------demo39---------------------------------------------------
+product_time: 0.054236
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s=v1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.004562
+refindment nums:4
+verify_time: 0.093489
+demo39 is ******incorrect
+states:15415
+----------------------------------------前40个---------------------------------------
+time_cost:94.694840
+product_time:8.203692
+product_time百分比:0.086633
+union_time:1.660231
+union_time百分比:0.017532
+--------------------------------------------demo40---------------------------------------------------
+product_time: 0.763633
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=two
+assume(choose=two)
+assume(s!=v2)
+assume(s!=v4)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.005630
+refindment nums:5
+verify_time: 0.828347
+demo40 is ******incorrect
+states:15444
+--------------------------------------------demo41---------------------------------------------------
+product_time: 0.742945
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.004050
+refindment nums:1
+verify_time: 0.755165
+demo41 is ******incorrect
+states:15455
+--------------------------------------------demo42---------------------------------------------------
+product_time: 0.447039
+union_time: 0.013115
+refindment nums:42
+verify_time: 0.831652
+demo42 is ******correct
+states:15591
+--------------------------------------------demo43---------------------------------------------------
+product_time: 0.222829
+union_time: 0.047506
+refindment nums:149
+verify_time: 1.633776
+demo43 is ******correct
+states:16008
+--------------------------------------------demo44---------------------------------------------------
+product_time: 0.077603
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.077611
+demo44 is ******correct
+states:16008
+--------------------------------------------demo45---------------------------------------------------
+product_time: 0.394534
+union_time: 0.109766
+refindment nums:373
+verify_time: 6.054655
+demo45 is ******correct
+states:17088
+--------------------------------------------demo46---------------------------------------------------
+product_time: 0.597093
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.004905
+refindment nums:2
+verify_time: 0.704711
+demo46 is ******incorrect
+states:17114
+--------------------------------------------demo47---------------------------------------------------
+product_time: 0.097176
+union_time: 0.138965
+refindment nums:527
+verify_time: 7.494849
+demo47 is ******correct
+states:18636
+--------------------------------------------demo48---------------------------------------------------
+product_time: 0.109738
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.109745
+demo48 is ******correct
+states:18636
+--------------------------------------------demo49---------------------------------------------------
+product_time: 0.135090
+union_time: 0.023088
+refindment nums:75
+verify_time: 0.354421
+demo49 is ******correct
+states:18823
+--------------------------------------------demo50---------------------------------------------------
+product_time: 0.472643
+union_time: 0.134150
+refindment nums:498
+verify_time: 8.416015
+demo50 is ******correct
+states:20211
+--------------------------------------------demo51---------------------------------------------------
+product_time: 0.811172
+union_time: 0.062423
+refindment nums:220
+verify_time: 4.021343
+demo51 is ******correct
+states:20884
+--------------------------------------------demo52---------------------------------------------------
+product_time: 0.088231
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.088240
+demo52 is ******correct
+states:20884
+--------------------------------------------demo53---------------------------------------------------
+product_time: 0.134188
+union_time: 0.014194
+refindment nums:38
+verify_time: 0.513679
+demo53 is ******correct
+states:21014
+--------------------------------------------demo54---------------------------------------------------
+product_time: 0.709262
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.709273
+demo54 is ******correct
+states:21014
+--------------------------------------------demo55---------------------------------------------------
+product_time: 0.154340
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.005969
+refindment nums:3
+verify_time: 0.217619
+demo55 is ******incorrect
+states:21037
+--------------------------------------------demo56---------------------------------------------------
+product_time: 0.364561
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.005813
+refindment nums:1
+verify_time: 0.409900
+demo56 is ******incorrect
+states:21063
+--------------------------------------------demo57---------------------------------------------------
+product_time: 0.362422
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.005665
+refindment nums:1
+verify_time: 0.373419
+demo57 is ******incorrect
+states:21080
+--------------------------------------------demo58---------------------------------------------------
+product_time: 0.292443
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.323162
+demo58 is ******incorrect
+states:21080
+--------------------------------------------demo59---------------------------------------------------
+product_time: 0.396824
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.006410
+refindment nums:1
+verify_time: 0.436524
+demo59 is ******incorrect
+states:21102
+----------------------------------------前60个---------------------------------------
+time_cost:129.053484
+product_time:15.577458
+product_time百分比:0.120705
+union_time:2.241884
+union_time百分比:0.017372
+--------------------------------------------demo60---------------------------------------------------
+product_time: 0.144180
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.144187
+demo60 is ******correct
+states:21102
+--------------------------------------------demo61---------------------------------------------------
+product_time: 0.205734
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.205741
+demo61 is ******correct
+states:21102
+--------------------------------------------demo62---------------------------------------------------
+product_time: 0.281003
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.281011
+demo62 is ******correct
+states:21102
+--------------------------------------------demo63---------------------------------------------------
+product_time: 0.145275
+union_time: 0.045098
+refindment nums:182
+verify_time: 2.478969
+demo63 is ******correct
+states:21654
+--------------------------------------------demo64---------------------------------------------------
+product_time: 1.712201
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.007609
+refindment nums:3
+verify_time: 1.745512
+demo64 is ******incorrect
+states:21678
+--------------------------------------------demo65---------------------------------------------------
+product_time: 0.075481
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.007047
+refindment nums:3
+verify_time: 0.127855
+demo65 is ******incorrect
+states:21696
+--------------------------------------------demo66---------------------------------------------------
+product_time: 0.307288
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.307297
+demo66 is ******correct
+states:21696
+--------------------------------------------demo67---------------------------------------------------
+product_time: 0.155569
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.006341
+refindment nums:3
+verify_time: 0.233470
+demo67 is ******incorrect
+states:21717
+--------------------------------------------demo68---------------------------------------------------
+product_time: 0.442781
+union_time: 0.013741
+refindment nums:39
+verify_time: 1.028988
+demo68 is ******correct
+states:21855
+--------------------------------------------demo69---------------------------------------------------
+product_time: 0.314010
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.005826
+refindment nums:1
+verify_time: 0.322243
+demo69 is ******incorrect
+states:21866
+--------------------------------------------demo70---------------------------------------------------
+product_time: 0.333341
+union_time: 0.020239
+refindment nums:52
+verify_time: 0.782487
+demo70 is ******correct
+states:22058
+--------------------------------------------demo71---------------------------------------------------
+product_time: 0.265043
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.265050
+demo71 is ******correct
+states:22058
+--------------------------------------------demo72---------------------------------------------------
+product_time: 0.126511
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.007856
+refindment nums:11
+verify_time: 0.461835
+demo72 is ******incorrect
+states:22107
+--------------------------------------------demo73---------------------------------------------------
+product_time: 0.294682
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.297460
+demo73 is ******incorrect
+states:22107
+--------------------------------------------demo74---------------------------------------------------
+product_time: 0.104008
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.104017
+demo74 is ******correct
+states:22107
+--------------------------------------------demo75---------------------------------------------------
+product_time: 0.856875
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.856883
+demo75 is ******correct
+states:22107
+--------------------------------------------demo76---------------------------------------------------
+product_time: 0.217762
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+assume(s=v4)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+choose:=one
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.006947
+refindment nums:3
+verify_time: 0.266716
+demo76 is ******incorrect
+states:22139
+--------------------------------------------demo77---------------------------------------------------
+product_time: 1.783638
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.783647
+demo77 is ******correct
+states:22139
+--------------------------------------------demo78---------------------------------------------------
+product_time: 0.167290
+union_time: 0.065154
+refindment nums:184
+verify_time: 2.008143
+demo78 is ******correct
+states:22848
+--------------------------------------------demo79---------------------------------------------------
+product_time: 1.220552
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.008609
+refindment nums:6
+verify_time: 1.388951
+demo79 is ******incorrect
+states:22881
+----------------------------------------前80个---------------------------------------
+time_cost:144.149266
+product_time:24.730681
+product_time百分比:0.171563
+union_time:2.436356
+union_time百分比:0.016902
+--------------------------------------------demo80---------------------------------------------------
+product_time: 0.804775
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.006664
+refindment nums:2
+verify_time: 0.824067
+demo80 is ******incorrect
+states:22894
+--------------------------------------------demo81---------------------------------------------------
+product_time: 0.415448
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.020431
+refindment nums:27
+verify_time: 0.585997
+demo81 is ******incorrect
+states:22994
+--------------------------------------------demo82---------------------------------------------------
+product_time: 0.791253
+union_time: 0.011948
+refindment nums:32
+verify_time: 0.976731
+demo82 is ******correct
+states:23085
+--------------------------------------------demo83---------------------------------------------------
+product_time: 0.208265
+union_time: 0.010614
+refindment nums:24
+verify_time: 0.418890
+demo83 is ******correct
+states:23161
+--------------------------------------------demo84---------------------------------------------------
+product_time: 0.293719
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.294519
+demo84 is ******incorrect
+states:23161
+--------------------------------------------demo85---------------------------------------------------
+product_time: 0.221000
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.007121
+refindment nums:6
+verify_time: 0.262680
+demo85 is ******incorrect
+states:23192
+--------------------------------------------demo86---------------------------------------------------
+product_time: 0.632482
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.632491
+demo86 is ******correct
+states:23192
+--------------------------------------------demo87---------------------------------------------------
+product_time: 0.154674
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.156216
+demo87 is ******incorrect
+states:23192
+--------------------------------------------demo88---------------------------------------------------
+product_time: 0.304626
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.306136
+demo88 is ******incorrect
+states:23192
+--------------------------------------------demo89---------------------------------------------------
+product_time: 0.522371
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.522381
+demo89 is ******correct
+states:23192
+--------------------------------------------demo90---------------------------------------------------
+product_time: 0.143949
+union_time: 0.109621
+refindment nums:298
+verify_time: 4.952162
+demo90 is ******correct
+states:24135
+--------------------------------------------demo91---------------------------------------------------
+product_time: 0.137101
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.137108
+demo91 is ******correct
+states:24135
+--------------------------------------------demo92---------------------------------------------------
+product_time: 0.633451
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.027109
+refindment nums:75
+verify_time: 4.334431
+demo92 is ******incorrect
+states:24427
+--------------------------------------------demo93---------------------------------------------------
+product_time: 0.766092
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.008324
+refindment nums:2
+verify_time: 0.877824
+demo93 is ******incorrect
+states:24448
+--------------------------------------------demo94---------------------------------------------------
+product_time: 0.141110
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.141119
+demo94 is ******correct
+states:24448
+--------------------------------------------demo95---------------------------------------------------
+product_time: 0.226850
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.226857
+demo95 is ******correct
+states:24448
+--------------------------------------------demo96---------------------------------------------------
+product_time: 0.140592
+union_time: 0.545773
+refindment nums:886
+verify_time: 26.423603
+demo96 is ******correct
+states:28486
+--------------------------------------------demo97---------------------------------------------------
+product_time: 0.317024
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.027261
+refindment nums:58
+verify_time: 2.465855
+demo97 is ******incorrect
+states:28709
+--------------------------------------------demo98---------------------------------------------------
+product_time: 0.881190
+union_time: 0.160867
+refindment nums:527
+verify_time: 8.870718
+demo98 is ******correct
+states:30134
+--------------------------------------------demo99---------------------------------------------------
+product_time: 0.378266
+union_time: 0.100661
+refindment nums:333
+verify_time: 3.662006
+demo99 is ******correct
+states:30980
+----------------------------------------前100个---------------------------------------
+time_cost:201.235416
+product_time:32.844918
+product_time百分比:0.163216
+union_time:3.472753
+union_time百分比:0.017257
+--------------------------------------------demo100---------------------------------------------------
+product_time: 0.277961
+union_time: 0.067777
+refindment nums:210
+verify_time: 3.216149
+demo100 is ******correct
+states:31654
+--------------------------------------------demo101---------------------------------------------------
+product_time: 0.240980
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+assume(s!=v4)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.009505
+refindment nums:5
+verify_time: 0.302809
+demo101 is ******incorrect
+states:31679
+--------------------------------------------demo102---------------------------------------------------
+product_time: 0.492389
+union_time: 0.310125
+refindment nums:517
+verify_time: 13.180165
+demo102 is ******correct
+states:34454
+--------------------------------------------demo103---------------------------------------------------
+product_time: 0.110446
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.110452
+demo103 is ******correct
+states:34454
+--------------------------------------------demo104---------------------------------------------------
+product_time: 0.330147
+union_time: 0.079851
+refindment nums:261
+verify_time: 4.082526
+demo104 is ******correct
+states:35197
+--------------------------------------------demo105---------------------------------------------------
+product_time: 0.334452
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.011274
+refindment nums:2
+verify_time: 0.406391
+demo105 is ******incorrect
+states:35213
+--------------------------------------------demo106---------------------------------------------------
+product_time: 0.968750
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.009000
+refindment nums:1
+verify_time: 1.037187
+demo106 is ******incorrect
+states:35230
+--------------------------------------------demo107---------------------------------------------------
+product_time: 0.585553
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.585562
+demo107 is ******correct
+states:35230
+--------------------------------------------demo108---------------------------------------------------
+product_time: 0.109669
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.109676
+demo108 is ******correct
+states:35230
+--------------------------------------------demo109---------------------------------------------------
+product_time: 0.333561
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.009460
+refindment nums:2
+verify_time: 0.353094
+demo109 is ******incorrect
+states:35252
+--------------------------------------------demo110---------------------------------------------------
+product_time: 0.451424
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.009519
+refindment nums:3
+verify_time: 0.486893
+demo110 is ******incorrect
+states:35279
+--------------------------------------------demo111---------------------------------------------------
+product_time: 0.131257
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.011290
+refindment nums:1
+verify_time: 0.165917
+demo111 is ******incorrect
+states:35296
+--------------------------------------------demo112---------------------------------------------------
+product_time: 0.521671
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.011942
+refindment nums:13
+verify_time: 1.251828
+demo112 is ******incorrect
+states:35355
+--------------------------------------------demo113---------------------------------------------------
+product_time: 0.475298
+union_time: 0.041960
+refindment nums:139
+verify_time: 1.287775
+demo113 is ******correct
+states:35739
+--------------------------------------------demo114---------------------------------------------------
+product_time: 0.334030
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.010431
+refindment nums:6
+verify_time: 0.544343
+demo114 is ******incorrect
+states:35773
+--------------------------------------------demo115---------------------------------------------------
+product_time: 0.192356
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.192362
+demo115 is ******correct
+states:35773
+--------------------------------------------demo116---------------------------------------------------
+product_time: 0.348302
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.348308
+demo116 is ******correct
+states:35773
+--------------------------------------------demo117---------------------------------------------------
+product_time: 0.660948
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.661716
+demo117 is ******incorrect
+states:35773
+--------------------------------------------demo118---------------------------------------------------
+product_time: 0.285208
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.285214
+demo118 is ******correct
+states:35773
+--------------------------------------------demo119---------------------------------------------------
+product_time: 1.171617
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.009575
+refindment nums:3
+verify_time: 1.444605
+demo119 is ******incorrect
+states:35800
+--------------------------------------------demo120---------------------------------------------------
+product_time: 0.417831
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.417838
+demo120 is ******correct
+states:35800
+--------------------------------------------demo121---------------------------------------------------
+product_time: 0.194627
+union_time: 0.040737
+refindment nums:149
+verify_time: 2.132996
+demo121 is ******correct
+states:36267
+--------------------------------------------demo122---------------------------------------------------
+product_time: 0.164536
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.166015
+demo122 is ******incorrect
+states:36267
+--------------------------------------------demo123---------------------------------------------------
+product_time: 0.226417
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.009540
+refindment nums:1
+verify_time: 0.246946
+demo123 is ******incorrect
+states:36286
+--------------------------------------------demo124---------------------------------------------------
+product_time: 0.150723
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.150730
+demo124 is ******correct
+states:36286
+--------------------------------------------demo125---------------------------------------------------
+product_time: 0.381132
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.381138
+demo125 is ******correct
+states:36286
+--------------------------------------------demo126---------------------------------------------------
+product_time: 0.442151
+union_time: 0.016020
+refindment nums:20
+verify_time: 0.585658
+demo126 is ******correct
+states:36385
+--------------------------------------------demo127---------------------------------------------------
+product_time: 1.092630
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.010414
+refindment nums:7
+verify_time: 1.282046
+demo127 is ******incorrect
+states:36421
+--------------------------------------------demo128---------------------------------------------------
+product_time: 0.135674
+union_time: 0.028331
+refindment nums:94
+verify_time: 0.632541
+demo128 is ******correct
+states:36690
+--------------------------------------------demo129---------------------------------------------------
+product_time: 0.485167
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.012051
+refindment nums:1
+verify_time: 0.560078
+demo129 is ******incorrect
+states:36716
+--------------------------------------------demo130---------------------------------------------------
+product_time: 0.223312
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.009675
+refindment nums:2
+verify_time: 0.246152
+demo130 is ******incorrect
+states:36736
+--------------------------------------------demo131---------------------------------------------------
+product_time: 0.348218
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.372189
+demo131 is ******incorrect
+states:36736
+--------------------------------------------demo132---------------------------------------------------
+product_time: 0.249532
+union_time: 0.058746
+refindment nums:216
+verify_time: 2.582930
+demo132 is ******correct
+states:37321
+--------------------------------------------demo133---------------------------------------------------
+product_time: 0.374665
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.009953
+refindment nums:2
+verify_time: 0.393672
+demo133 is ******incorrect
+states:37341
+--------------------------------------------demo134---------------------------------------------------
+product_time: 0.364075
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v2)
+assume(s=v4)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.020453
+refindment nums:44
+verify_time: 1.373164
+demo134 is ******incorrect
+states:37523
+--------------------------------------------demo135---------------------------------------------------
+product_time: 0.606864
+union_time: 0.023214
+refindment nums:69
+verify_time: 1.234398
+demo135 is ******correct
+states:37764
+--------------------------------------------demo136---------------------------------------------------
+product_time: 0.758419
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.758428
+demo136 is ******correct
+states:37764
+--------------------------------------------demo137---------------------------------------------------
+product_time: 0.516136
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v3)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(z=w)
+assume(w1=w2)
+choose:=two
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.010513
+refindment nums:2
+verify_time: 0.593591
+demo137 is ******incorrect
+states:37790
+--------------------------------------------demo138---------------------------------------------------
+product_time: 0.323325
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.323332
+demo138 is ******correct
+states:37790
+--------------------------------------------demo139---------------------------------------------------
+product_time: 0.288661
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+assume(s!=v4)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+choose:=one
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.011256
+refindment nums:8
+verify_time: 0.483892
+demo139 is ******incorrect
+states:37831
+--------------------------------------------demo140---------------------------------------------------
+product_time: 0.646838
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.015226
+refindment nums:15
+verify_time: 1.738037
+demo140 is ******incorrect
+states:37924
+--------------------------------------------demo141---------------------------------------------------
+product_time: 0.218257
+union_time: 0.019642
+refindment nums:36
+verify_time: 0.417123
+demo141 is ******correct
+states:38036
+--------------------------------------------demo142---------------------------------------------------
+product_time: 0.433961
+union_time: 0.068118
+refindment nums:206
+verify_time: 2.579324
+demo142 is ******correct
+states:38581
+--------------------------------------------demo143---------------------------------------------------
+product_time: 0.116208
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.019369
+refindment nums:23
+verify_time: 0.482938
+demo143 is ******incorrect
+states:38660
+--------------------------------------------demo144---------------------------------------------------
+product_time: 0.224857
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.226942
+demo144 is ******incorrect
+states:38660
+--------------------------------------------demo145---------------------------------------------------
+product_time: 0.559330
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.012635
+refindment nums:12
+verify_time: 0.950292
+demo145 is ******incorrect
+states:38710
+--------------------------------------------demo146---------------------------------------------------
+product_time: 0.473678
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.009968
+refindment nums:1
+verify_time: 0.501946
+demo146 is ******incorrect
+states:38725
+--------------------------------------------demo147---------------------------------------------------
+product_time: 0.095085
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.095093
+demo147 is ******correct
+states:38725
+--------------------------------------------demo148---------------------------------------------------
+product_time: 0.626150
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v3)
+assume(s!=v1)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.010755
+refindment nums:4
+verify_time: 0.751075
+demo148 is ******incorrect
+states:38759
+--------------------------------------------demo149---------------------------------------------------
+product_time: 0.200175
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v3)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(z=w)
+assume(w1=w2)
+choose:=one
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.012714
+refindment nums:13
+verify_time: 0.509815
+demo149 is ******incorrect
+states:38820
+--------------------------------------------demo150---------------------------------------------------
+product_time: 0.596759
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=two
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+assume(s=v4)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.013097
+refindment nums:14
+verify_time: 0.936896
+demo150 is ******incorrect
+states:38877
+--------------------------------------------demo151---------------------------------------------------
+product_time: 0.239049
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.239056
+demo151 is ******correct
+states:38877
+--------------------------------------------demo152---------------------------------------------------
+product_time: 0.696440
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.696448
+demo152 is ******correct
+states:38877
+--------------------------------------------demo153---------------------------------------------------
+product_time: 0.549320
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.012416
+refindment nums:2
+verify_time: 0.619186
+demo153 is ******incorrect
+states:38902
+--------------------------------------------demo154---------------------------------------------------
+product_time: 0.744161
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.010555
+refindment nums:3
+verify_time: 0.977894
+demo154 is ******incorrect
+states:38928
+--------------------------------------------demo155---------------------------------------------------
+product_time: 0.391383
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.010544
+refindment nums:1
+verify_time: 0.440339
+demo155 is ******incorrect
+states:38949
+--------------------------------------------demo156---------------------------------------------------
+product_time: 1.182958
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.015027
+refindment nums:23
+verify_time: 2.279580
+demo156 is ******incorrect
+states:39044
+--------------------------------------------demo157---------------------------------------------------
+product_time: 1.295726
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.012003
+refindment nums:2
+verify_time: 1.441495
+demo157 is ******incorrect
+states:39071
+--------------------------------------------demo158---------------------------------------------------
+product_time: 0.361778
+union_time: 0.307898
+refindment nums:639
+verify_time: 12.388287
+demo158 is ******correct
+states:41716
+--------------------------------------------demo159---------------------------------------------------
+product_time: 0.166955
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.166961
+demo159 is ******correct
+states:41716
+--------------------------------------------demo160---------------------------------------------------
+product_time: 0.176006
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.176013
+demo160 is ******correct
+states:41716
+--------------------------------------------demo161---------------------------------------------------
+product_time: 0.162753
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.162758
+demo161 is ******correct
+states:41716
+--------------------------------------------demo162---------------------------------------------------
+product_time: 0.256668
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.011513
+refindment nums:2
+verify_time: 0.274675
+demo162 is ******incorrect
+states:41736
+--------------------------------------------demo163---------------------------------------------------
+product_time: 0.440394
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.017919
+refindment nums:26
+verify_time: 0.764801
+demo163 is ******incorrect
+states:41824
+--------------------------------------------demo164---------------------------------------------------
+product_time: 0.250563
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+choose:=one
+assume(choose=one)
+assume(s!=v4)
+assume(s!=v1)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.011870
+refindment nums:4
+verify_time: 0.312844
+demo164 is ******incorrect
+states:41850
+--------------------------------------------demo165---------------------------------------------------
+product_time: 0.548754
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.548762
+demo165 is ******correct
+states:41850
+--------------------------------------------demo166---------------------------------------------------
+product_time: 0.400057
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.400064
+demo166 is ******correct
+states:41850
+--------------------------------------------demo167---------------------------------------------------
+product_time: 0.219872
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.219880
+demo167 is ******correct
+states:41850
+--------------------------------------------demo168---------------------------------------------------
+product_time: 0.378533
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v4)
+assume(s!=v3)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.011699
+refindment nums:2
+verify_time: 0.409156
+demo168 is ******incorrect
+states:41868
+--------------------------------------------demo169---------------------------------------------------
+product_time: 0.835258
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose!=two)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.011006
+refindment nums:2
+verify_time: 0.973930
+demo169 is ******incorrect
+states:41886
+--------------------------------------------demo170---------------------------------------------------
+product_time: 0.402532
+union_time: 0.103281
+refindment nums:354
+verify_time: 3.782584
+demo170 is ******correct
+states:42777
+--------------------------------------------demo171---------------------------------------------------
+product_time: 0.730332
+union_time: 0.190491
+refindment nums:521
+verify_time: 16.044109
+demo171 is ******correct
+states:44488
+--------------------------------------------demo172---------------------------------------------------
+product_time: 0.375085
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.014883
+refindment nums:17
+verify_time: 0.531247
+demo172 is ******incorrect
+states:44554
+--------------------------------------------demo173---------------------------------------------------
+product_time: 0.203261
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.204052
+demo173 is ******incorrect
+states:44554
+--------------------------------------------demo174---------------------------------------------------
+product_time: 0.564497
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.019875
+refindment nums:32
+verify_time: 1.738039
+demo174 is ******incorrect
+states:44670
+--------------------------------------------demo175---------------------------------------------------
+product_time: 0.309751
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.014350
+refindment nums:2
+verify_time: 0.344418
+demo175 is ******incorrect
+states:44690
+--------------------------------------------demo176---------------------------------------------------
+product_time: 0.193135
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.193142
+demo176 is ******correct
+states:44690
+--------------------------------------------demo177---------------------------------------------------
+product_time: 0.199223
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.199228
+demo177 is ******correct
+states:44690
+--------------------------------------------demo178---------------------------------------------------
+product_time: 0.760271
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.760278
+demo178 is ******correct
+states:44690
+--------------------------------------------demo179---------------------------------------------------
+product_time: 0.333884
+union_time: 0.057839
+refindment nums:149
+verify_time: 2.405824
+demo179 is ******correct
+states:45166
+--------------------------------------------demo180---------------------------------------------------
+product_time: 0.530768
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2=zero)
+assume(p1!=zero)
+assume(w1=one)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s=v4)
+assume(x=t)
+assume(s=v1)
+assume(w1=w2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.013009
+refindment nums:6
+verify_time: 0.716602
+demo180 is ******incorrect
+states:45206
+--------------------------------------------demo181---------------------------------------------------
+product_time: 0.361298
+union_time: 0.080133
+refindment nums:290
+verify_time: 4.588130
+demo181 is ******correct
+states:45967
+--------------------------------------------demo182---------------------------------------------------
+product_time: 0.309669
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.309676
+demo182 is ******correct
+states:45967
+--------------------------------------------demo183---------------------------------------------------
+product_time: 0.970571
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.970578
+demo183 is ******correct
+states:45967
+--------------------------------------------demo184---------------------------------------------------
+product_time: 0.310806
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.310814
+demo184 is ******correct
+states:45967
+--------------------------------------------demo185---------------------------------------------------
+product_time: 0.098927
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.098934
+demo185 is ******correct
+states:45967
+--------------------------------------------demo186---------------------------------------------------
+product_time: 0.590897
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.012472
+refindment nums:1
+verify_time: 0.638656
+demo186 is ******incorrect
+states:45994
+--------------------------------------------demo187---------------------------------------------------
+product_time: 0.354320
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.014312
+refindment nums:1
+verify_time: 0.381732
+demo187 is ******incorrect
+states:46016
+--------------------------------------------demo188---------------------------------------------------
+product_time: 0.168706
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.168712
+demo188 is ******correct
+states:46016
+--------------------------------------------demo189---------------------------------------------------
+product_time: 0.502440
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.014002
+refindment nums:1
+verify_time: 0.560255
+demo189 is ******incorrect
+states:46038
+--------------------------------------------demo190---------------------------------------------------
+product_time: 1.534502
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2!=zero)
+w2:=one
+assume(p1=zero)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.016843
+refindment nums:10
+verify_time: 1.927849
+demo190 is ******incorrect
+states:46104
+--------------------------------------------demo191---------------------------------------------------
+product_time: 0.174586
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.181388
+demo191 is ******incorrect
+states:46104
+--------------------------------------------demo192---------------------------------------------------
+product_time: 1.365039
+union_time: 0.031524
+refindment nums:95
+verify_time: 2.610999
+demo192 is ******correct
+states:46394
+--------------------------------------------demo193---------------------------------------------------
+product_time: 0.098756
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.098763
+demo193 is ******correct
+states:46394
+--------------------------------------------demo194---------------------------------------------------
+product_time: 0.403156
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s!=v3)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.012531
+refindment nums:1
+verify_time: 0.428631
+demo194 is ******incorrect
+states:46415
+--------------------------------------------demo195---------------------------------------------------
+product_time: 0.621611
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s=v4)
+assume(x=t)
+assume(s!=v1)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.015858
+refindment nums:6
+verify_time: 0.806087
+demo195 is ******incorrect
+states:46451
+--------------------------------------------demo196---------------------------------------------------
+product_time: 0.531889
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.531895
+demo196 is ******correct
+states:46451
+--------------------------------------------demo197---------------------------------------------------
+product_time: 1.693019
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s!=v3)
+assume(s=v1)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+choose:=one
+assume(choose=one)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x=t)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.015726
+refindment nums:7
+verify_time: 2.137353
+demo197 is ******incorrect
+states:46518
+--------------------------------------------demo198---------------------------------------------------
+product_time: 0.537133
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v4)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.537909
+demo198 is ******incorrect
+states:46518
+--------------------------------------------demo199---------------------------------------------------
+product_time: 1.633513
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s!=v3)
+x:=ran(t)
+y:=ran(t)
+assume(w1=w2)
+assume(s!=v3)
+assume(z=w)
+assume(w1=w2)
+choose:=two
+assume(choose=two)
+assume(s!=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s=v1)
+assume(x=y)
+assume(w1=w2)
+x:=f(x)
+w1:=h(w1)
+assume(x=y)
+assume(w1!=w2)
+x:=h(x)
+w1:=h(w1)
+assume(x!=y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.014501
+refindment nums:2
+verify_time: 1.812576
+demo199 is ******incorrect
+states:46540
+----------------------------------------前200个---------------------------------------
+time_cost:324.948711
+product_time:79.296537
+product_time百分比:0.244028
+union_time:5.580983
+union_time百分比:0.017175
+--------------------------------------------demo200---------------------------------------------------
+product_time: 0.241267
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.241276
+demo200 is ******correct
+states:46540
+--------------------------------------------demo201---------------------------------------------------
+product_time: 0.262373
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.262379
+demo201 is ******correct
+states:46540
+--------------------------------------------demo202---------------------------------------------------
+product_time: 2.052058
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose=one)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=two
+assume(choose=two)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.017356
+refindment nums:22
+verify_time: 3.155248
+demo202 is ******incorrect
+states:46650
+--------------------------------------------demo203---------------------------------------------------
+product_time: 0.912453
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.912461
+demo203 is ******correct
+states:46650
+--------------------------------------------demo204---------------------------------------------------
+product_time: 0.387605
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v4)
+x:=ran(t)
+y:=ran(t)
+assume(w1!=w2)
+x:=f(x)
+y:=f(y)
+w1:=ran(w1)
+assume(w1=w2)
+assume(s=v3)
+assume(x=y)
+x:=f(x)
+assume(x!=y)
+assume(x!=y)
+assume(choose!=one)
+assume(choose=zero)
+assume(x!=y)
+union_time: 0.012273
+refindment nums:1
+verify_time: 0.407392
+demo204 is ******incorrect
+states:46666
+--------------------------------------------demo205---------------------------------------------------
+product_time: 0.218859
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.218866
+demo205 is ******correct
+states:46666
+--------------------------------------------demo206---------------------------------------------------
+product_time: 0.773850
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose=zero)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+choose:=one
+assume(choose=one)
+assume(s!=v1)
+assume(w1=w2)
+assume(s!=v5)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+assume(choose!=zero)
+assume(choose=one)
+assume(x!=y)
+union_time: 0.020482
+refindment nums:35
+verify_time: 2.059149
+demo206 is ******incorrect
+states:46812
+--------------------------------------------demo207---------------------------------------------------
+product_time: 5.479013
+assume(x=y)
+assume(zero!=one)
+assume(zero!=two)
+assume(one!=two)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(s=v2)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1=zero)
+assume(p2=zero)
+assume(p1=zero)
+assume(p2=zero)
+p1:=f(p1)
+p2:=f(p2)
+assume(w1=zero)
+assume(w2=zero)
+assume(zero!=one)
+assume(t!=y)
+assume(p1!=zero)
+w1:=one
+assume(p2!=zero)
+w2:=one
+assume(p1!=zero)
+assume(w1=one)
+assume(p2!=zero)
+assume(w2=one)
+assume(s!=v1)
+assume(x!=t)
+x:=f(x)
+x:=f(x)
+y:=f(y)
+assume(x=t)
+assume(choose!=zero)
+assume(choose!=one)
+assume(choose=two)
+assume(x!=y)
+union_time: 0.014917
+refindment nums:1
+verify_time: 5.509660
+demo207 is ******incorrect
+states:46836
+--------------------------------------------demo208---------------------------------------------------
+product_time: 0.176878
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.176885
+demo208 is ******correct
+states:46836
+--------------------------------------------demo209---------------------------------------------------
+product_time: 0.112302
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.112307
+demo209 is ******correct
+states:46836
+--------------------------------------------demo210---------------------------------------------------
+product_time: 0.461095
+union_time: 0.085524
+refindment nums:276
+verify_time: 5.202695
+demo210 is ******correct
+states:47746
+--------------------------------------------demo211---------------------------------------------------
+product_time: 0.111303
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.111308
+demo211 is ******correct
+states:47746
+--------------------------------------------demo212---------------------------------------------------
+product_time: 0.163815
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.163822
+demo212 is ******correct
+states:47746
+--------------------------------------------demo213---------------------------------------------------
+product_time: 0.380309
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.380316
+demo213 is ******correct
+states:47746
+--------------------------------------------demo214---------------------------------------------------
+product_time: 0.197178
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.197186
+demo214 is ******correct
+states:47746
+--------------------------------------------demo215---------------------------------------------------
+product_time: 0.261778
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.261787
+demo215 is ******correct
+states:47746
+--------------------------------------------demo216---------------------------------------------------
+product_time: 0.173523
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.173531
+demo216 is ******correct
+states:47746
+--------------------------------------------demo217---------------------------------------------------
+product_time: 0.366964
+union_time: 0.046233
+refindment nums:126
+verify_time: 2.020934
+demo217 is ******correct
+states:48175
+--------------------------------------------demo218---------------------------------------------------
+product_time: 0.102440
+union_time: 0.020086
+refindment nums:32
+verify_time: 0.243695
+demo218 is ******correct
+states:48313
+--------------------------------------------demo219---------------------------------------------------
+product_time: 0.587053
+union_time: 0.109498
+refindment nums:393
+verify_time: 5.746889
+demo219 is ******correct
+states:49354
+--------------------------------------------demo220---------------------------------------------------
+product_time: 0.318354
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.318361
+demo220 is ******correct
+states:49354
+--------------------------------------------demo221---------------------------------------------------
+product_time: 0.276068
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.276076
+demo221 is ******correct
+states:49354
+--------------------------------------------demo222---------------------------------------------------
+product_time: 0.634406
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.634415
+demo222 is ******correct
+states:49354
+--------------------------------------------demo223---------------------------------------------------
+product_time: 1.219752
+union_time: 0.102194
+refindment nums:361
+verify_time: 5.670378
+demo223 is ******correct
+states:50335
+--------------------------------------------demo224---------------------------------------------------
+product_time: 0.411826
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.411834
+demo224 is ******correct
+states:50335
+--------------------------------------------demo225---------------------------------------------------
+product_time: 0.738678
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.738686
+demo225 is ******correct
+states:50335
+--------------------------------------------demo226---------------------------------------------------
+product_time: 0.272693
+union_time: 0.116287
+refindment nums:248
+verify_time: 4.263722
+demo226 is ******correct
+states:51074
+--------------------------------------------demo227---------------------------------------------------
+product_time: 0.125336
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.125344
+demo227 is ******correct
+states:51074
+--------------------------------------------demo228---------------------------------------------------
+product_time: 0.372343
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.372349
+demo228 is ******correct
+states:51074
+--------------------------------------------demo229---------------------------------------------------
+product_time: 1.120946
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.120955
+demo229 is ******correct
+states:51074
+--------------------------------------------demo230---------------------------------------------------
+product_time: 0.271648
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.271655
+demo230 is ******correct
+states:51074
+--------------------------------------------demo231---------------------------------------------------
+product_time: 0.813457
+union_time: 0.035441
+refindment nums:118
+verify_time: 2.716983
+demo231 is ******correct
+states:51510
+--------------------------------------------demo232---------------------------------------------------
+product_time: 0.823854
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.823861
+demo232 is ******correct
+states:51510
+--------------------------------------------demo233---------------------------------------------------
+product_time: 0.657581
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.657588
+demo233 is ******correct
+states:51510
+--------------------------------------------demo234---------------------------------------------------
+product_time: 0.311076
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.311081
+demo234 is ******correct
+states:51510
+--------------------------------------------demo235---------------------------------------------------
+product_time: 0.176686
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.176694
+demo235 is ******correct
+states:51510
+--------------------------------------------demo236---------------------------------------------------
+product_time: 0.357445
+union_time: 0.043954
+refindment nums:136
+verify_time: 2.019099
+demo236 is ******correct
+states:51943
+--------------------------------------------demo237---------------------------------------------------
+product_time: 0.574273
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.574281
+demo237 is ******correct
+states:51943
+--------------------------------------------demo238---------------------------------------------------
+product_time: 0.161786
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.161794
+demo238 is ******correct
+states:51943
+--------------------------------------------demo239---------------------------------------------------
+product_time: 0.110626
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.110633
+demo239 is ******correct
+states:51943
+--------------------------------------------demo240---------------------------------------------------
+product_time: 0.272919
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.272926
+demo240 is ******correct
+states:51943
+--------------------------------------------demo241---------------------------------------------------
+product_time: 0.821505
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.821512
+demo241 is ******correct
+states:51943
+--------------------------------------------demo242---------------------------------------------------
+product_time: 0.341117
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.341123
+demo242 is ******correct
+states:51943
+--------------------------------------------demo243---------------------------------------------------
+product_time: 0.306435
+union_time: 0.072855
+refindment nums:208
+verify_time: 2.198686
+demo243 is ******correct
+states:52493
+--------------------------------------------demo244---------------------------------------------------
+product_time: 0.116900
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.116909
+demo244 is ******correct
+states:52493
+--------------------------------------------demo245---------------------------------------------------
+product_time: 0.177752
+union_time: 0.139058
+refindment nums:331
+verify_time: 7.436134
+demo245 is ******correct
+states:53978
+--------------------------------------------demo246---------------------------------------------------
+product_time: 0.478452
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.478458
+demo246 is ******correct
+states:53978
+--------------------------------------------demo247---------------------------------------------------
+product_time: 0.807254
+union_time: 0.038610
+refindment nums:110
+verify_time: 2.258918
+demo247 is ******correct
+states:54313
+--------------------------------------------demo248---------------------------------------------------
+product_time: 0.663869
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.663875
+demo248 is ******correct
+states:54313
+--------------------------------------------demo249---------------------------------------------------
+product_time: 0.221184
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.221192
+demo249 is ******correct
+states:54313
+--------------------------------------------demo250---------------------------------------------------
+product_time: 0.128302
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.128311
+demo250 is ******correct
+states:54313
+--------------------------------------------demo251---------------------------------------------------
+product_time: 0.562998
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.563005
+demo251 is ******correct
+states:54313
+--------------------------------------------demo252---------------------------------------------------
+product_time: 0.816687
+union_time: 0.045695
+refindment nums:152
+verify_time: 2.747121
+demo252 is ******correct
+states:54776
+--------------------------------------------demo253---------------------------------------------------
+product_time: 0.464858
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.464865
+demo253 is ******correct
+states:54776
+--------------------------------------------demo254---------------------------------------------------
+product_time: 0.542727
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.542733
+demo254 is ******correct
+states:54776
+--------------------------------------------demo255---------------------------------------------------
+product_time: 0.319698
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.319704
+demo255 is ******correct
+states:54776
+--------------------------------------------demo256---------------------------------------------------
+product_time: 0.516376
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.516383
+demo256 is ******correct
+states:54776
+--------------------------------------------demo257---------------------------------------------------
+product_time: 0.606101
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.606108
+demo257 is ******correct
+states:54776
+--------------------------------------------demo258---------------------------------------------------
+product_time: 0.105621
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.105626
+demo258 is ******correct
+states:54776
+--------------------------------------------demo259---------------------------------------------------
+product_time: 0.597152
+union_time: 0.047776
+refindment nums:153
+verify_time: 2.658157
+demo259 is ******correct
+states:55244
+--------------------------------------------demo260---------------------------------------------------
+product_time: 0.253150
+union_time: 0.093890
+refindment nums:223
+verify_time: 4.138089
+demo260 is ******correct
+states:55955
+--------------------------------------------demo261---------------------------------------------------
+product_time: 0.542136
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.542145
+demo261 is ******correct
+states:55955
+--------------------------------------------demo262---------------------------------------------------
+product_time: 0.359845
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.359853
+demo262 is ******correct
+states:55955
+--------------------------------------------demo263---------------------------------------------------
+product_time: 0.535312
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.535317
+demo263 is ******correct
+states:55955
+--------------------------------------------demo264---------------------------------------------------
+product_time: 0.429260
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.429268
+demo264 is ******correct
+states:55955
+--------------------------------------------demo265---------------------------------------------------
+product_time: 0.155782
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.155788
+demo265 is ******correct
+states:55955
+--------------------------------------------demo266---------------------------------------------------
+product_time: 0.166461
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.166469
+demo266 is ******correct
+states:55955
+--------------------------------------------demo267---------------------------------------------------
+product_time: 0.243753
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.243760
+demo267 is ******correct
+states:55955
+--------------------------------------------demo268---------------------------------------------------
+product_time: 0.197203
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.197210
+demo268 is ******correct
+states:55955
+--------------------------------------------demo269---------------------------------------------------
+product_time: 0.191569
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.191575
+demo269 is ******correct
+states:55955
+--------------------------------------------demo270---------------------------------------------------
+product_time: 0.163447
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.163454
+demo270 is ******correct
+states:55955
+--------------------------------------------demo271---------------------------------------------------
+product_time: 0.383623
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.383631
+demo271 is ******correct
+states:55955
+--------------------------------------------demo272---------------------------------------------------
+product_time: 0.113519
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.113526
+demo272 is ******correct
+states:55955
+--------------------------------------------demo273---------------------------------------------------
+product_time: 0.503310
+union_time: 0.049811
+refindment nums:161
+verify_time: 2.099496
+demo273 is ******correct
+states:56434
+--------------------------------------------demo274---------------------------------------------------
+product_time: 0.104464
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.104470
+demo274 is ******correct
+states:56434
+--------------------------------------------demo275---------------------------------------------------
+product_time: 0.130879
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.130886
+demo275 is ******correct
+states:56434
+--------------------------------------------demo276---------------------------------------------------
+product_time: 0.671751
+union_time: 0.041251
+refindment nums:103
+verify_time: 2.265279
+demo276 is ******correct
+states:56800
+--------------------------------------------demo277---------------------------------------------------
+product_time: 0.176381
+union_time: 0.039838
+refindment nums:104
+verify_time: 1.463789
+demo277 is ******correct
+states:57195
+--------------------------------------------demo278---------------------------------------------------
+product_time: 0.582028
+union_time: 0.021483
+refindment nums:37
+verify_time: 0.897806
+demo278 is ******correct
+states:57315
+--------------------------------------------demo279---------------------------------------------------
+product_time: 0.370371
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.370377
+demo279 is ******correct
+states:57315
+--------------------------------------------demo280---------------------------------------------------
+product_time: 0.200117
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.200122
+demo280 is ******correct
+states:57315
+--------------------------------------------demo281---------------------------------------------------
+product_time: 0.270859
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.270866
+demo281 is ******correct
+states:57315
+--------------------------------------------demo282---------------------------------------------------
+product_time: 0.317371
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.317379
+demo282 is ******correct
+states:57315
+--------------------------------------------demo283---------------------------------------------------
+product_time: 0.350632
+union_time: 0.297880
+refindment nums:681
+verify_time: 18.206396
+demo283 is ******correct
+states:60236
+--------------------------------------------demo284---------------------------------------------------
+product_time: 0.580093
+union_time: 0.053351
+refindment nums:181
+verify_time: 2.684961
+demo284 is ******correct
+states:60714
+--------------------------------------------demo285---------------------------------------------------
+product_time: 0.209828
+union_time: 0.035625
+refindment nums:78
+verify_time: 0.911076
+demo285 is ******correct
+states:60960
+--------------------------------------------demo286---------------------------------------------------
+product_time: 0.668166
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.668172
+demo286 is ******correct
+states:60960
+--------------------------------------------demo287---------------------------------------------------
+product_time: 0.572310
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.572315
+demo287 is ******correct
+states:60960
+--------------------------------------------demo288---------------------------------------------------
+product_time: 0.278925
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.278933
+demo288 is ******correct
+states:60960
+--------------------------------------------demo289---------------------------------------------------
+product_time: 0.567115
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.567123
+demo289 is ******correct
+states:60960
+--------------------------------------------demo290---------------------------------------------------
+product_time: 0.336402
+union_time: 0.079585
+refindment nums:275
+verify_time: 4.359684
+demo290 is ******correct
+states:61759
+--------------------------------------------demo291---------------------------------------------------
+product_time: 0.161007
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.161015
+demo291 is ******correct
+states:61759
+--------------------------------------------demo292---------------------------------------------------
+product_time: 0.081333
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.081341
+demo292 is ******correct
+states:61759
+--------------------------------------------demo293---------------------------------------------------
+product_time: 0.401567
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.401572
+demo293 is ******correct
+states:61759
+--------------------------------------------demo294---------------------------------------------------
+product_time: 0.755622
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.755627
+demo294 is ******correct
+states:61759
+--------------------------------------------demo295---------------------------------------------------
+product_time: 0.348946
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.348953
+demo295 is ******correct
+states:61759
+--------------------------------------------demo296---------------------------------------------------
+product_time: 0.184079
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.184086
+demo296 is ******correct
+states:61759
+--------------------------------------------demo297---------------------------------------------------
+product_time: 0.114868
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.114874
+demo297 is ******correct
+states:61759
+--------------------------------------------demo298---------------------------------------------------
+product_time: 0.513112
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.513118
+demo298 is ******correct
+states:61759
+--------------------------------------------demo299---------------------------------------------------
+product_time: 0.097414
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.097421
+demo299 is ******correct
+states:61759
+----------------------------------------前300个---------------------------------------
+time_cost:444.423940
+product_time:124.619403
+product_time百分比:0.280407
+union_time:7.261973
+union_time百分比:0.016340
+--------------------------------------------demo300---------------------------------------------------
+product_time: 0.131557
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.131564
+demo300 is ******correct
+states:61759
+--------------------------------------------demo301---------------------------------------------------
+product_time: 0.337353
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.337361
+demo301 is ******correct
+states:61759
+--------------------------------------------demo302---------------------------------------------------
+product_time: 0.295514
+union_time: 0.034686
+refindment nums:87
+verify_time: 1.037731
+demo302 is ******correct
+states:62021
+--------------------------------------------demo303---------------------------------------------------
+product_time: 0.697046
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.697053
+demo303 is ******correct
+states:62021
+--------------------------------------------demo304---------------------------------------------------
+product_time: 0.277480
+union_time: 0.019459
+refindment nums:16
+verify_time: 0.437262
+demo304 is ******correct
+states:62103
+--------------------------------------------demo305---------------------------------------------------
+product_time: 0.445440
+union_time: 0.084485
+refindment nums:241
+verify_time: 2.958245
+demo305 is ******correct
+states:62869
+--------------------------------------------demo306---------------------------------------------------
+product_time: 1.047864
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.047873
+demo306 is ******correct
+states:62869
+--------------------------------------------demo307---------------------------------------------------
+product_time: 0.694609
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.694617
+demo307 is ******correct
+states:62869
+--------------------------------------------demo308---------------------------------------------------
+product_time: 0.606320
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.606327
+demo308 is ******correct
+states:62869
+--------------------------------------------demo309---------------------------------------------------
+product_time: 0.628038
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.628044
+demo309 is ******correct
+states:62869
+--------------------------------------------demo310---------------------------------------------------
+product_time: 0.454853
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.454860
+demo310 is ******correct
+states:62869
+--------------------------------------------demo311---------------------------------------------------
+product_time: 0.637143
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.637152
+demo311 is ******correct
+states:62869
+--------------------------------------------demo312---------------------------------------------------
+product_time: 1.010542
+union_time: 0.030491
+refindment nums:72
+verify_time: 1.886438
+demo312 is ******correct
+states:63119
+--------------------------------------------demo313---------------------------------------------------
+product_time: 0.397426
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.397434
+demo313 is ******correct
+states:63119
+--------------------------------------------demo314---------------------------------------------------
+product_time: 0.277378
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.277383
+demo314 is ******correct
+states:63119
+--------------------------------------------demo315---------------------------------------------------
+product_time: 0.104946
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.104951
+demo315 is ******correct
+states:63119
+--------------------------------------------demo316---------------------------------------------------
+product_time: 1.411285
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.411293
+demo316 is ******correct
+states:63119
+--------------------------------------------demo317---------------------------------------------------
+product_time: 0.443296
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.443303
+demo317 is ******correct
+states:63119
+--------------------------------------------demo318---------------------------------------------------
+product_time: 0.502615
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.502622
+demo318 is ******correct
+states:63119
+--------------------------------------------demo319---------------------------------------------------
+product_time: 0.671701
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.671709
+demo319 is ******correct
+states:63119
+--------------------------------------------demo320---------------------------------------------------
+product_time: 0.155061
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.155067
+demo320 is ******correct
+states:63119
+--------------------------------------------demo321---------------------------------------------------
+product_time: 0.268196
+union_time: 0.036260
+refindment nums:88
+verify_time: 1.245716
+demo321 is ******correct
+states:63476
+--------------------------------------------demo322---------------------------------------------------
+product_time: 0.138076
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.138082
+demo322 is ******correct
+states:63476
+--------------------------------------------demo323---------------------------------------------------
+product_time: 0.199085
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.199092
+demo323 is ******correct
+states:63476
+--------------------------------------------demo324---------------------------------------------------
+product_time: 0.153075
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.153081
+demo324 is ******correct
+states:63476
+--------------------------------------------demo325---------------------------------------------------
+product_time: 0.182974
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.182982
+demo325 is ******correct
+states:63476
+--------------------------------------------demo326---------------------------------------------------
+product_time: 0.130174
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.130181
+demo326 is ******correct
+states:63476
+--------------------------------------------demo327---------------------------------------------------
+product_time: 0.503084
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.503090
+demo327 is ******correct
+states:63476
+--------------------------------------------demo328---------------------------------------------------
+product_time: 0.618422
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.618428
+demo328 is ******correct
+states:63476
+--------------------------------------------demo329---------------------------------------------------
+product_time: 0.407761
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.407768
+demo329 is ******correct
+states:63476
+--------------------------------------------demo330---------------------------------------------------
+product_time: 1.389588
+union_time: 0.147190
+refindment nums:476
+verify_time: 19.908273
+demo330 is ******correct
+states:65023
+--------------------------------------------demo331---------------------------------------------------
+product_time: 0.299204
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.299211
+demo331 is ******correct
+states:65023
+--------------------------------------------demo332---------------------------------------------------
+product_time: 0.547373
+union_time: 0.118898
+refindment nums:264
+verify_time: 7.855207
+demo332 is ******correct
+states:65898
+--------------------------------------------demo333---------------------------------------------------
+product_time: 0.169370
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.169379
+demo333 is ******correct
+states:65898
+--------------------------------------------demo334---------------------------------------------------
+product_time: 0.237426
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.237434
+demo334 is ******correct
+states:65898
+--------------------------------------------demo335---------------------------------------------------
+product_time: 0.176677
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.176685
+demo335 is ******correct
+states:65898
+--------------------------------------------demo336---------------------------------------------------
+product_time: 0.290566
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.290575
+demo336 is ******correct
+states:65898
+--------------------------------------------demo337---------------------------------------------------
+product_time: 0.116107
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.116115
+demo337 is ******correct
+states:65898
+--------------------------------------------demo338---------------------------------------------------
+product_time: 0.151552
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.151558
+demo338 is ******correct
+states:65898
+--------------------------------------------demo339---------------------------------------------------
+product_time: 0.782274
+union_time: 0.048877
+refindment nums:156
+verify_time: 2.930216
+demo339 is ******correct
+states:66397
+--------------------------------------------demo340---------------------------------------------------
+product_time: 0.304814
+union_time: 0.059511
+refindment nums:147
+verify_time: 2.482732
+demo340 is ******correct
+states:66885
+--------------------------------------------demo341---------------------------------------------------
+product_time: 0.202080
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.202087
+demo341 is ******correct
+states:66885
+--------------------------------------------demo342---------------------------------------------------
+product_time: 1.833099
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.833104
+demo342 is ******correct
+states:66885
+--------------------------------------------demo343---------------------------------------------------
+product_time: 0.176721
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.176728
+demo343 is ******correct
+states:66885
+--------------------------------------------demo344---------------------------------------------------
+product_time: 0.285420
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.285426
+demo344 is ******correct
+states:66885
+--------------------------------------------demo345---------------------------------------------------
+product_time: 0.515671
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.515679
+demo345 is ******correct
+states:66885
+--------------------------------------------demo346---------------------------------------------------
+product_time: 1.114417
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.114426
+demo346 is ******correct
+states:66885
+--------------------------------------------demo347---------------------------------------------------
+product_time: 0.430813
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.430821
+demo347 is ******correct
+states:66885
+--------------------------------------------demo348---------------------------------------------------
+product_time: 0.125558
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.125564
+demo348 is ******correct
+states:66885
+--------------------------------------------demo349---------------------------------------------------
+product_time: 0.215131
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.215138
+demo349 is ******correct
+states:66885
+--------------------------------------------demo350---------------------------------------------------
+product_time: 0.222261
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.222266
+demo350 is ******correct
+states:66885
+--------------------------------------------demo351---------------------------------------------------
+product_time: 1.117044
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.117051
+demo351 is ******correct
+states:66885
+--------------------------------------------demo352---------------------------------------------------
+product_time: 0.368579
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.368586
+demo352 is ******correct
+states:66885
+--------------------------------------------demo353---------------------------------------------------
+product_time: 0.207114
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.207122
+demo353 is ******correct
+states:66885
+--------------------------------------------demo354---------------------------------------------------
+product_time: 0.294511
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.294517
+demo354 is ******correct
+states:66885
+--------------------------------------------demo355---------------------------------------------------
+product_time: 0.195374
+union_time: 0.168821
+refindment nums:515
+verify_time: 9.438066
+demo355 is ******correct
+states:68376
+--------------------------------------------demo356---------------------------------------------------
+product_time: 0.793505
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.793512
+demo356 is ******correct
+states:68376
+--------------------------------------------demo357---------------------------------------------------
+product_time: 0.144359
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.144366
+demo357 is ******correct
+states:68376
+--------------------------------------------demo358---------------------------------------------------
+product_time: 0.772453
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.772461
+demo358 is ******correct
+states:68376
+--------------------------------------------demo359---------------------------------------------------
+product_time: 0.245574
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.245580
+demo359 is ******correct
+states:68376
+--------------------------------------------demo360---------------------------------------------------
+product_time: 0.376100
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.376107
+demo360 is ******correct
+states:68376
+--------------------------------------------demo361---------------------------------------------------
+product_time: 0.186361
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.186368
+demo361 is ******correct
+states:68376
+--------------------------------------------demo362---------------------------------------------------
+product_time: 0.122996
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.123003
+demo362 is ******correct
+states:68376
+--------------------------------------------demo363---------------------------------------------------
+product_time: 0.221061
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.221069
+demo363 is ******correct
+states:68376
+--------------------------------------------demo364---------------------------------------------------
+product_time: 0.299828
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.299836
+demo364 is ******correct
+states:68376
+--------------------------------------------demo365---------------------------------------------------
+product_time: 0.301161
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.301168
+demo365 is ******correct
+states:68376
+--------------------------------------------demo366---------------------------------------------------
+product_time: 0.478607
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.478613
+demo366 is ******correct
+states:68376
+--------------------------------------------demo367---------------------------------------------------
+product_time: 0.478437
+union_time: 0.138348
+refindment nums:373
+verify_time: 10.627256
+demo367 is ******correct
+states:69354
+--------------------------------------------demo368---------------------------------------------------
+product_time: 0.305997
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.306004
+demo368 is ******correct
+states:69354
+--------------------------------------------demo369---------------------------------------------------
+product_time: 0.181499
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.181505
+demo369 is ******correct
+states:69354
+--------------------------------------------demo370---------------------------------------------------
+product_time: 0.258932
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.258937
+demo370 is ******correct
+states:69354
+--------------------------------------------demo371---------------------------------------------------
+product_time: 0.128401
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.128408
+demo371 is ******correct
+states:69354
+--------------------------------------------demo372---------------------------------------------------
+product_time: 0.315534
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.315631
+demo372 is ******correct
+states:69354
+--------------------------------------------demo373---------------------------------------------------
+product_time: 0.408686
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.408694
+demo373 is ******correct
+states:69354
+--------------------------------------------demo374---------------------------------------------------
+product_time: 0.266499
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.266507
+demo374 is ******correct
+states:69354
+--------------------------------------------demo375---------------------------------------------------
+product_time: 0.277375
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.277383
+demo375 is ******correct
+states:69354
+--------------------------------------------demo376---------------------------------------------------
+product_time: 0.671804
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.671812
+demo376 is ******correct
+states:69354
+--------------------------------------------demo377---------------------------------------------------
+product_time: 0.441398
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.441406
+demo377 is ******correct
+states:69354
+--------------------------------------------demo378---------------------------------------------------
+product_time: 0.244701
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.244709
+demo378 is ******correct
+states:69354
+--------------------------------------------demo379---------------------------------------------------
+product_time: 0.109139
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.109147
+demo379 is ******correct
+states:69354
+--------------------------------------------demo380---------------------------------------------------
+product_time: 0.114648
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.114657
+demo380 is ******correct
+states:69354
+--------------------------------------------demo381---------------------------------------------------
+product_time: 0.494905
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.494913
+demo381 is ******correct
+states:69354
+--------------------------------------------demo382---------------------------------------------------
+product_time: 0.502276
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.502285
+demo382 is ******correct
+states:69354
+--------------------------------------------demo383---------------------------------------------------
+product_time: 0.275988
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.275995
+demo383 is ******correct
+states:69354
+--------------------------------------------demo384---------------------------------------------------
+product_time: 0.129707
+union_time: 0.056443
+refindment nums:184
+verify_time: 2.418999
+demo384 is ******correct
+states:69912
+--------------------------------------------demo385---------------------------------------------------
+product_time: 0.641499
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.641506
+demo385 is ******correct
+states:69912
+--------------------------------------------demo386---------------------------------------------------
+product_time: 0.725505
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.725511
+demo386 is ******correct
+states:69912
+--------------------------------------------demo387---------------------------------------------------
+product_time: 0.718472
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.718481
+demo387 is ******correct
+states:69912
+--------------------------------------------demo388---------------------------------------------------
+product_time: 0.263188
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.263195
+demo388 is ******correct
+states:69912
+--------------------------------------------demo389---------------------------------------------------
+product_time: 0.608999
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.609006
+demo389 is ******correct
+states:69912
+--------------------------------------------demo390---------------------------------------------------
+product_time: 0.091894
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.091900
+demo390 is ******correct
+states:69912
+--------------------------------------------demo391---------------------------------------------------
+product_time: 0.431591
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.431598
+demo391 is ******correct
+states:69912
+--------------------------------------------demo392---------------------------------------------------
+product_time: 0.124581
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.124589
+demo392 is ******correct
+states:69912
+--------------------------------------------demo393---------------------------------------------------
+product_time: 0.433718
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.433725
+demo393 is ******correct
+states:69912
+--------------------------------------------demo394---------------------------------------------------
+product_time: 0.156781
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.156789
+demo394 is ******correct
+states:69912
+--------------------------------------------demo395---------------------------------------------------
+product_time: 0.438141
+union_time: 0.316433
+refindment nums:628
+verify_time: 16.166666
+demo395 is ******correct
+states:72642
+--------------------------------------------demo396---------------------------------------------------
+product_time: 0.119349
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.119355
+demo396 is ******correct
+states:72642
+--------------------------------------------demo397---------------------------------------------------
+product_time: 0.810685
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.810691
+demo397 is ******correct
+states:72642
+--------------------------------------------demo398---------------------------------------------------
+product_time: 0.499074
+union_time: 0.139514
+refindment nums:295
+verify_time: 5.387615
+demo398 is ******correct
+states:73706
+--------------------------------------------demo399---------------------------------------------------
+product_time: 0.395639
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.395647
+demo399 is ******correct
+states:73706
+----------------------------------------前400个---------------------------------------
+time_cost:563.811726
+product_time:166.223508
+product_time百分比:0.294821
+union_time:8.661428
+union_time百分比:0.015362
+--------------------------------------------demo400---------------------------------------------------
+product_time: 0.306471
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.306479
+demo400 is ******correct
+states:73706
+--------------------------------------------demo401---------------------------------------------------
+product_time: 0.425876
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.425885
+demo401 is ******correct
+states:73706
+--------------------------------------------demo402---------------------------------------------------
+product_time: 0.414578
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.414584
+demo402 is ******correct
+states:73706
+--------------------------------------------demo403---------------------------------------------------
+product_time: 0.125377
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.125385
+demo403 is ******correct
+states:73706
+--------------------------------------------demo404---------------------------------------------------
+product_time: 0.566662
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.566670
+demo404 is ******correct
+states:73706
+--------------------------------------------demo405---------------------------------------------------
+product_time: 0.221191
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.221198
+demo405 is ******correct
+states:73706
+--------------------------------------------demo406---------------------------------------------------
+product_time: 0.865012
+union_time: 0.024801
+refindment nums:24
+verify_time: 1.119218
+demo406 is ******correct
+states:73826
+--------------------------------------------demo407---------------------------------------------------
+product_time: 0.494784
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.494792
+demo407 is ******correct
+states:73826
+--------------------------------------------demo408---------------------------------------------------
+product_time: 0.149731
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.149738
+demo408 is ******correct
+states:73826
+--------------------------------------------demo409---------------------------------------------------
+product_time: 0.123903
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.123911
+demo409 is ******correct
+states:73826
+--------------------------------------------demo410---------------------------------------------------
+product_time: 0.497990
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.497996
+demo410 is ******correct
+states:73826
+--------------------------------------------demo411---------------------------------------------------
+product_time: 0.439544
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.439553
+demo411 is ******correct
+states:73826
+--------------------------------------------demo412---------------------------------------------------
+product_time: 0.088591
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.088597
+demo412 is ******correct
+states:73826
+--------------------------------------------demo413---------------------------------------------------
+product_time: 1.720678
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.720685
+demo413 is ******correct
+states:73826
+--------------------------------------------demo414---------------------------------------------------
+product_time: 0.386272
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.386279
+demo414 is ******correct
+states:73826
+--------------------------------------------demo415---------------------------------------------------
+product_time: 0.207303
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.207308
+demo415 is ******correct
+states:73826
+--------------------------------------------demo416---------------------------------------------------
+product_time: 0.968102
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.968110
+demo416 is ******correct
+states:73826
+--------------------------------------------demo417---------------------------------------------------
+product_time: 0.452431
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.452436
+demo417 is ******correct
+states:73826
+--------------------------------------------demo418---------------------------------------------------
+product_time: 0.207575
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.207581
+demo418 is ******correct
+states:73826
+--------------------------------------------demo419---------------------------------------------------
+product_time: 0.467211
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.467219
+demo419 is ******correct
+states:73826
+--------------------------------------------demo420---------------------------------------------------
+product_time: 0.411275
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.411283
+demo420 is ******correct
+states:73826
+--------------------------------------------demo421---------------------------------------------------
+product_time: 0.177494
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.177499
+demo421 is ******correct
+states:73826
+--------------------------------------------demo422---------------------------------------------------
+product_time: 0.287924
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.287929
+demo422 is ******correct
+states:73826
+--------------------------------------------demo423---------------------------------------------------
+product_time: 0.573690
+union_time: 0.054359
+refindment nums:160
+verify_time: 1.512021
+demo423 is ******correct
+states:74275
+--------------------------------------------demo424---------------------------------------------------
+product_time: 0.505241
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.505249
+demo424 is ******correct
+states:74275
+--------------------------------------------demo425---------------------------------------------------
+product_time: 0.208615
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.208621
+demo425 is ******correct
+states:74275
+--------------------------------------------demo426---------------------------------------------------
+product_time: 0.210416
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.210422
+demo426 is ******correct
+states:74275
+--------------------------------------------demo427---------------------------------------------------
+product_time: 0.108764
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.108770
+demo427 is ******correct
+states:74275
+--------------------------------------------demo428---------------------------------------------------
+product_time: 1.334134
+union_time: 0.000000
+refindment nums:0
+verify_time: 1.334141
+demo428 is ******correct
+states:74275
+--------------------------------------------demo429---------------------------------------------------
+product_time: 0.670344
+union_time: 0.085718
+refindment nums:276
+verify_time: 4.931677
+demo429 is ******correct
+states:75023
+--------------------------------------------demo430---------------------------------------------------
+product_time: 0.502147
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.502153
+demo430 is ******correct
+states:75023
+--------------------------------------------demo431---------------------------------------------------
+product_time: 0.276123
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.276129
+demo431 is ******correct
+states:75023
+--------------------------------------------demo432---------------------------------------------------
+product_time: 0.169123
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.169130
+demo432 is ******correct
+states:75023
+--------------------------------------------demo433---------------------------------------------------
+product_time: 0.340577
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.340584
+demo433 is ******correct
+states:75023
+--------------------------------------------demo434---------------------------------------------------
+product_time: 0.345620
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.345627
+demo434 is ******correct
+states:75023
+--------------------------------------------demo435---------------------------------------------------
+product_time: 0.279120
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.279127
+demo435 is ******correct
+states:75023
+--------------------------------------------demo436---------------------------------------------------
+product_time: 0.922587
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.922594
+demo436 is ******correct
+states:75023
+--------------------------------------------demo437---------------------------------------------------
+product_time: 0.198863
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.198871
+demo437 is ******correct
+states:75023
+--------------------------------------------demo438---------------------------------------------------
+product_time: 0.109549
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.109554
+demo438 is ******correct
+states:75023
+--------------------------------------------demo439---------------------------------------------------
+product_time: 0.675587
+union_time: 0.099670
+refindment nums:357
+verify_time: 5.592049
+demo439 is ******correct
+states:76132
+--------------------------------------------demo440---------------------------------------------------
+product_time: 0.297480
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.297487
+demo440 is ******correct
+states:76132
+--------------------------------------------demo441---------------------------------------------------
+product_time: 0.345824
+union_time: 0.100538
+refindment nums:342
+verify_time: 3.096084
+demo441 is ******correct
+states:76992
+--------------------------------------------demo442---------------------------------------------------
+product_time: 1.191047
+union_time: 0.088650
+refindment nums:297
+verify_time: 9.318477
+demo442 is ******correct
+states:78043
+--------------------------------------------demo443---------------------------------------------------
+product_time: 0.329754
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.329762
+demo443 is ******correct
+states:78043
+--------------------------------------------demo444---------------------------------------------------
+product_time: 0.131302
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.131309
+demo444 is ******correct
+states:78043
+--------------------------------------------demo445---------------------------------------------------
+product_time: 0.380912
+union_time: 0.032549
+refindment nums:57
+verify_time: 1.115625
+demo445 is ******correct
+states:78244
+--------------------------------------------demo446---------------------------------------------------
+product_time: 0.101352
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.101359
+demo446 is ******correct
+states:78244
+--------------------------------------------demo447---------------------------------------------------
+product_time: 0.693087
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.693093
+demo447 is ******correct
+states:78244
+--------------------------------------------demo448---------------------------------------------------
+product_time: 0.493607
+union_time: 0.092649
+refindment nums:202
+verify_time: 5.137496
+demo448 is ******correct
+states:78845
+--------------------------------------------demo449---------------------------------------------------
+product_time: 0.717605
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.717610
+demo449 is ******correct
+states:78845
+--------------------------------------------demo450---------------------------------------------------
+product_time: 0.083702
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.083709
+demo450 is ******correct
+states:78845
+--------------------------------------------demo451---------------------------------------------------
+product_time: 0.636006
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.636013
+demo451 is ******correct
+states:78845
+--------------------------------------------demo452---------------------------------------------------
+product_time: 0.337562
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.337568
+demo452 is ******correct
+states:78845
+--------------------------------------------demo453---------------------------------------------------
+product_time: 0.249790
+union_time: 0.116680
+refindment nums:323
+verify_time: 4.041710
+demo453 is ******correct
+states:79795
+--------------------------------------------demo454---------------------------------------------------
+product_time: 0.170316
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.170323
+demo454 is ******correct
+states:79795
+--------------------------------------------demo455---------------------------------------------------
+product_time: 0.460220
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.460227
+demo455 is ******correct
+states:79795
+--------------------------------------------demo456---------------------------------------------------
+product_time: 0.621035
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.621043
+demo456 is ******correct
+states:79795
+--------------------------------------------demo457---------------------------------------------------
+product_time: 0.787197
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.787205
+demo457 is ******correct
+states:79795
+--------------------------------------------demo458---------------------------------------------------
+product_time: 0.420813
+union_time: 0.118159
+refindment nums:331
+verify_time: 9.488932
+demo458 is ******correct
+states:80740
+--------------------------------------------demo459---------------------------------------------------
+product_time: 0.281735
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.281743
+demo459 is ******correct
+states:80740
+--------------------------------------------demo460---------------------------------------------------
+product_time: 0.809103
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.809113
+demo460 is ******correct
+states:80740
+--------------------------------------------demo461---------------------------------------------------
+product_time: 0.509260
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.509267
+demo461 is ******correct
+states:80740
+--------------------------------------------demo462---------------------------------------------------
+product_time: 0.296423
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.296429
+demo462 is ******correct
+states:80740
+--------------------------------------------demo463---------------------------------------------------
+product_time: 0.186324
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.186330
+demo463 is ******correct
+states:80740
+--------------------------------------------demo464---------------------------------------------------
+product_time: 0.731778
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.731786
+demo464 is ******correct
+states:80740
+--------------------------------------------demo465---------------------------------------------------
+product_time: 0.306914
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.306920
+demo465 is ******correct
+states:80740
+--------------------------------------------demo466---------------------------------------------------
+product_time: 0.166736
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.166743
+demo466 is ******correct
+states:80740
+--------------------------------------------demo467---------------------------------------------------
+product_time: 0.408615
+union_time: 0.289760
+refindment nums:677
+verify_time: 11.197210
+demo467 is ******correct
+states:83591
+--------------------------------------------demo468---------------------------------------------------
+product_time: 0.328350
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.328358
+demo468 is ******correct
+states:83591
+--------------------------------------------demo469---------------------------------------------------
+product_time: 0.199836
+union_time: 0.034773
+refindment nums:49
+verify_time: 0.447301
+demo469 is ******correct
+states:83755
+--------------------------------------------demo470---------------------------------------------------
+product_time: 0.384099
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.384106
+demo470 is ******correct
+states:83755
+--------------------------------------------demo471---------------------------------------------------
+product_time: 0.424685
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.424691
+demo471 is ******correct
+states:83755
+--------------------------------------------demo472---------------------------------------------------
+product_time: 0.321981
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.321988
+demo472 is ******correct
+states:83755
+--------------------------------------------demo473---------------------------------------------------
+product_time: 0.253458
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.253465
+demo473 is ******correct
+states:83755
+--------------------------------------------demo474---------------------------------------------------
+product_time: 0.392810
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.392816
+demo474 is ******correct
+states:83755
+--------------------------------------------demo475---------------------------------------------------
+product_time: 0.109431
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.109438
+demo475 is ******correct
+states:83755
+--------------------------------------------demo476---------------------------------------------------
+product_time: 0.441293
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.441299
+demo476 is ******correct
+states:83755
+--------------------------------------------demo477---------------------------------------------------
+product_time: 0.266202
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.266209
+demo477 is ******correct
+states:83755
+--------------------------------------------demo478---------------------------------------------------
+product_time: 0.306976
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.306983
+demo478 is ******correct
+states:83755
+--------------------------------------------demo479---------------------------------------------------
+product_time: 0.327815
+union_time: 0.030846
+refindment nums:34
+verify_time: 0.499004
+demo479 is ******correct
+states:83901
+--------------------------------------------demo480---------------------------------------------------
+product_time: 0.387556
+union_time: 0.081408
+refindment nums:285
+verify_time: 4.636580
+demo480 is ******correct
+states:84616
+--------------------------------------------demo481---------------------------------------------------
+product_time: 0.464380
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.464389
+demo481 is ******correct
+states:84616
+--------------------------------------------demo482---------------------------------------------------
+product_time: 0.456431
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.456437
+demo482 is ******correct
+states:84616
+--------------------------------------------demo483---------------------------------------------------
+product_time: 0.635378
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.635384
+demo483 is ******correct
+states:84616
+--------------------------------------------demo484---------------------------------------------------
+product_time: 0.447849
+union_time: 0.090797
+refindment nums:225
+verify_time: 5.525092
+demo484 is ******correct
+states:85233
+--------------------------------------------demo485---------------------------------------------------
+product_time: 0.379200
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.379209
+demo485 is ******correct
+states:85233
+--------------------------------------------demo486---------------------------------------------------
+product_time: 0.161982
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.161989
+demo486 is ******correct
+states:85233
+--------------------------------------------demo487---------------------------------------------------
+product_time: 0.424193
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.424200
+demo487 is ******correct
+states:85233
+--------------------------------------------demo488---------------------------------------------------
+product_time: 0.896928
+union_time: 0.169498
+refindment nums:402
+verify_time: 16.442583
+demo488 is ******correct
+states:86468
+--------------------------------------------demo489---------------------------------------------------
+product_time: 0.151598
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.151605
+demo489 is ******correct
+states:86468
+--------------------------------------------demo490---------------------------------------------------
+product_time: 0.215911
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.215917
+demo490 is ******correct
+states:86468
+--------------------------------------------demo491---------------------------------------------------
+product_time: 1.130559
+union_time: 0.000001
+refindment nums:0
+verify_time: 1.130567
+demo491 is ******correct
+states:86468
+--------------------------------------------demo492---------------------------------------------------
+product_time: 0.182010
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.182016
+demo492 is ******correct
+states:86468
+--------------------------------------------demo493---------------------------------------------------
+product_time: 0.170299
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.170306
+demo493 is ******correct
+states:86468
+--------------------------------------------demo494---------------------------------------------------
+product_time: 0.398859
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.398866
+demo494 is ******correct
+states:86468
+--------------------------------------------demo495---------------------------------------------------
+product_time: 0.700531
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.700539
+demo495 is ******correct
+states:86468
+--------------------------------------------demo496---------------------------------------------------
+product_time: 0.442202
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.442208
+demo496 is ******correct
+states:86468
+--------------------------------------------demo497---------------------------------------------------
+product_time: 0.376270
+union_time: 0.000000
+refindment nums:0
+verify_time: 0.376275
+demo497 is ******correct
+states:86468
+--------------------------------------------demo498---------------------------------------------------
+product_time: 0.850709
+union_time: 0.057133
+refindment nums:144
+verify_time: 2.765882
+demo498 is ******correct
+states:86918
+--------------------------------------------demo499---------------------------------------------------
+product_time: 0.103885
+union_time: 0.000001
+refindment nums:0
+verify_time: 0.103892
+demo499 is ******correct
+states:86918
+----------------------------------------前500个---------------------------------------
+time_cost:683.681069
+product_time:208.539148
+product_time百分比:0.305024
+union_time:10.229454
+union_time百分比:0.014962
+###########################################################################################states:86918
+refin_nums_total:25750
+runtime:683.681827
+product_time:208.539148
+union_time:10.229454
+product_time百分比:0.305024
+union_time百分比:0.014962

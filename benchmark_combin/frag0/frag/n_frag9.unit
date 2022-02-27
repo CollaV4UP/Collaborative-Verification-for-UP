@@ -1,0 +1,19 @@
+if(s=v4)then{
+ while(x = y){
+  
+   if(w1 = w2)then{
+       x := f(x)
+    }else{
+       x := f(x)
+    };
+  w1 := h(w1)
+ }
+
+  }else{
+ skip 
+};
+
+  assume(w1 != w2);
+  while(w1 != w2){
+     assume(x != y)
+   }
