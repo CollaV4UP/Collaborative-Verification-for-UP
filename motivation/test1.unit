@@ -1,0 +1,16 @@
+Reach([x,y,z, n1],[Decr,Incr,Next],[y])
+init {  
+}
+   x := y;
+
+   if(z != n1)then{
+      x := Decr(x);
+      x := Incr(x);
+      y := Decr(y);
+      y := Incr(y);
+      z := Next(z) 
+    }else{
+      x := Incr(x);
+      y := Incr(y)
+    };
+   assert(x = y)
