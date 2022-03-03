@@ -114,7 +114,7 @@ let main colla file_address pro_num =
               										let union_start = Unix.gettimeofday () in	              										
               									 
               									  let union_end = Unix.gettimeofday () in	
-              										Printf.printf "union_time: %f\n"  (union_end -. union_start +. !union_time_stmt) ;
+              								
               										union_time := ( !union_time +. (union_end -. union_start) +. !union_time_stmt); 
               										
               									  let pro_time_end = Unix.gettimeofday () in									
@@ -244,7 +244,7 @@ let main colla file_address pro_num =
 																	let pro_time_end = Unix.gettimeofday () in									
               										flush stdout;
 																	
-																	Printf.printf "union_time: %f\n"  (union_end -. union_start) ;
+																	
               										union_time := !union_time +. (union_end -. union_start); 
               										
                 									Printf.printf "refindment nums:%d\n" !ref_num ;															

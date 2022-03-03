@@ -2,7 +2,7 @@
 #motivation
 motivation=$(pwd)"/motivation/moti0.unit"
 num1=3
-#frag 0-5 represent six different groups of programs
+#frag 0-5 represent the six different groups of programs
 combination=$(pwd)"/benchmark_combin/frag0/seq0/benchmark0.unit"
 num2=1000
 #mu 0-9 represent ten different groups of programs
