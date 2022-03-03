@@ -7,13 +7,20 @@
 ## 2、Benchmark
 
 |--**Collaborative-Verification-for-UP**
+
      |-- **benchmark_stmt_mu** 
-                  |-- **mu0 - mu9**  - ten different groups of programs obtained by mutation
-     |-- **benchmark_combin** 
-                  |-- **frag0 - frag5**  - six different groups of programs obtained by combination
-                           |-- **seq0**  -  current group of programs
-                           |-- **seq0 - seq9**  - ten different orders of the current group of programs
-                           |-- **correct0 - correct100**  -  different proportion of correct programs
+
+​                           |-- **mu0 - mu9**  - ten different groups of programs obtained by mutation
+
+​             |-- **benchmark_combin** 
+
+​                           |-- **frag0 - frag5**  - six different groups of programs obtained by combination
+
+​                                   |-- **seq0**  -  current group of programs
+
+​                                   |-- **seq0 - seq9**  - ten different orders of the current group of programs
+
+​                                   |-- **correct0 - correct100**  -  different proportion of correct programs
 
 ​               
 
@@ -40,18 +47,31 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 **Results**
 
 --------------------------------------------demo0---------------------------------------------------
+
 refindment nums:2
+
 verify_time: 0.004991
+
 demo0 is ******correct
+
 --------------------------------------------demo1---------------------------------------------------
+
 refindment nums:1
+
 verify_time: 0.000279
+
 demo1 is ******correct
+
 --------------------------------------------demo2---------------------------------------------------
+
 refindment nums:0
+
 verify_time: 0.000181
+
 demo2 is ******correct
+
 #####################################################
+
 runtime:0.005479
 
 *refindment nums*: the number of iterations of CEGAR
