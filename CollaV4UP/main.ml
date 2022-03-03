@@ -21,7 +21,11 @@ let main colla file_address pro_num =
 								
 		let pro_add_temp = String.sub  file_address 0 (String.length file_address - 6) in
 		
-		for i = 0 to pro_num do
+		let colla_b = if (String.equal colla "true")
+		                 then   true
+									   else   false      in
+			               
+		for i = 0 to (pro_num-1) do
 			  let var_list,fun_list,prog,env = Verification.parse_from_file (pro_add_temp ^(Core.Int.to_string i)  ^".unit" ) in  
   			let rgx = Execution.regexOfProg env prog in
   			List.iter(fun var  -> var_set := StringSet.add var !var_set) var_list;
@@ -37,12 +41,7 @@ let main colla file_address pro_num =
 		
 		let instr_set = Automata.InstrSet.remove Execution.Skip instr_set in										
 																
-		Printf.printf "vars:%d\n"  (List.length var_list);
-		Printf.printf "funs:%d\n"  (List.length fun_list);
-		Printf.printf "instrs:%d\n"  (Automata.InstrSet.cardinal instr_set);
-		
-		flush stdout;
-								
+	 (* Printf.printf colla;			*)
 (*-----------------------------------------------------------------------------------------------------------------------------------*)															
 																									
 (*得到程序自动机*)												
@@ -55,13 +54,14 @@ let main colla file_address pro_num =
     		flush stdout;					
 
 
+
+
 (*-----------------------------------------------------------------------------------------------------------------------------------*)			
 (*单独验证*)	
-		if  (not colla)
+		if  (not  colla_b)
 		    then begin				 					           			
                   let time_start = Unix.gettimeofday () in 			          
                  	let coll_automata = ref {start=0; receive = NumSet.empty; tran = TranMap.empty} in 
-              		
               		let product_time = ref 0.0 in
               		let union_time = ref 0.0 in
 									let ref_num_total = ref 0 in
@@ -70,7 +70,6 @@ let main colla file_address pro_num =
                 				 Array.iteri (fun i automata_pro ->
                 					  (*对每一个程序执行下列流程*)
                 						let pro_time_start = Unix.gettimeofday () in							
-              							
               							
                 					  let is_correct = ref 0 in
                 						let automata_pro = ref automata_pro  in 
@@ -149,7 +148,7 @@ let main colla file_address pro_num =
                 								;																		
                 								 ) automata_pro_ary;								 
                 				  let time_end = 	Unix.gettimeofday () in 
-              						Printf.printf "###########################################################################################\n";
+              						Printf.printf "########################################################################################################################\n";
                 					Printf.printf "runtime:%f\n"  (time_end-.time_start);																													
              end
            
@@ -159,7 +158,6 @@ let main colla file_address pro_num =
         else  begin				 		              			
                   let time_start = Unix.gettimeofday () in 			          
                  	let coll_automata = ref {start=0; receive = NumSet.empty; tran = TranMap.empty} in 
-              		
               		let product_time = ref 0.0 in
               		let union_time = ref 0.0 in
 									let ref_num_total = ref 0 in
@@ -277,20 +275,20 @@ let main colla file_address pro_num =
                 								;																		
                 								 ) automata_pro_ary;								 
                 				  let time_end = 	Unix.gettimeofday () in 
-              						Printf.printf "###########################################################################################\n";
+              						Printf.printf "########################################################################################################################\n";
                 					Printf.printf "runtime:%f\n"  (time_end-.time_start);																													
              end	
 
 (*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*)		
 
       let usage_message = "TO-DO add usage message"
-      let colla = ref (false)
+      let colla = ref ""
       let filename = ref ""
 			let pro_num = ref 0
       let input_files = ref []
       		
       let speclist = [
-				("-colla", Arg.Set colla, "collaborative?");
+				("-colla", Arg.Set_string colla, "collaborative?");
 				("-filename", Arg.Set_string filename, "the verified programs' address");
         ("-num", Arg.Set_int pro_num, "how many programs?");
       	]
