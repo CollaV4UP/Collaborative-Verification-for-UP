@@ -8,19 +8,19 @@
 
 |--**Collaborative-Verification-for-UP**
 
-     |-- **benchmark_stmt_mu** 
+​			|-- **benchmark_stmt_mu** 
 
-​                           |-- **mu0 - mu9**  - ten different groups of programs obtained by mutation
+​							|-- **mu0 - mu9**  - ten different groups of programs obtained by mutation
 
-​             |-- **benchmark_combin** 
+​			|-- **benchmark_combin** 
 
-​                           |-- **frag0 - frag5**  - six different groups of programs obtained by combination
+​							|-- **frag0 - frag5**  - six different groups of programs obtained by combination
 
-​                                   |-- **seq0**  -  current group of programs
+​									|-- **seq0**  -  current group of programs
 
-​                                   |-- **seq0 - seq9**  - ten different orders of the current group of programs
+​									|-- **seq0 - seq9**  - ten different orders of the current group of programs
 
-​                                   |-- **correct0 - correct100**  -  different proportion of correct programs
+​									|-- **correct0 - correct100**  -  different proportion of correct programs
 
 ​               
 
@@ -34,11 +34,11 @@ dune  build main.exe
 
 
 
-*-colla*     collaborative version (true)  or  non-collaborative version (false)
+***-colla***     collaborative version (true)  or  non-collaborative version (false)
 
-*-filename*    the file address for verified programs
+***-filename***    the file address for verified programs
 
-*-num*    the number for verified programs
+***-num***    the number for verified programs
 
 For example,  moti0.unit - moti2.unit are be collaborative verified.
 
@@ -46,33 +46,33 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 
 **Results**
 
---------------------------------------------demo0---------------------------------------------------
+`--------------------------------------------demo0---------------------------------------------------`
 
-refindment nums:2
+`refindment nums:2`
 
-verify_time: 0.004991
+`verify_time: 0.004991`
 
-demo0 is ******correct
+`demo0 is ******correct`
 
---------------------------------------------demo1---------------------------------------------------
+`--------------------------------------------demo1---------------------------------------------------`
 
-refindment nums:1
+`refindment nums:1`
 
-verify_time: 0.000279
+`verify_time: 0.000279`
 
-demo1 is ******correct
+`demo1 is ******correct`
 
---------------------------------------------demo2---------------------------------------------------
+`--------------------------------------------demo2---------------------------------------------------`
 
-refindment nums:0
+`refindment nums:0`
 
-verify_time: 0.000181
+`verify_time: 0.000181`
 
-demo2 is ******correct
+`demo2 is ******correct`
 
-#####################################################
+`#####################################################`
 
-runtime:0.005479
+`runtime:0.005479`
 
 *refindment nums*: the number of iterations of CEGAR
 
@@ -90,5 +90,7 @@ runtime:0.005479
 
 We set up the file to run the motivation example. You can modify the code for different benchmarks. 
 
-You can refer to [](https://github.com/
-Verifier4UP/Trace-Refinement-based-Verification)  for the effectiveness evaluation of Trace abstraction.
+You can refer to [FM](https://github.com/Verifier4UP/Trace-Refinement-based-Verification)
+
+  for the effectiveness evaluation of Trace abstraction.
+
