@@ -75,7 +75,9 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 
 ## 4、Experiment
 
+```
 ./run.sh  [true/false]
+```
 
 [true/false]:  collaborative version (true)  or  non-collaborative version (false)
 
