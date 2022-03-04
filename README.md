@@ -10,19 +10,19 @@
 
 |--**Collaborative-Verification-for-UP**
 
-​			|-- **benchmark_stmt_mu** 
+　　　　|-- **benchmark_stmt_mu** 　
 
-​							|-- **mu0 - mu9**  - ten different groups of programs obtained by mutation
+　　　　　　|-- **mu0 - mu9**  - ten different groups of programs obtained by mutation
 
-​			|-- **benchmark_combin** 
+　　　　|-- **benchmark_combin** 
 
-​							|-- **frag0 - frag5**  - six different groups of programs obtained by combination
+　　　　　　|-- **frag0 - frag5**  - six different groups of programs obtained by combination
 
-​									|-- **seq0**  -  current group of programs
+　　　　　　　　　|-- **seq0**  -  current group of programs
 
-​									|-- **seq0 - seq9**  - ten different orders of the current group of programs
+　　　　　　　　　|-- **seq0 - seq9**  - ten different orders of the current group of programs
 
-​									|-- **correct0 - correct100**  -  different proportion of correct programs
+　　　　　　　　　|-- **correct0 - correct100**  -  different proportion of correct programs
 
 ​               
 
