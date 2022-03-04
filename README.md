@@ -46,6 +46,7 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 
 **Results**
 
+```
 `--------------------------------------------demo0---------------------------------`
 `refindment nums:2`
 `verify_time: 0.004991`
@@ -60,6 +61,7 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 `demo2 is ******correct`
 `########################################################`
 `runtime:0.005479`
+```
 
 *refindment nums*: the number of iterations of CEGAR
 
