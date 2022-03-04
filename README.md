@@ -46,32 +46,19 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 
 **Results**
 
-`--------------------------------------------demo0---------------------------------------------------`
-
+`--------------------------------------------demo0---------------------------------`
 `refindment nums:2`
-
 `verify_time: 0.004991`
-
 `demo0 is ******correct`
-
-`--------------------------------------------demo1---------------------------------------------------`
-
+`--------------------------------------------demo1---------------------------------`
 `refindment nums:1`
-
 `verify_time: 0.000279`
-
 `demo1 is ******correct`
-
-`--------------------------------------------demo2---------------------------------------------------`
-
+`--------------------------------------------demo2---------------------------------`
 `refindment nums:0`
-
 `verify_time: 0.000181`
-
 `demo2 is ******correct`
-
-`#####################################################`
-
+`########################################################`
 `runtime:0.005479`
 
 *refindment nums*: the number of iterations of CEGAR
@@ -90,7 +77,7 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 
 We set up the file to run the motivation example. You can modify the code for different benchmarks. 
 
-You can refer to [FM](https://github.com/Verifier4UP/Trace-Refinement-based-Verification)
+You can refer to [Verifier4UP](https://github.com/Verifier4UP/Trace-Refinement-based-Verification)
 
   for the effectiveness evaluation of Trace abstraction.
 
