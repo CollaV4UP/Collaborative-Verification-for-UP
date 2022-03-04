@@ -26,11 +26,13 @@
 
 ## 3、Usage
 
+```
 cd  $ROOT/Collaborative-Verification-for-UP/CollaV4UP
 
 dune  build main.exe
 
 ./_build/default/main.exe  -colla [true/false]  -filename  [file address]   -num [program nums]
+```
 
 
 
@@ -42,7 +44,7 @@ dune  build main.exe
 
 For example,  moti0.unit - moti2.unit are be collaborative verified.
 
-./_build/default/main.exe  -colla true  -filename  $root/moti0.unit   -num 3
+`./_build/default/main.exe  -colla true  -filename  $root/moti0.unit   -num 3`
 
 **Results**
 
