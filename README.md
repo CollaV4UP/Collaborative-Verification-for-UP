@@ -63,13 +63,13 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 `runtime:0.005479`
 ```
 
-*refindment nums*: the number of iterations of CEGAR
+***refindment nums*:** the number of iterations of CEGAR
 
-*verify_time*:  time cost for program verification
+***verify_time*:**  time cost for program verification
 
-*correct/incorrect*: result for program verification
+***correct/incorrect*:** result for program verification
 
-*runtime:*  total time cost for programs verification
+***runtime:***  total time cost for programs verification
 
 ## 4、Experiment
 
