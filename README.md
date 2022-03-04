@@ -79,7 +79,5 @@ For example,  moti0.unit - moti2.unit are be collaborative verified.
 
 We set up the file to run the motivation example. You can modify the code for different benchmarks. 
 
-You can refer to [Verifier4UP](https://github.com/Verifier4UP/Trace-Refinement-based-Verification)
-
-  for the effectiveness evaluation of Trace abstraction.
+You can refer to [Verifier4UP](https://github.com/Verifier4UP/Trace-Refinement-based-Verification) for the effectiveness evaluation of Trace abstraction.
 
