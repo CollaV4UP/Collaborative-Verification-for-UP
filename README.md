@@ -3,6 +3,8 @@
 ## 1、Installation
 
 - recommand OS: **Ubuntu 18.04**
+- ocaml 4.11.1
+- dune 2.7.1
 
 ## 2、Benchmark
 
